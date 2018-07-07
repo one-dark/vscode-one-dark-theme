@@ -1,4 +1,6 @@
 {
+  "name": "OneDark Pro Italic",
+  "type": "dark",
   "colors": {
     "activityBar.background": "#2F333D",
     "activityBar.foreground": "#D7DAE0",
@@ -70,7 +72,6 @@
     "titleBar.inactiveBackground": "#282C34",
     "titleBar.inactiveForeground": "#6B717D"
   },
-  "name": "OneDark Pro Italic",
   "tokenColors": [
     {
       "name": "regexp constant character-class",
@@ -1275,6 +1276,5 @@
         "fontStyle": "italic"
       }
     }
-  ],
-  "type": "dark"
+  ]
 }
