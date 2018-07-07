@@ -1394,7 +1394,7 @@
       "scope": [
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.tag.jade",
-        "entity.other.attribute-name.tag.pug",	
+        "entity.other.attribute-name.tag.pug",
         "entity.other.attribute-name.cfml"
       ],
       "settings": {
@@ -1413,7 +1413,7 @@
       "scope": "variable.language",
       "settings": {
         "foreground": "#e06c75",
-        "fontStyle": "italic"	
+        "fontStyle": "italic"
       }
     },
     {
@@ -1422,6 +1422,7 @@
       "settings": {
         "foreground": "#d19a66",
         "fontStyle": "italic"
+      }
     }
   ]
 }
