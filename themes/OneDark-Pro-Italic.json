@@ -617,7 +617,8 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
       }
     },
     {
@@ -638,7 +639,8 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1381,6 +1383,45 @@
       "settings": {
         "foreground": "#56B6C2"
       }
+    },
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.tag.jade",
+        "entity.other.attribute-name.tag.pug",	
+        "entity.other.attribute-name.cfml"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "delete",
+      "scope": "keyword.operator.expression.delete",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "this.self",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#e06c75",
+        "fontStyle": "italic"	
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": "variable.parameter,entity.other.function-parameter.cfml",
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
     }
   ]
 }
