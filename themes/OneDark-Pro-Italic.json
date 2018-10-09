@@ -1375,7 +1375,8 @@
         "keyword.operator.module"
       ],
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1411,7 +1412,8 @@
         "variable.parameter.function.js"
       ],
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
       }
     },
     {
