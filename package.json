@@ -2,7 +2,7 @@
   "name": "one-dark-pro-italic",
   "displayName": "One Dark Pro Italic",
   "description": "Atom's iconic One Dark theme for Visual Studio Code",
-  "version": "2.15.1",
+  "version": "2.17.3",
   "publisher": "markskelton",
   "bugs": {
     "url": "https://github.com/Binaryify/OneDark-Pro/issues"
@@ -17,6 +17,12 @@
   },
   "categories": [
     "Themes"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "pre-commit": [
+    "build"
   ],
   "contributes": {
     "themes": [
@@ -46,7 +52,8 @@
     "atom"
   ],
   "devDependencies": {
-    "docsify-cli": "^3.3.2"
+    "docsify-cli": "^3.3.2",
+    "pre-commit": "^1.2.2"
   },
   "__metadata": {
     "id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
