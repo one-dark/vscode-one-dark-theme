@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.1.2 | 2018.10.26
+- Change `uri` to `url` in package.json badge list
+
 ## 3.1.1 | 2018.10.26
 - Add Travis CI badge to badges array to prevent extension validation errors
 - Update Travis CI badge link in README
