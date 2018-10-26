@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.17.6 | 2018.10.26
+- Use whiskey color for constants
+- Don't make JS/TS arrow functions italic
+- Update package.json and theme names
+- Explain overrides
+
 ## 2.17.5 | 2018.10.25
 - Use overrides instead of separate italic theme
 
