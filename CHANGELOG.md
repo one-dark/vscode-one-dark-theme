@@ -1,4 +1,8 @@
 # CHANGELOG
+
+## 2.17.5 | 2018.10.25
+- Use overrides instead of separate italic theme
+
 ## 2.17.4 | 2018.10.14
 - Improve markdown support
 - Improve editor dropdown color
