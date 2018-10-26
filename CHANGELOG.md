@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.1.1 | 2018.10.26
+- Add Travis CI badge to badges array to prevent extension validation errors
+- Update Travis CI badge link in README
+
 ## 3.1.0 | 2018.10.26
 - Change focus from `#21252b` to `#464646` to improve accessibility in GUIs
 

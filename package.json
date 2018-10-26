@@ -2,7 +2,7 @@
   "name": "one-dark-pro-italic",
   "displayName": "One Dark Pro Italic",
   "description": "Atom's iconic One Dark theme for Visual Studio Code (with italic support)",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "publisher": "markskelton",
   "bugs": {
     "url": "https://github.com/markypython/OneDark-Pro/issues"
@@ -51,5 +51,12 @@
   "galleryBanner": {
     "color": "#2d323b",
     "theme": "dark"
-  }
+  },
+  "badges": [
+    {
+      "href": "https://travis-ci.com/markypython/OneDark-Pro",
+      "uri": "https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master",
+      "description": "TravisCI build for the project"
+    }
+  ]
 }
