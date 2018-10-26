@@ -1,4 +1,6 @@
 const colorConfig = require('./color.json')
+const overrides = require('./overrides.js')(colorConfig)
+
 const configFactory = type => {
   const colorObj = colorConfig[type]
   return {
@@ -138,7 +140,7 @@ const configFactory = type => {
         name: 'js/ts variable.other.constant',
         scope: 'variable.other.constant',
         settings: {
-          foreground: colorObj['chalky']
+          foreground: colorObj['lightWhite']
         }
       },
       {
@@ -1566,6 +1568,6 @@ const configFactory = type => {
 }
 
 module.exports = {
-  classic: configFactory('classic'),
-  vivid: configFactory('vivid')
+  classic: overrides(configFactory('classic'), 'classic'),
+  vivid: overrides(configFactory('vivid'), 'vivid'),
 }
