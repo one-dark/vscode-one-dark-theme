@@ -8,6 +8,7 @@
 
 ## 2.17.5 | 2018.10.25
 - Use overrides instead of separate italic theme
+- Remove One Dark Pro Italic theme in favor of italicizing One Dark Pro and One Dark Pro Vivid themes
 
 ## 2.17.4 | 2018.10.14
 - Improve markdown support
