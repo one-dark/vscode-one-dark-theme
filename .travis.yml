@@ -19,7 +19,7 @@ deploy:
     on:
       tags: true
   - provider: script
-    script: vsce publish -p $VS_TOKEN
+    script: vsce publish -p $VSCE_AUTH_TOKEN
     skip_cleanup: true
     on:
       tags: true
