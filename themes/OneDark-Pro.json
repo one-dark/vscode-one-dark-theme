@@ -420,7 +420,7 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.incrementkeyword.operator,punctuation.separator,punctuation.terminator",
       "settings": {
         "foreground": "#56b6c2"
       }
@@ -634,7 +634,8 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
       }
     },
     {
@@ -662,7 +663,8 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#c678dd"
+        "foreground": "#c678dd",
+        "fontStyle": "italic"
       }
     },
     {
