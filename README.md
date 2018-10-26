@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master)](https://travis-ci.com/markypython/OneDark-Pro)
 
-Atom's iconic One Dark theme, and one of the most downloaded themes for VS Code!
+Atom's iconic One Dark theme for Visual Studio Code (with italic support)!
 
 [GitHub repository](https://github.com/markypython/OneDark-Pro)
 
