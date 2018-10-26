@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 3.0.1 | 2018.10.26
+- Fix Travis CI configuration issue
+
+## 3.0.0 | 2018.10.26
+- Setup Travis CI
+- Remove auto generated theme files
+- Use npm instead of Yarn
+
 ## 2.17.6 | 2018.10.26
 - Use whiskey color for constants
 - Don't make JS/TS arrow functions italic
