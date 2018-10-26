@@ -19,8 +19,13 @@ module.exports = function (colorConfig) {
 					tc = null
 					break
 
-				case '':
+				case 'keyword.operator':
 					tc.scope += 'keyword.operator,punctuation.separator,punctuation.terminator'
+					break
+
+				case 'Keyword Control':
+				case 'Storage':
+					tc.settings.fontStyle = 'italic'
 					break
 			}
 
