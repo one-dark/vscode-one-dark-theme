@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.1.0 | 2018.10.26
+- Change focus from `#21252b` to `#464646` to improve accessibility in GUIs
+
 ## 3.0.1 | 2018.10.26
 - Fix Travis CI configuration issue
 
