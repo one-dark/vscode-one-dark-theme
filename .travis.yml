@@ -3,10 +3,13 @@ env:
     secure: $VSCE_AUTH_TOKEN
 language: node_js
 node_js:
-  - "8"
-after_success:
-  - npm install -g vsce;
-  - vsce package;
+  - node
+install:
+  - npm install
+  - npm install -g vsce
+script:
+  - npm run build
+  - vsce package
 deploy:
   - provider: releases
     api_key: $GITHUB_AUTH_TOKEN
@@ -14,11 +17,9 @@ deploy:
     file: "*.vsix"
     skip_cleanup: true
     on:
-      repo: markypython/OneDark-Pro
       tags: true
   - provider: script
     script: vsce publish -p $VS_TOKEN
     skip_cleanup: true
     on:
-      repo: markypython/OneDark-Pro
       tags: true
