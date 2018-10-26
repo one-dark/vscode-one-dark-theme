@@ -6,6 +6,7 @@ module.exports = function (colorConfig) {
 		config.tokenColors.forEach(tc => {
 			switch (tc.name) {
 				case 'Text':
+				case 'js/ts variable.other.constant':
 					tc.settings.foreground = colorObj.whiskey
 					break
 
@@ -44,6 +45,13 @@ module.exports = function (colorConfig) {
 				settings: {
 					foreground: colorObj.whiskey,
 					fontStyle: 'italic'
+				}
+			},
+			{
+				name: 'JS/TS Arrow Functions',
+				scope: 'storage.type.function.arrow',
+				settings: {
+					fontStyle: 'normal'
 				}
 			}
 		])

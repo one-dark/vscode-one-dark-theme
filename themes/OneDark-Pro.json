@@ -214,7 +214,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -1664,6 +1664,13 @@
       "settings": {
         "foreground": "#d19a66",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS/TS Arrow Functions",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "fontStyle": "normal"
       }
     }
   ]
