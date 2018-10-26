@@ -115,7 +115,7 @@
       "name": "Text",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -214,7 +214,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#E5C07B"
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -345,7 +345,7 @@
     },
     {
       "name": "js variable readwrite",
-      "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
+      "scope": "meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
         "foreground": "#e06c75"
       }
@@ -531,13 +531,6 @@
       }
     },
     {
-      "name": "Operators",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
       "name": "Compound Assignment Operators",
       "scope": "keyword.operator.assignment.compound",
       "settings": {
@@ -549,13 +542,6 @@
       "scope": "keyword",
       "settings": {
         "foreground": "#c678dd"
-      }
-    },
-    {
-      "name": "Variables",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#e06c75"
       }
     },
     {
@@ -1668,6 +1654,14 @@
       ],
       "settings": {
         "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
       }
     }
   ]
