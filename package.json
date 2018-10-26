@@ -55,7 +55,7 @@
   "badges": [
     {
       "href": "https://travis-ci.com/markypython/OneDark-Pro",
-      "uri": "https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master",
+      "url": "https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master",
       "description": "TravisCI build for the project"
     }
   ]
