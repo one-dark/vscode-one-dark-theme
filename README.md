@@ -1,6 +1,9 @@
 # OneDark Pro Italic
 
-[![Build Status](https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master)](https://travis-ci.com/markypython/OneDark-Pro)
+[![TravisCI build status](https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master)](https://travis-ci.com/markypython/OneDark-Pro)
+[![Visual Studio Marketplace version](https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
+[![Visual Studio Marketplace downloads](https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
+
 
 Atom's OneDark Pro theme with italic comments and keywords!
 
