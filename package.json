@@ -21,6 +21,7 @@
   ],
   "scripts": {
     "build": "node build.js",
+    "docs": "docsify serve docs",
     "pull-upstream": "git pull https://github.com/Binaryify/OneDark-Pro master"
   },
   "contributes": {
@@ -59,6 +60,16 @@
       "description": "TravisCI build status"
     },
     {
+      "href": "https://github.com/markypython/OneDark-Pro/issues",
+      "url": "https://img.shields.io/github/issues/markypython/OneDark-Pro.svg",
+      "description": "GitHub issues"
+    },
+    {
+      "href": "https://github.com/markypython/OneDark-Pro/pulls",
+      "url": "https://img.shields.io/github/issues-pr/markypython/OneDark-Pro.svg",
+      "description": "GitHub pull requests"
+    },
+    {
       "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
       "url": "https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg",
       "description": "Visual Studio Marketplace version"
@@ -67,6 +78,11 @@
       "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
       "url": "https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg",
       "description": "Visual Studio Marketplace downloads"
+    },
+    {
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic#review-details",
+      "url": "https://img.shields.io/vscode-marketplace/r/markskelton.one-dark-pro-italic.svg",
+      "description": "Visual Studio Marketplace rating"
     }
   ]
 }

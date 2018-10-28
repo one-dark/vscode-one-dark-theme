@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 3.1.3 | 2018.10.28
+- Update screenshots in README
+- Add more badges and cleanup README
+- Fix spelling errors in CHANGELOG
+
 ## 3.1.2 | 2018.10.26
 - Change `uri` to `url` in package.json badge list
 
@@ -40,7 +45,7 @@
 - Rewrite syntax highlight file, simplified color, update docs
 
 ## 2.16.7 | 2018.10.04
-Imporve Ruby and FlowJS support
+Improve Ruby and FlowJS support
 
 ## 2.16.6 | 2018.09.12
 
@@ -54,17 +59,17 @@ Imporve Ruby and FlowJS support
 ## 2.16.1 | 2018.9.06
 
 - Made units red again
-- Adjusted colours of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
+- Adjusted colors of operators (+ compound operators) to be consistent, such as `++`, `--` and `*=` etc.
 - Improve Punctuation (some)
 - Improve some syntax highlighting for languages:
   - Clojure (globals, symbols and constants)
   - CSS/SCSS/LESS (Colour Operators such as \* / + -)
-  - CoffeeScript (Brung some colours closer to JavaScript, for consistency)
+  - CoffeeScript (Bring some colors closer to JavaScript, for consistency)
   - Ini (Highlighted default text so it's visible as values rather than plain text)
   - Go (Package Name highlighting)
   - Groovy (Better function and variable highlighting)
   - HLSL (More keywords, semantics highlighted)
-  - Makefile (Prerequisities highlighting, text colour treated as values inputted, highlighted)
+  - Makefile (Prerequisites highlighting, text colour treated as values inputted, highlighted)
   - Markdown (Better Lists and Links and Image highlighting)
   - R (Correct Function highlighting)
   - SQL (Variables Highlighting, Bracketed Text Highlighting)
@@ -94,7 +99,7 @@ Imporve Ruby and FlowJS support
 - The String literal in JS/TS ${} is now purply for easier readability
 - All Comments are now italic
 - Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
-  - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code inetrnally, meaning highlighting would be weird)
+  - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code internally, meaning highlighting would be weird)
   - Property names in `js let app = { hello: "world"}` now red, to match selector (eg: `js app.hello`) and themselves
   - Optional operator `ts ?:` now purple too
 
@@ -168,7 +173,7 @@ thanks for @nicovak @jens1o @svipben
 
 ## 2.12.4 | 2018.2.11
 
-Improve React component tags's hightlight color
+Improve React component tags's highlight color
 
 ## 2.12.3 | 2018.2.08
 
@@ -399,7 +404,7 @@ rename to "OneDark Pro" for the reason
 
 ## 2.5.3 | 2017.4.24
 
-fix C++ heightlight error
+fix C++ highlight error
 
 ## 2.5.2 | 2017.4.21
 
