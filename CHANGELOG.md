@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.1.5 | 2018.10.28
+- Use "chalky" color for Python `self` keyword
+
 ## 3.1.4 | 2018.10.28
 - Fix screenshot urls
 
