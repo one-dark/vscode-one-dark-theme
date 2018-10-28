@@ -39,11 +39,11 @@ locally.
 
 Below are some code examples using this theme.  The font I am using is the open source [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript) font.
 
-![Markdown code example](https://github.com/markypython/OneDark-Pro/static/markdown.png)
-![Python code example](https://github.com/markypython/OneDark-Pro/static/python.png)
-![JavaScript code example](https://github.com/markypython/OneDark-Pro/static/js.png)
-![C++ code example](https://github.com/markypython/OneDark-Pro/static/cpp.png)
-![PHP code example](https://github.com/markypython/OneDark-Pro/static/php.png)
+![Markdown code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/markdown.png)
+![Python code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/python.png)
+![JavaScript code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/js.png)
+![C++ code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/cpp.png)
+![PHP code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/php.png)
 
 ## Tweaks & Workbench theming
 

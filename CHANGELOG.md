@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 3.1.4 | 2018.10.28
+- Fix screenshot urls
+
 ## 3.1.3 | 2018.10.28
 - Update screenshots in README
 - Add more badges and cleanup README
