@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.2.0
+- Fix border in dropdown appearing without focus
+- Make Python `self` keyword italic
+
 ## 3.1.5 | 2018.10.28
 - Use "chalky" color for Python `self` keyword
 
