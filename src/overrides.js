@@ -55,8 +55,8 @@ module.exports = function (colorConfig) {
 				}
 			},
 			{
-				name: 'Python self',
-				scope: 'variable.language.special.self',
+				name: 'this and self',
+				scope: 'variable.language.special.self,variable.language.this',
 				settings: {
 					foreground: colorObj.chalky,
 					fontStyle: 'italic'
