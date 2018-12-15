@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.2.1
+- Improve terminal highlight and textLink foreground
+- Update docsify docs
+- Add `postversion` script to make deployments easier
+- Releases now are prefixed with **v** since we are using the tags created by `npm version`
+
 ## 3.2.0
 - Fix border in dropdown appearing without focus
 - Make Python `self` keyword italic
