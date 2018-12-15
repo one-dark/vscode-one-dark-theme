@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "build": "node build.js",
-    "docs": "docsify serve docs",
+    "docs": "docsify serve docs --open",
     "pull-upstream": "git pull https://github.com/Binaryify/OneDark-Pro master"
   },
   "contributes": {

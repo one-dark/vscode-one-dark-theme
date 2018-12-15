@@ -30,10 +30,14 @@ Overrides are managed in [`src/overrides.js`](./src/overrides.js).
 
 [This document](https://binaryify.github.io/OneDark-Pro) includes instructions on how to install and edit the theme.
 
-To help with documentation, first fork and clone this repository. `cd` to the
-OneDark-Pro folder, `npm install` and then run
-`npm run docs` to serve the documentation
-locally.
+To help with documentation, run the following commands in your terminal
+
+```bash
+git clone git@github.com:markypython/OneDark-Pro.git
+cd OneDark-Pro
+npm install
+npm run docs
+```
 
 # Screenshots
 
