@@ -84,5 +84,8 @@
       "url": "https://img.shields.io/vscode-marketplace/r/markskelton.one-dark-pro-italic.svg",
       "description": "Visual Studio Marketplace rating"
     }
-  ]
+  ],
+  "dependencies": {
+    "docsify": "^4.8.6"
+  }
 }
