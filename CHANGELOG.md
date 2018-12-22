@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 3.3.0
+## 3.4.1
 - Add OneDark-Pro bold style
 - Add color for `super` keyword
 - Start updating docs
