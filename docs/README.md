@@ -1,26 +1,23 @@
-# One Dark Pro
+# One Dark Pro Italic
 
 ## About
-[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is based on Atom's default One Dark theme, and is one of the most downloaded themes for VS Code. This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
-![screenshot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwjzw3c8fj31kw101adb.jpg)
+[One Dark Pro Italic](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic) is based on the popular One Dark Pro theme, originally based on Atom's default theme.  This theme customizes the original One Dark Pro theme by making keywords and comments italic to work with fonts like Operator Mono or Fira Code iScript.  This document will show you how to install the theme on VS Code, and how to develop and contribute to this project.
 
 
-# screenshot
-![Screenshot](https://ws3.sinaimg.cn/large/006tNbRwgy1fvwkr6i199j31kw16otat.jpg)
-
-![Screenshot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwkrv2rorj31kw16odhw.jpg)
+# Screenshot
+![Screenshot](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/js.png)
 
 ## Install
-Using the Extensions menu, search for **'One Dark Pro'**. Don't forget to apply the theme (see below).
+Using the Extensions menu, search for **'One Dark Pro Italic'**. Don't forget to apply the theme (see below).
 
 ![ScreenShot](https://ws2.sinaimg.cn/large/006tNbRwgy1fvwijszewzj31kw101doj.jpg)
 
 ## Apply
-Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro'**.
+Press `ctrl(⌘) + k`, then press `ctrl(⌘) + t`, you will see a theme selection interface. Choose **'One Dark Pro (Italic)'**.
 
 ![ScreenShot](https://ws1.sinaimg.cn/large/006tNbRwgy1fvwilva97dj31kw101k08.jpg)
 
-## Develop 
+## Develop
 If you see any inconsistencies or missing colors, the following guide will show you how to make your own changes. You can submit your improvements as a merge request to this theme.
 
 ### Find the VS Code extension path
@@ -28,7 +25,7 @@ If you see any inconsistencies or missing colors, the following guide will show 
 In a terminal, `cd` to your themes folder
 
 - Windows:
-`C:\Users\yourUserName\.vscode\extensions\themes`  
+`C:\Users\yourUserName\.vscode\extensions\themes`
 
 - Mac/linux:
 `~/.vscode/extensions/themes`
@@ -93,7 +90,7 @@ variable.parameter
 ```
 
 ### Get code scope
-VS Code comes with a built-in tool to easily obtain the scope of a piece of syntax. 
+VS Code comes with a built-in tool to easily obtain the scope of a piece of syntax.
 
 Press `ctrl(⌘) + shift + P`, then type `dev`, and choose **"Developer: Inspect TM Scopes"** option.
 
@@ -197,4 +194,4 @@ You also can custom your syntax highlighting in "setting.json"
 ## Contribute
 Now you know how to develop the theme, you can fork this repository and send a pull request with your version. The request will be reviewed, and if successful, merged into this theme and published on the VS Code market.
 
-To publish your own theme, please refer to the official documentation: [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)  
+To publish your own theme, please refer to the official documentation: [https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
