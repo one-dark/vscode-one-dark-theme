@@ -1,6 +1,6 @@
 const { existsSync, mkdirSync, writeFileSync } = require('fs')
 const editorConfig = require('./src/editor.json')
-const { classic, vivid } = require('./src/syntax')
+const { classic, bold, vivid } = require('./src/syntax')
 
 // Create the directory if it doesn't exist
 if (!existsSync('./themes')) {
@@ -13,6 +13,18 @@ writeFileSync(
     {
       ...editorConfig,
       ...classic
+    },
+    '',
+    2
+  )
+)
+
+writeFileSync(
+  './themes/OneDark-Pro-bold.json',
+  JSON.stringify(
+    {
+      ...editorConfig,
+      ...bold
     },
     '',
     2

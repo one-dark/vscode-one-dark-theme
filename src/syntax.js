@@ -1569,5 +1569,6 @@ const configFactory = type => {
 
 module.exports = {
   classic: overrides(configFactory('classic'), 'classic'),
+  bold: overrides(configFactory('bold'), 'bold', true),
   vivid: overrides(configFactory('vivid'), 'vivid'),
 }
