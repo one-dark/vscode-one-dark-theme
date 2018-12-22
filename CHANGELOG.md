@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 3.3.0
+- Add OneDark-Pro bold style
+- Add color for `super` keyword
+- Start updating docs
+
 ## 3.2.1
 - Improve terminal highlight and textLink foreground
 - Update docsify docs
