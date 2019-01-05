@@ -1,5 +1,18 @@
 %YAML 1.2
 ---
+colors:
+  purple: '#c678dd'
+  error: '#f44747'
+  coral: '#e06c75'
+  whiskey: '#d19a66'
+  chalky: '#e5c07b'
+  lightDark: '#7f848e'
+  dark: '#5c6370'
+  malibu: '#61afef'
+  green: '#98c379'
+  fountainBlue: '#56b6c2'
+  invalid: '#ffffff'
+  lightWhite: '#bbbbbb'
 foreground:
   purple:
     - support.constant.edge
@@ -389,10 +402,3 @@ fontStyle:
     - markup.bold
     - todo.bold
     - markup.bold.markdown
-    # - entity.name.section
-    # - keyword.other.important
-    # - entity.name.function
-    # - meta.require
-    # - support.function.any-method
-    # - variable.function
-    # - entity.name.type.namespace
