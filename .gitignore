@@ -1,5 +1,6 @@
-.DS_Store
 node_modules/
+themes/
+.vscode/
+.DS_Store
 *.log
 explorations
-themes/
