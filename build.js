@@ -1,6 +1,8 @@
-const { existsSync, mkdirSync, writeFileSync } = require('fs')
-const editorConfig = require('./src/editor.json')
-const { classic, bold, vivid } = require('./src/syntax')
+const { existsSync, mkdirSync, writeFileSync } = require('fs');
+const yaml = require('yamljs');
+const { classic, bold, vivid } = require('./src/themes');
+
+const editorConfig = yaml.load('./src/editor.yaml');
 
 // Create the directory if it doesn't exist
 if (!existsSync('./themes')) {
@@ -12,19 +14,19 @@ writeFileSync(
   JSON.stringify(
     {
       ...editorConfig,
-      ...classic
+      ...classic,
     },
     '',
     2
   )
-)
+);
 
 writeFileSync(
   './themes/OneDark-Pro-bold.json',
   JSON.stringify(
     {
       ...editorConfig,
-      ...bold
+      ...bold,
     },
     '',
     2
@@ -36,9 +38,9 @@ writeFileSync(
   JSON.stringify(
     {
       ...editorConfig,
-      ...vivid
+      ...vivid,
     },
     '',
     2
   )
-)
+);
