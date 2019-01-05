@@ -13,9 +13,9 @@ if (!fs.existsSync('./themes')) {
 // Get the list of themes using the files in the src/themes folder
 fs.readdirSync('./src/themes')
   .map(name => name.replace('.yaml', ''))
-  .forEach(name =>
+  .forEach(name => {
     fs.writeFileSync(
       `./themes/${name}.json`,
       JSON.stringify({ ...editorConfig, ...compile(name) }, '', 2)
-    )
-  );
+    );
+  });
