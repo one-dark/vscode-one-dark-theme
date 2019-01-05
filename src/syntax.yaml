@@ -55,6 +55,7 @@ foreground:
     - support.type.object.rw.hlsl
     - support.type.fx.hlsl
     - support.type.object.hlsl
+    - variable.language.super
   coral:
     - constant.other.character-class.regexp
     - markup.deleted.diff
@@ -63,17 +64,11 @@ foreground:
     - meta.definition.variable.name.java
     - punctuation.definition.template-expression.begin
     - punctuation.definition.template-expression.end
-    - variable.other.readwrite
-    - meta.object-literal.key
-    - support.variable.property
-    - support.variable.object.process
-    - support.variable.object.node
     - support.type.object.console
     - support.variable.dom
     - support.variable.property.dom
     - meta.function-call.arguments.python
     - meta.function-call.python
-    - variable
     - variable.other.class.php
     - entity.name.tag
     - markup.heading
@@ -141,6 +136,9 @@ foreground:
     - lessrgb-value
     - token.warn-token
     - support.constant.elm
+    - variable.other.constant
+    - variable.parameter.function
+    - variable.parameter
   green:
     - punctuation.definition.string.begin
     - punctuation.definition.string.end
@@ -161,7 +159,6 @@ foreground:
     - source.ini
     - meta.definition.class.inherited.classes.groovy
   lightWhite:
-    - variable.parameter.function
     - punctuation.section.block.begin.bracket.curly.cpp
     - punctuation.section.block.end.bracket.curly.cpp
     - punctuation.terminator.statement.c
@@ -172,7 +169,6 @@ foreground:
     - punctuation.section.parameters.begin.bracket.round.c
     - punctuation.section.parameters.end.bracket.round.c
     - punctuation.separator.key-value
-    - variable.other.constant
     - punctuation.section.block.begin.java
     - punctuation.section.block.end.java
     - punctuation.definition.method-parameters.begin.java
@@ -202,7 +198,6 @@ foreground:
     - punctuation.definition.list.end.python
     - meta.function-call.arguments.python
     - none
-    - keyword.operator
     - token.variable.parameter.java
     - token.package
     - support.type.property-name
@@ -288,6 +283,8 @@ foreground:
     - support.variable.semantic.hlsl
     - support.type.swift
     - support.type.vb.asp
+    - variable.language.self
+    - variable.language.this
   malibu:
     - meta.diff.header.from-file
     - punctuation.definition.from-file.diff
@@ -350,6 +347,9 @@ foreground:
     - entity.other.attribute-name.pseudo-element
     - entity.other.attribute-name.pseudo-class
     - constant.keyword.clojure
+    - keyword.operator
+    - punctuation.separator
+    - punctuation.terminator
   invalid:
     - invalid.illegal
     - invalid.broken
@@ -376,9 +376,14 @@ fontStyle:
     - variable.language.this.ts
     - variable.language.this.jsx
     - variable.language.this.tsx
+    - keyword.control
+    - storage
+    - variable.language.self
+    - variable.language.this
   normal:
     - entity.other.attribute-name.id
     - entity.other.attribute-name.class.css
+    - storage.type.function.arrow
   bold:
     - markup.heading
     - markup.bold
