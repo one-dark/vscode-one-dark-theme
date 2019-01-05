@@ -389,3 +389,10 @@ fontStyle:
     - markup.bold
     - todo.bold
     - markup.bold.markdown
+    # - entity.name.section
+    # - keyword.other.important
+    # - entity.name.function
+    # - meta.require
+    # - support.function.any-method
+    # - variable.function
+    # - entity.name.type.namespace
