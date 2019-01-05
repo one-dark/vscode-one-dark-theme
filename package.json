@@ -53,7 +53,8 @@
 		"atom"
 	],
 	"devDependencies": {
-		"docsify-cli": "^4.3.0"
+		"docsify-cli": "^4.3.0",
+		"yamljs": "^0.3.0"
 	},
 	"galleryBanner": {
 		"color": "#2d323b",
