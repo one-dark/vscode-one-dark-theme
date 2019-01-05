@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+classic:
+  purple: '#c678dd'
+  error: '#f44747'
+  coral: '#e06c75'
+  whiskey: '#d19a66'
+  chalky: '#e5c07b'
+  lightDark: '#7f848e'
+  dark: '#5c6370'
+  malibu: '#61afef'
+  green: '#98c379'
+  fountainBlue: '#56b6c2'
+  invalid: '#ffffff'
+  lightWhite: '#bbbbbb'
+vivid:
+  purple: '#d55fde'
+  error: '#f44747'
+  coral: '#ef596f'
+  whiskey: '#d19a66'
+  chalky: '#e5c07b'
+  lightDark: '#7f848e'
+  dark: '#5c6370'
+  malibu: '#61afef'
+  green: '#89ca78'
+  fountainBlue: '#2bbac5'
+  invalid: '#ffffff'
+  lightWhite: '#bbbbbb'
