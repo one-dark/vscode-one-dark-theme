@@ -1,46 +1,21 @@
-const { existsSync, mkdirSync, writeFileSync } = require('fs');
+const fs = require('fs');
 const yaml = require('yamljs');
-const { classic, bold, vivid } = require('./src/themes');
+const compile = require('./src/compile');
 
+// Load the editor configuration yaml file
 const editorConfig = yaml.load('./src/editor.yaml');
 
 // Create the directory if it doesn't exist
-if (!existsSync('./themes')) {
-  mkdirSync('./themes');
+if (!fs.existsSync('./themes')) {
+  fs.mkdirSync('./themes');
 }
 
-writeFileSync(
-  './themes/OneDark-Pro.json',
-  JSON.stringify(
-    {
-      ...editorConfig,
-      ...classic,
-    },
-    '',
-    2
-  )
-);
-
-writeFileSync(
-  './themes/OneDark-Pro-bold.json',
-  JSON.stringify(
-    {
-      ...editorConfig,
-      ...bold,
-    },
-    '',
-    2
-  )
-)
-
-writeFileSync(
-  './themes/OneDark-Pro-vivid.json',
-  JSON.stringify(
-    {
-      ...editorConfig,
-      ...vivid,
-    },
-    '',
-    2
-  )
-);
+// Get the list of themes using the files in the src/themes folder
+fs.readdirSync('./src/themes')
+  .map(name => name.replace('.yaml', ''))
+  .forEach(name =>
+    fs.writeFileSync(
+      `./themes/${name}.json`,
+      JSON.stringify({ ...editorConfig, ...compile(name) }, '', 2)
+    )
+  );
