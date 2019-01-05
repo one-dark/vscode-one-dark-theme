@@ -1,71 +1,95 @@
 # CHANGELOG
 
+## 4.0.0
+
+- Completely overhaul theme settings
+- Change from JSON configuration to YAML
+- Rename JSON theme files
+- Remove `overrides.js` in favor of YAML configuration
+
 ## 3.4.1
+
 - Add OneDark-Pro bold style
 - Add color for `super` keyword
 - Start updating docs
 
 ## 3.2.1
+
 - Improve terminal highlight and textLink foreground
 - Update docsify docs
 - Add `postversion` script to make deployments easier
 - Releases now are prefixed with **v** since we are using the tags created by `npm version`
 
 ## 3.2.0
+
 - Fix border in dropdown appearing without focus
 - Make Python `self` keyword italic
 
 ## 3.1.5 | 2018.10.28
+
 - Use "chalky" color for Python `self` keyword
 
 ## 3.1.4 | 2018.10.28
+
 - Fix screenshot urls
 
 ## 3.1.3 | 2018.10.28
+
 - Update screenshots in README
 - Add more badges and cleanup README
 - Fix spelling errors in CHANGELOG
 
 ## 3.1.2 | 2018.10.26
+
 - Change `uri` to `url` in package.json badge list
 
 ## 3.1.1 | 2018.10.26
+
 - Add Travis CI badge to badges array to prevent extension validation errors
 - Update Travis CI badge link in README
 
 ## 3.1.0 | 2018.10.26
+
 - Change focus from `#21252b` to `#464646` to improve accessibility in GUIs
 
 ## 3.0.1 | 2018.10.26
+
 - Fix Travis CI configuration issue
 
 ## 3.0.0 | 2018.10.26
+
 - Setup Travis CI
 - Remove auto generated theme files
 - Use npm instead of Yarn
 
 ## 2.17.6 | 2018.10.26
+
 - Use whiskey color for constants
 - Don't make JS/TS arrow functions italic
 - Update package.json and theme names
 - Explain overrides
 
 ## 2.17.5 | 2018.10.25
+
 - Use overrides instead of separate italic theme
 - Remove One Dark Pro Italic theme in favor of italicizing One Dark Pro and One Dark Pro Vivid themes
 
 ## 2.17.4 | 2018.10.14
+
 - Improve markdown support
 - Improve editor dropdown color
 
 ## 2.17.3 | 2018.10.05
+
 - Improve elixir support #262
 - Improve flow support #222
 
 ## 2.17.1 | 2018.10.04
+
 - Rewrite syntax highlight file, simplified color, update docs
 
 ## 2.16.7 | 2018.10.04
+
 Improve Ruby and FlowJS support
 
 ## 2.16.6 | 2018.09.12
@@ -117,7 +141,7 @@ Improve Ruby and FlowJS support
 - Made units (px, em.. etc) red to distinguish between the value itself and the units: easier readability
 - Made pseudo-elements/classes bluish in order to distinguish it from classes (which are the same colour in css/less/scss)
 - Made escaped characters (such as &apos; &copy; etc) red to see them easily, especially in Pug (jade) files where brackets and classes are essentially the same colour
-- The String literal in JS/TS ${} is now purply for easier readability
+- The String literal in JS/TS \${} is now purply for easier readability
 - All Comments are now italic
 - Changes to TypeScript/JavaScript (possibly other languages too) syntax highlighting:
   - Classes now all Yellow (except in TS in the case of: App.getSmth(), as both normal objects and classes use the same code internally, meaning highlighting would be weird)
