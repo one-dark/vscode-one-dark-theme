@@ -30,17 +30,17 @@
 			{
 				"label": "One Dark Pro (Italic)",
 				"uiTheme": "vs-dark",
-				"path": "./themes/OneDark-Pro.json"
+				"path": "./themes/classic.json"
 			},
 			{
 				"label": "One Dark Pro Vivid (Italic)",
 				"uiTheme": "vs-dark",
-				"path": "./themes/OneDark-Pro-vivid.json"
+				"path": "./themes/vivid.json"
 			},
 			{
 				"label": "One Dark Pro Bold (Italic)",
 				"uiTheme": "vs-dark",
-				"path": "./themes/OneDark-Pro-bold.json"
+				"path": "./themes/bold.json"
 			}
 		]
 	},
