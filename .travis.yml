@@ -7,9 +7,6 @@ install:
 script:
   - npm run build
   - vsce package
-branches:
-  only:
-    - master
 deploy:
   - provider: releases
     api_key: $GITHUB_AUTH_TOKEN
