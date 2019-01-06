@@ -7,6 +7,7 @@
 - Rename JSON theme files
 - Remove `overrides.js` in favor of YAML configuration
 - Darken comment color to match Atom One Dark theme
+- Reorder scopes
 
 ## 3.4.1
 
