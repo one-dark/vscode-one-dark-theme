@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.3
+
+- Fix the comment color for the vivid theme
+
 ## 4.0.0
 
 - Completely overhaul theme settings
