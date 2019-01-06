@@ -6,6 +6,7 @@
 - Change from JSON configuration to YAML
 - Rename JSON theme files
 - Remove `overrides.js` in favor of YAML configuration
+- Darken comment color to match Atom One Dark theme
 
 ## 3.4.1
 

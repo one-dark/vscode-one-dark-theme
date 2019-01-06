@@ -6,7 +6,7 @@ colors:
   coral: '#e06c75'
   whiskey: '#d19a66'
   chalky: '#e5c07b'
-  lightDark: '#7f848e'
+  lightDark: '#5c6370'
   dark: '#5c6370'
   malibu: '#61afef'
   green: '#98c379'
@@ -246,6 +246,9 @@ foreground:
     - block.scope.end
     - block.scope.begin
     - meta.template.expression
+  lightDark:
+    - comment
+    - punctuation.definition.comment
   chalky:
     - markup.changed.diff
     - support.constant.math
