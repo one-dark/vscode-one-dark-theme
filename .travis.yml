@@ -24,4 +24,5 @@ notifications:
   email:
     recipients:
       - mdskelton99@gmail.com
+    on_success: change
     on_failure: always
