@@ -1,18 +1,18 @@
 %YAML 1.2
 ---
 colors:
-  purple: '#c678dd'
-  error: '#f44747'
-  coral: '#e06c75'
-  whiskey: '#d19a66'
   chalky: '#e5c07b'
-  lightDark: '#5c6370'
+  coral: '#e06c75'
   dark: '#5c6370'
-  malibu: '#61afef'
-  green: '#98c379'
+  error: '#f44747'
   fountainBlue: '#56b6c2'
+  green: '#98c379'
   invalid: '#ffffff'
+  lightDark: '#5c6370'
   lightWhite: '#bbbbbb'
+  malibu: '#61afef'
+  purple: '#c678dd'
+  whiskey: '#d19a66'
 foreground:
   purple:
     - emphasismd
