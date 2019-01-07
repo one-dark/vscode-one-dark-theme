@@ -388,7 +388,7 @@ fontStyle:
     - punctuation.definition.comment
     - storage
     - var.this
-    - variable.language.self
+    - variable.language.special.self
     - variable.language.super
     - variable.language.this
     - variable.language.this.js
