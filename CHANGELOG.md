@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.4
+
+- Don't italicize ternary operator
+
 ## 4.0.3
 
 - Fix the comment color for the vivid theme
