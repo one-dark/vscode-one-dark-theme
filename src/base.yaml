@@ -293,7 +293,7 @@ foreground:
     - support.variable.semantic.hlsl
     - token.storage.type.java
     - var.this
-    - variable.language.self
+    - variable.language.special.self
     - variable.language.this
     - variable.language.this.js
     - variable.language.this.jsx

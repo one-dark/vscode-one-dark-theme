@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.6
+
+- Fix Python self keyword not highlighting
+
 ## 4.0.5
 
 - Fix Python self keyword not highlighting
