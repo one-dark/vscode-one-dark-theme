@@ -282,6 +282,7 @@ foreground:
     - support.other.namespace.php
     - support.other.namespace.use-as.php
     - support.other.namespace.use.php
+    - support.type
     - support.type.builtin.ts
     - support.type.builtin.tsx
     - support.type.object.module

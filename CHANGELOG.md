@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.7
+
+- Color `support.type` with chalky
+
 ## 4.0.6
 
 - Fix Python self keyword not highlighting
