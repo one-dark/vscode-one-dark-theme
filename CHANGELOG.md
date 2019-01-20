@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.8
+
+- Color JS object properties color
+
 ## 4.0.7
 
 - Color `support.type` with chalky

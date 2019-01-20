@@ -85,6 +85,7 @@ foreground:
     - meta.function-call.arguments.python
     - meta.function-call.python
     - meta.function.c
+    - meta.object-literal.key.js
     - meta.property.object
     - meta.scope.prerequisites.makefile
     - meta.symbol.clojure
