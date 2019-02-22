@@ -242,7 +242,6 @@ foreground:
     - punctuation.terminator.expression.php
     - punctuation.terminator.java
     - punctuation.terminator.statement.c
-    - storage.type.generic.java
     - support.constant.property-value
     - support.type.property-name
     - token.package
@@ -274,6 +273,7 @@ foreground:
     - storage.modifier.import.java
     - storage.type.annotation.java
     - storage.type.cs
+    - storage.type.generic
     - storage.type.java
     - storage.type.php
     - support.class
