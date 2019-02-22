@@ -1,95 +1,95 @@
 {
-	"name": "one-dark-pro-italic",
-	"displayName": "One Dark Pro Italic",
-	"description": "Atom's OneDark Pro theme with italic comments and keywords!",
-	"version": "4.0.8",
-	"publisher": "markskelton",
-	"bugs": {
-		"url": "https://github.com/markypython/OneDark-Pro/issues"
-	},
-	"homepage": "https://github.com/markypython/OneDark-Pro",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/markypython/OneDark-Pro"
-	},
-	"license": "MIT",
-	"engines": {
-		"vscode": "^1.12.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"scripts": {
-		"build": "node build.js",
-		"docs": "docsify serve docs --open",
-		"pull-upstream": "git pull https://github.com/Binaryify/OneDark-Pro master",
-		"postversion": "git push && git push --tags"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "One Dark Pro (Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/classic.json"
-			},
-			{
-				"label": "One Dark Pro Vivid (Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/vivid.json"
-			},
-			{
-				"label": "One Dark Pro Bold (Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/bold.json"
-			}
-		]
-	},
-	"icon": "icon.png",
-	"keywords": [
-		"one dark",
-		"onedark",
-		"one dark pro",
-		"theme",
-		"atom"
-	],
-	"devDependencies": {
-		"docsify-cli": "^4.3.0",
-		"yamljs": "^0.3.0"
-	},
-	"galleryBanner": {
-		"color": "#2d323b",
-		"theme": "dark"
-	},
-	"badges": [
-		{
-			"href": "https://travis-ci.com/markypython/OneDark-Pro",
-			"url": "https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master",
-			"description": "TravisCI build status"
-		},
-		{
-			"href": "https://github.com/markypython/OneDark-Pro/issues",
-			"url": "https://img.shields.io/github/issues/markypython/OneDark-Pro.svg",
-			"description": "GitHub issues"
-		},
-		{
-			"href": "https://github.com/markypython/OneDark-Pro/pulls",
-			"url": "https://img.shields.io/github/issues-pr/markypython/OneDark-Pro.svg",
-			"description": "GitHub pull requests"
-		},
-		{
-			"href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
-			"url": "https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg",
-			"description": "Visual Studio Marketplace version"
-		},
-		{
-			"href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
-			"url": "https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg",
-			"description": "Visual Studio Marketplace downloads"
-		},
-		{
-			"href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic#review-details",
-			"url": "https://img.shields.io/vscode-marketplace/r/markskelton.one-dark-pro-italic.svg",
-			"description": "Visual Studio Marketplace rating"
-		}
-	]
+  "name": "one-dark-pro-italic",
+  "displayName": "One Dark Pro Italic",
+  "description": "Atom's OneDark Pro theme with italic comments and keywords!",
+  "version": "4.0.8",
+  "publisher": "markskelton",
+  "bugs": {
+    "url": "https://github.com/markypython/OneDark-Pro/issues"
+  },
+  "homepage": "https://github.com/markypython/OneDark-Pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markypython/OneDark-Pro"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "docs": "docsify serve docs --open",
+    "pull-upstream": "git pull https://github.com/Binaryify/OneDark-Pro master",
+    "postversion": "git push && git push --tags"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/classic.json"
+      },
+      {
+        "label": "One Dark Pro Vivid (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vivid.json"
+      },
+      {
+        "label": "One Dark Pro Bold (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bold.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "one dark",
+    "onedark",
+    "one dark pro",
+    "theme",
+    "atom"
+  ],
+  "devDependencies": {
+    "docsify-cli": "^4.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "galleryBanner": {
+    "color": "#2d323b",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "href": "https://travis-ci.com/markypython/OneDark-Pro",
+      "url": "https://travis-ci.com/markypython/OneDark-Pro.svg?branch=master",
+      "description": "TravisCI build status"
+    },
+    {
+      "href": "https://github.com/markypython/OneDark-Pro/issues",
+      "url": "https://img.shields.io/github/issues/markypython/OneDark-Pro.svg",
+      "description": "GitHub issues"
+    },
+    {
+      "href": "https://github.com/markypython/OneDark-Pro/pulls",
+      "url": "https://img.shields.io/github/issues-pr/markypython/OneDark-Pro.svg",
+      "description": "GitHub pull requests"
+    },
+    {
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
+      "url": "https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg",
+      "description": "Visual Studio Marketplace version"
+    },
+    {
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic",
+      "url": "https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg",
+      "description": "Visual Studio Marketplace downloads"
+    },
+    {
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic#review-details",
+      "url": "https://img.shields.io/vscode-marketplace/r/markskelton.one-dark-pro-italic.svg",
+      "description": "Visual Studio Marketplace rating"
+    }
+  ]
 }
