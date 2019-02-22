@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.1.0
+
+- Color `storage.type.generic` with chalky
+
 ## 4.0.8
 
 - Color JS object properties color
