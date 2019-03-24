@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 4.2.0 | 2019.03.24
+
+- Update readme
+- Improve default foreground color
+- Improve C++ highlighting
+- Improve Python highlighting
+- Improve Markdown highlighting
+- Improve Rust highlighting
+- Fix two regressions in PHP coloring
+
 ## 4.1.0
 
 - Color `storage.type.generic` with chalky
