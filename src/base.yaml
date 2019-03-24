@@ -19,11 +19,16 @@ foreground:
     - keyword
     - keyword.control
     - keyword.operator.assignment.c
+    - keyword.operator.assignment.cpp
     - keyword.operator.assignment.compound
     - keyword.operator.bitwise.shift.c
+    - keyword.operator.bitwise.shift.cpp
     - keyword.operator.c
+    - keyword.operator.cpp
     - keyword.operator.comparison.c
+    - keyword.operator.comparison.cpp
     - keyword.operator.decrement.c
+    - keyword.operator.decrement.cpp
     - keyword.operator.error-control.php
     - keyword.operator.expression.delete
     - keyword.operator.expression.in
@@ -34,6 +39,7 @@ foreground:
     - keyword.operator.expression.void
     - keyword.operator.heredoc.php
     - keyword.operator.increment.c
+    - keyword.operator.increment.cpp
     - keyword.operator.logical.python
     - keyword.operator.module
     - keyword.operator.new
@@ -42,6 +48,7 @@ foreground:
     - keyword.operator.optional
     - keyword.operator.regexp.php
     - keyword.operator.sizeof.c
+    - keyword.operator.sizeof.cpp
     - keyword.operator.ternary
     - keyword.operator.type.php
     - markup.italic
@@ -54,6 +61,7 @@ foreground:
     - punctuation.quasi.element
     - punctuation.section.embedded
     - punctuation.separator.c
+    - punctuation.separator.cpp
     - storage
     - support.constant.edge
     - support.type.fx.hlsl
@@ -82,9 +90,8 @@ foreground:
     - meta.arguments.coffee
     - meta.definition.variable.name.groovy
     - meta.definition.variable.name.java
-    - meta.function-call.arguments.python
-    - meta.function-call.python
     - meta.function.c
+    - meta.function.cpp
     - meta.object-literal.key.js
     - meta.property.object
     - meta.scope.prerequisites.makefile
@@ -108,10 +115,12 @@ foreground:
     - support.type.property-name.json
     - support.type.property-name.jsonpunctuation
     - support.variable.dom
+    - support.variable.magic.python
     - support.variable.property.dom
     - text.bracketed
     - text.variable
     - variable.interpolation
+    - variable.language.rust
     - variable.other.class.php
     - variable.parameter.function.coffee
     - variable.parameter.function.js
@@ -180,7 +189,6 @@ foreground:
     - function.parameter.cs
     - function.parameter.ruby
     - markup.heading.setext
-    - meta.function-call.arguments.python
     - meta.method-call.java
     - meta.method.body.java
     - meta.method.identifier.java
@@ -209,12 +217,16 @@ foreground:
     - punctuation.definition.section.switch-block.start.bracket.curly.php
     - punctuation.definition.storage-type.begin.bracket.round.php
     - punctuation.definition.storage-type.end.bracket.round.php
+    - punctuation.parenthesis.begin.python
+    - punctuation.parenthesis.end.python
     - punctuation.section.array.begin.php
     - punctuation.section.array.end.php
     - punctuation.section.block.begin.bracket.curly.c
     - punctuation.section.block.begin.bracket.curly.cpp
+    - punctuation.section.block.begin.bracket.curly.cpp
     - punctuation.section.block.begin.java
     - punctuation.section.block.end.bracket.curly.c
+    - punctuation.section.block.end.bracket.curly.cpp
     - punctuation.section.block.end.bracket.curly.cpp
     - punctuation.section.block.end.java
     - punctuation.section.class.begin.bracket.curly.java
@@ -228,24 +240,32 @@ foreground:
     - punctuation.section.method.end.bracket.curly.java
     - punctuation.section.method.end.java
     - punctuation.section.parameters.begin.bracket.round.c
+    - punctuation.section.parameters.begin.bracket.round.cpp
     - punctuation.section.parameters.end.bracket.round.c
+    - punctuation.section.parameters.end.bracket.round.cpp
     - punctuation.section.parens.begin.bracket.round.c
+    - punctuation.section.parens.begin.bracket.round.cpp
     - punctuation.section.parens.end.bracket.round.c
+    - punctuation.section.parens.end.bracket.round.cpp
     - punctuation.section.scope.begin.php
     - punctuation.section.scope.end.php
     - punctuation.separator.arguments.python
     - punctuation.separator.delimiter
     - punctuation.separator.delimiter.php
+    - punctuation.separator.element.python
     - punctuation.separator.key-value
     - punctuation.separator.list.comma.css
     - punctuation.separator.period.java
+    - punctuation.separator.period.python
     - punctuation.terminator.expression.php
     - punctuation.terminator.java
     - punctuation.terminator.statement.c
+    - punctuation.terminator.statement.cpp
     - support.constant.property-value
     - support.type.property-name
     - token.package
     - token.variable.parameter.java
+    - storage.modifier.lifetime.rust
   lightDark:
     - comment
     - punctuation.definition.comment
@@ -253,6 +273,7 @@ foreground:
     - entity.global.clojure
     - entity.name.class
     - entity.name.class.identifier.namespace.type
+    - entity.name.lifetime.rust
     - entity.name.package.go
     - entity.name.type
     - entity.name.type.class
@@ -294,13 +315,9 @@ foreground:
     - support.type.vb.asp
     - support.variable.semantic.hlsl
     - token.storage.type.java
-    - var.this
+    - variable.language
     - variable.language.special.self
     - variable.language.this
-    - variable.language.this.js
-    - variable.language.this.jsx
-    - variable.language.this.ts
-    - variable.language.this.tsx
     - variable.other.class.js
     - variable.other.class.ts
   malibu:
@@ -326,6 +343,7 @@ foreground:
     - string.other.link.title.markdown
     - support.function.any-method
     - support.function.console
+    - support.function.std.rust
     - support.other.php
     - support.type.type.flowtype
     - token.info-token
@@ -335,6 +353,7 @@ foreground:
     - constant.keyword.clojure
     - constant.language.symbol.ruby
     - constant.other.symbol
+    - entity.name.type.rust
     - entity.other.attribute-name.pseudo-class
     - entity.other.attribute-name.pseudo-element
     - keyword.operator
@@ -365,6 +384,7 @@ foreground:
     - support.token.decorator.python
     - support.type.object.dom
     - support.type.posix-reserved.c
+    - support.type.posix-reserved.cpp
     - support.type.prelude.elm
     - support.type.python
     - support.type.vendored.property-name.css
