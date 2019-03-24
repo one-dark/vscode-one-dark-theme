@@ -17,6 +17,7 @@ colors:
   editor.findMatchBackground: '#42557b'
   editor.findMatchBorder: '#457dff'
   editor.findMatchHighlightBackground: '#314365'
+  editor.foreground: '#abb2bf'
   editor.lineHighlightBackground: '#2c313c'
   editor.selectionBackground: '#67769660'
   editor.selectionHighlightBackground: '#ffffff10'
