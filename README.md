@@ -47,7 +47,7 @@ Below are some code examples using this theme. The font I am using is the open s
 ![C++ code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/cpp.png)
 ![PHP code example](https://raw.githubusercontent.com/markypython/OneDark-Pro/master/static/php.png)
 
-## Tweaks & Workbench theming
+## Tweaks & theming
 
 If you want to play around with new colors, use the setting `workbench.colorCustomizations` to customize the currently selected theme. For example, you can add this snippet in your `settings.json` file:
 
@@ -59,18 +59,27 @@ If you want to play around with new colors, use the setting `workbench.colorCust
 }
 ```
 
-Please check the official [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) for more information.
+or use the setting `editor.tokenColorCustomizations`
+
+```json
+"editor.tokenColorCustomizations": {
+    "[One Dark Pro (Italic)]": {
+      "textMateRules": [
+        {
+          "scope": ["source.python"],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }
+      ]
+    }
+}
+```
+
+Please check the official
+[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) or
+[Color Theme Documentation](https://code.visualstudio.com/docs/getstarted/themes), for more information.
 
 ## Contributors
 
 Thanks to [阿发](https://github.com/Binaryify) and the [OneDark-Pro](https://github.com//OneDark-Pro) repository which this theme is based on!
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
-|  [<img alt="Progracientist" src="https://avatars0.githubusercontent.com/u/30497573?s=460&v=4" width="100"><br><sub><b>Progracientist</b></sub>](https://github.com/beastdestroyer)  | [<img alt="Ergenekon Yigit" src="https://avatars3.githubusercontent.com/u/7110136?v=4&s=100" width="100"><br><sub><b>Ergenekon Yigit</b></sub>](https://github.com/ergenekonyigit) |  [<img alt="Vladimir Sizikov" src="https://avatars1.githubusercontent.com/u/9781?v=4&s=100" width="100"><br><sub><b>Vladimir Sizikov</b></sub>](https://github.com/vvs)   |  [<img alt="Harsh Patel" src="https://avatars0.githubusercontent.com/u/3893673?v=4&s=100" width="100"><br><sub><b>Harsh Patel</b></sub>](https://github.com/harshpatel991)  |              [<img alt="Kamer DINC" src="https://avatars2.githubusercontent.com/u/780118?v=4&s=100" width="100"><br><sub><b>Kamer DINC</b></sub>](https://github.com/merkjs)              | [<img alt="Kovacs Nicolas" src="https://avatars0.githubusercontent.com/u/6214452?v=4&s=100" width="100"><br><sub><b>Kovacs Nicolas</b></sub>](https://github.com/nicovak) |            [<img alt="Audrey" src="https://avatars1.githubusercontent.com/u/185822?v=4&s=100" width="100"><br><sub><b>Audrey</b></sub>](https://github.com/wersimmon)            |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img alt="Alexey Svetliakov" src="https://avatars2.githubusercontent.com/u/8881674?v=4&s=100" width="100"><br><sub><b>Alexey Svetliakov</b></sub>](https://github.com/asvetliakov) | [<img alt="Daniel Cervenkov" src="https://avatars3.githubusercontent.com/u/23052054?v=4&s=100" width="100"><br><sub><b>Daniel Cervenkov</b></sub>](https://github.com/dcervenkov)  |           [<img alt="Ika" src="https://avatars1.githubusercontent.com/u/8341033?v=4&s=100" width="100"><br><sub><b>Ika</b></sub>](https://github.com/ikatyang)            | [<img alt="waterdanceTV" src="https://avatars3.githubusercontent.com/u/31411367?v=4&s=100" width="100"><br><sub><b>waterdanceTV</b></sub>](https://github.com/waterdanceTV) | [<img alt="Jonathan Laflamme" src="https://avatars1.githubusercontent.com/u/21099980?v=4&s=100" width="100"><br><sub><b>Jonathan Laflamme</b></sub>](https://github.com/jonathanlaflamme) |        [<img alt="Victor" src="https://avatars2.githubusercontent.com/u/24607388?v=4&s=100" width="100"><br><sub><b>Victor</b></sub>](https://github.com/Raul6469)        |    [<img alt="Garrit Franke" src="https://avatars3.githubusercontent.com/u/32395585?v=4&s=100" width="100"><br><sub><b>Garrit Franke</b></sub>](https://github.com/garritfra)    |
-|            [<img alt="Or3stis" src="https://avatars0.githubusercontent.com/u/11923550?v=4&s=100" width="100"><br><sub><b>Or3stis</b></sub>](https://github.com/Or3stis)             |       [<img alt="Peter Sdobnov" src="https://avatars1.githubusercontent.com/u/5717247?v=4&s=100" width="100"><br><sub><b>Peter Sdobnov</b></sub>](https://github.com/Zueuk)        | [<img alt="Will Stone-stone" src="https://avatars1.githubusercontent.com/u/654103?v=4&s=100" width="100"><br><sub><b>Will Stone</b></sub>](https://github.com/will-stone) |   [<img alt="Benas Svipas" src="https://avatars3.githubusercontent.com/u/10441177?v=4&s=100" width="100"><br><sub><b>Benas Svipas</b></sub>](https://github.com/svipben)    |          [<img alt="Jens Hausdorf" src="https://avatars2.githubusercontent.com/u/11234139?v=4&s=100" width="100"><br><sub><b>Jens Hausdorf</b></sub>](https://github.com/jens1o)          |         [<img alt="阿发" src="https://avatars3.githubusercontent.com/u/12221718?s=460&v=4" width="100"><br><sub><b>阿发</b></sub>](https://github.com/Binaryify)          | [<img alt="Mark Skelton" src="https://avatars2.githubusercontent.com/u/25914066?s=460&v=4&s=100" width="100"><br><sub><b>Mark Skelton</b></sub>](https://github.com/markypython) |
-|        [<img alt="Gabe M." src="https://avatars0.githubusercontent.com/u/14303404?s=460&v=4&s=100" width="100"><br><sub><b>Gabe M.</b></sub>](https://github.com/gabemeola)         |
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
