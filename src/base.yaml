@@ -77,6 +77,7 @@ foreground:
     - token.package.keyword
     - token.storage
     - variable.language.super
+    - constant.regexp.xi
   coral:
     - beginning.punctuation.definition.list.markdown
     - constant.character.entity
@@ -124,6 +125,7 @@ foreground:
     - variable.other.class.php
     - variable.parameter.function.coffee
     - variable.parameter.function.js
+    - keyword.control.xi
   whiskey:
     - constant
     - constant.numeric
@@ -162,6 +164,7 @@ foreground:
     - variable.parameter.function
     - variable.parameter.function.language.python
     - variable.parameter.function.python
+    - wikiword.xi
   green:
     - constant.character.format.placeholder.other.python
     - entity.other.inherited-class
@@ -181,6 +184,7 @@ foreground:
     - source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json
     - source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation
     - string
+    - beginning.punctuation.definition.quote.markdown.xi
   lightWhite:
     - block.scope.begin
     - block.scope.end
@@ -266,9 +270,12 @@ foreground:
     - token.package
     - token.variable.parameter.java
     - storage.modifier.lifetime.rust
+    - invalid.xi
+    - beginning.punctuation.definition.list.markdown.xi
   lightDark:
     - comment
     - punctuation.definition.comment
+    - punctuation.definition.tag.xi
   chalky:
     - entity.global.clojure
     - entity.name.class
@@ -320,6 +327,7 @@ foreground:
     - variable.language.this
     - variable.other.class.js
     - variable.other.class.ts
+    - entity.name.function.xi
   malibu:
     - entity.name.function
     - entity.name.function
@@ -348,6 +356,8 @@ foreground:
     - support.type.type.flowtype
     - token.info-token
     - variable.function
+    - constant.character.xi
+    - accent.xi
   fountainBlue:
     - constant.character.escape
     - constant.keyword.clojure
@@ -388,11 +398,15 @@ foreground:
     - support.type.prelude.elm
     - support.type.python
     - support.type.vendored.property-name.css
+    - entity.name.class.xi
   invalid:
     - invalid.broken
     - invalid.deprecated
     - invalid.illegal
     - invalid.unimplemented
+    - constant.other.color.rgb-value.xi
+  error:
+    - constant.character.character-class.regexp.xi
 fontStyle:
   italic:
     - comment
