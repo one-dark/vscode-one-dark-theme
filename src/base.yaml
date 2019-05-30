@@ -437,6 +437,7 @@ fontStyle:
     - entity.other.attribute-name.id
     - storage.type.function.arrow
     - keyword.control.ternary
+    - keyword.control.xi 
   bold:
     - markup.bold
     - markup.bold.markdown
