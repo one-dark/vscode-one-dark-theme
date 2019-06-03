@@ -125,7 +125,7 @@ foreground:
     - variable.other.class.php
     - variable.parameter.function.coffee
     - variable.parameter.function.js
-    - keyword.control.xi
+    - constant.character.character-class.regexp.xi
   whiskey:
     - constant
     - constant.numeric
@@ -399,14 +399,13 @@ foreground:
     - support.type.python
     - support.type.vendored.property-name.css
     - entity.name.class.xi
+    - keyword.control.xi
   invalid:
     - invalid.broken
     - invalid.deprecated
     - invalid.illegal
     - invalid.unimplemented
     - constant.other.color.rgb-value.xi
-  error:
-    - constant.character.character-class.regexp.xi
 fontStyle:
   italic:
     - comment
