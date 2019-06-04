@@ -15,6 +15,7 @@ colors:
   whiskey: '#d19a66'
 foreground:
   purple:
+    - constant.regexp.xi
     - emphasismd
     - keyword
     - keyword.control
@@ -77,9 +78,9 @@ foreground:
     - token.package.keyword
     - token.storage
     - variable.language.super
-    - constant.regexp.xi
   coral:
     - beginning.punctuation.definition.list.markdown
+    - constant.character.character-class.regexp.xi
     - constant.character.entity
     - constant.other.character-class.regexp
     - entity.name.section.markdown
@@ -125,7 +126,6 @@ foreground:
     - variable.other.class.php
     - variable.parameter.function.coffee
     - variable.parameter.function.js
-    - constant.character.character-class.regexp.xi
   whiskey:
     - constant
     - constant.numeric
@@ -166,6 +166,7 @@ foreground:
     - variable.parameter.function.python
     - wikiword.xi
   green:
+    - beginning.punctuation.definition.quote.markdown.xi
     - constant.character.format.placeholder.other.python
     - entity.other.inherited-class
     - keyword.other.substitution.begin
@@ -184,14 +185,15 @@ foreground:
     - source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json
     - source.jsonmeta.structure.dictionary.json>value.json>string.quoted.json>punctuation
     - string
-    - beginning.punctuation.definition.quote.markdown.xi
   lightWhite:
+    - beginning.punctuation.definition.list.markdown.xi
     - block.scope.begin
     - block.scope.end
     - function.brace
     - function.parameter
     - function.parameter.cs
     - function.parameter.ruby
+    - invalid.xi
     - markup.heading.setext
     - meta.method-call.java
     - meta.method.body.java
@@ -270,8 +272,6 @@ foreground:
     - token.package
     - token.variable.parameter.java
     - storage.modifier.lifetime.rust
-    - invalid.xi
-    - beginning.punctuation.definition.list.markdown.xi
   lightDark:
     - comment
     - punctuation.definition.comment
@@ -280,6 +280,7 @@ foreground:
     - entity.global.clojure
     - entity.name.class
     - entity.name.class.identifier.namespace.type
+    - entity.name.function.xi
     - entity.name.lifetime.rust
     - entity.name.package.go
     - entity.name.type
@@ -327,8 +328,9 @@ foreground:
     - variable.language.this
     - variable.other.class.js
     - variable.other.class.ts
-    - entity.name.function.xi
   malibu:
+    - accent.xi
+    - constant.character.xi
     - entity.name.function
     - entity.name.function
     - entity.name.goto-label.php
@@ -356,8 +358,6 @@ foreground:
     - support.type.type.flowtype
     - token.info-token
     - variable.function
-    - constant.character.xi
-    - accent.xi
   fountainBlue:
     - constant.character.escape
     - constant.keyword.clojure
@@ -366,6 +366,7 @@ foreground:
     - entity.name.type.rust
     - entity.other.attribute-name.pseudo-class
     - entity.other.attribute-name.pseudo-element
+    - keyword.control.xi
     - keyword.operator
     - keyword.operator
     - keyword.operator.arithmetic
@@ -399,13 +400,12 @@ foreground:
     - support.type.python
     - support.type.vendored.property-name.css
     - entity.name.class.xi
-    - keyword.control.xi
   invalid:
+    - constant.other.color.rgb-value.xi
     - invalid.broken
     - invalid.deprecated
     - invalid.illegal
     - invalid.unimplemented
-    - constant.other.color.rgb-value.xi
 fontStyle:
   italic:
     - comment
@@ -434,9 +434,9 @@ fontStyle:
   normal:
     - entity.other.attribute-name.class.css
     - entity.other.attribute-name.id
-    - storage.type.function.arrow
     - keyword.control.ternary
     - keyword.control.xi 
+    - storage.type.function.arrow
   bold:
     - markup.bold
     - markup.bold.markdown
