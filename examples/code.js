@@ -6,7 +6,7 @@ export default {
     time: 60
   },
   methods: {
-    async sub() {
+    async sub () {
       const { result: { code } } = await http(`/DocPt/sendSms?phone=${this.phone}&random=${Date.now()}`)
 
       this.$store.dispatch('saveCapchaData', {
@@ -16,7 +16,7 @@ export default {
 
       this.core()
     },
-    core() {
+    core () {
       this.time--
 
       const intervalBundle = setInterval(() => {
