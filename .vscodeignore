@@ -3,6 +3,7 @@
 **/.DS_Store
 !out
 !static
+!themes
 !package.json
 !README.md
 !CHANGELOG.md
