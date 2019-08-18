@@ -3,7 +3,7 @@ node_js:
   - node
 install:
   - yarn
-  - yarn add -g vsce
+  - yarn global add vsce
 script:
   - yarn compile
   - vsce package
