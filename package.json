@@ -52,6 +52,9 @@
       "description": "VS Code extension downloads"
     }
   ],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "themes": [
