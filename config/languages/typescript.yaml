@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+support.type:
+  builtin:
+    ts: chalky
+    tsx: chalky
+  primitive:
+    ts: chalky
+    tsx: chalky
