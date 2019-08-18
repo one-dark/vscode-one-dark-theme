@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "target": "es6",
+    "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
+    "noUnusedLocals": true,
     "outDir": "out"
   },
   "include": [
