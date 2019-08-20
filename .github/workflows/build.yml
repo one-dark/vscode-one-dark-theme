@@ -1,0 +1,21 @@
+name: Build
+on: [push pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - name: Install depedencies
+      run: |
+        yarn
+    - name: Compile TypeScript and YAML
+      run: |
+        yarn compile:ts
+        yarn compile:yaml
+    - name: Package extension
+      run: |
+        vsce package
