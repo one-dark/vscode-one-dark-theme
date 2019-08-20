@@ -66,10 +66,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn compile:yaml && yarn compile:ts",
     "compile:yaml": "ts-node ./scripts/compile-yaml.ts",
     "compile:ts": "tsc -p .",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "vscode:prepublish": "yarn compile:yaml && yarn compile:ts"
   },
   "devDependencies": {
     "@types/node": "^12.7.2",
@@ -85,6 +85,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3",
+    "vsce": "^1.66.0",
     "yamljs": "^0.3.0"
   }
 }
