@@ -19,6 +19,17 @@ jobs:
     - name: Package extension
       run: |
         yarn vsce package
+  publish-github:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - name: Publish extension to GitHub releases
+      if: github.event_name == 'release'
+      uses: JasonEtco/upload-to-release@master
+      env:
+        GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_AUTH_TOKEN }}
+      with:
+        args: '*.vsix'
   publish-vsce:
     runs-on: ubuntu-latest
     needs: build
