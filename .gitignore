@@ -10,3 +10,4 @@ node_modules/
 
 # Build output
 out/
+src/config/
