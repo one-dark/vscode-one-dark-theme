@@ -40,10 +40,10 @@ function moveColorConfig (name: string) {
   ])
 
   // Create objects to collect normal and italic scopes
-  const tokens = {
-    normal: {},
-    italic: {}
-  }
+  // const tokens = {
+  //   normal: {},
+  //   italic: {}
+  // }
 
   // Read base theme scopes and put individual parts into the objects
 
