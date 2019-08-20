@@ -32,8 +32,8 @@
   },
   "badges": [
     {
-      "href": "https://travis-ci.com/markypython/vscode-one-dark-theme",
-      "url": "https://img.shields.io/travis/com/markypython/vscode-one-dark-theme/master.svg",
+      "href": "https://github.com/markypython/vscode-one-dark-theme/actions",
+      "url": "https://action-badges.now.sh/markypython/vscode-one-dark-theme",
       "description": "Build status"
     },
     {
