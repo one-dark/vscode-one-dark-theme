@@ -33,7 +33,7 @@
   "badges": [
     {
       "href": "https://github.com/markypython/vscode-one-dark-theme/actions",
-      "url": "https://action-badges.now.sh/markypython/vscode-one-dark-theme",
+      "url": "https://travis-ci.com/markypython/vscode-one-dark-theme.svg?branch=master",
       "description": "Build status"
     },
     {
