@@ -5,7 +5,8 @@ install:
   - yarn
   - yarn global add vsce
 script:
-  - yarn compile
+  - yarn compile:ts
+  - yarn compile:yaml
   - vsce package
 deploy:
   - provider: releases
