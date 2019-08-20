@@ -2,7 +2,7 @@
   "name": "vscode-one-dark-theme",
   "displayName": "One dark theme",
   "description": "One dark theme for Visual Studio Code",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "publisher": "markskelton",
   "author": "Mark Skelton",
   "repository": {
