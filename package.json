@@ -42,13 +42,13 @@
       "description": "GitHub tag"
     },
     {
-      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-theme",
-      "url": "https://img.shields.io/visual-studio-marketplace/v/markskelton.one-dark-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme",
+      "url": "https://img.shields.io/visual-studio-marketplace/v/markskelton.vscode-one-dark-theme",
       "description": "VS Code extension version"
     },
     {
-      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-theme",
-      "url": "https://img.shields.io/visual-studio-marketplace/d/markskelton.one-dark-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme",
+      "url": "https://img.shields.io/visual-studio-marketplace/d/markskelton.vscode-one-dark-theme",
       "description": "VS Code extension downloads"
     }
   ],

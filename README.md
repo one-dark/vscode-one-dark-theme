@@ -11,6 +11,6 @@
 [build-status]: https://travis-ci.com/markypython/vscode-one-dark-theme "Build status"
 [latest-release-badge]: https://img.shields.io/github/tag/markypython/vscode-one-dark-theme.svg
 [latest-release]: https://github.com/markypython/vscode-one-dark-theme/releases/latest "Latest release"
-[extension-version-badge]: https://img.shields.io/visual-studio-marketplace/v/markskelton.one-dark-theme
-[extension-page]: https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-theme "Extension homepage"
-[extension-downloads-badge]: https://img.shields.io/visual-studio-marketplace/d/markskelton.one-dark-theme
+[extension-version-badge]: https://img.shields.io/visual-studio-marketplace/v/markskelton.vscode-one-dark-theme
+[extension-page]: https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme "Extension homepage"
+[extension-downloads-badge]: https://img.shields.io/visual-studio-marketplace/d/markskelton.vscode-one-dark-theme
