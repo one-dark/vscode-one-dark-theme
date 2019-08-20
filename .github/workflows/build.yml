@@ -1,5 +1,5 @@
 name: Build and deploy extension
-on: [push pull_request releas]
+on: [push pull_request release]
 jobs:
   build:
     runs-on: ubuntu-latest
