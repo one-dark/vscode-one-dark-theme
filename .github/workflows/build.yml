@@ -1,5 +1,5 @@
 name: Build and deploy extension
-on: [push pull_request release]
+on: [push, pull_request, release]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,7 +9,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 10.x
-    - name: Install depedencies
+    - name: Install dependencies
       run: |
         yarn
     - name: Compile TypeScript and YAML
