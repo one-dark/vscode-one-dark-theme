@@ -14,14 +14,14 @@ import loadTokens from './load-tokens'
  * Moves the color config from the source YAML file to the output JSON file.
  * @param name - Name of the color config file.
  */
-function moveColorConfig (name: string) {
+function moveColorConfig (name: string): Promise<void> {
   return writeJson(
     join(OUTPUT_DIRECTORY, 'colors', `${name}.json`),
     readYaml(join('colors', `${name}.yaml`))
   )
 }
 
-(async function () {
+(async function (): Promise<void> {
   // Read colors yaml files and move to the output directory
   await Promise.all([
     moveColorConfig('normal'),

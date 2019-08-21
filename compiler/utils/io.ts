@@ -14,7 +14,7 @@ export function readYaml (path: string): any {
   return loadYaml(join(INPUT_DIRECTORY, path))
 }
 
-export async function writeJson (path: string, data: any) {
+export async function writeJson (path: string, data: any): Promise<void> {
   const directory = path.substring(0, path.lastIndexOf('/'))
   await fs.mkdir(directory, { recursive: true })
 

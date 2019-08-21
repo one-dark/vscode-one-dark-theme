@@ -1,32 +1,22 @@
 import { readYaml } from './utils/io'
 import { processBold, processForeground, processItalic } from './processors'
-import { Config } from './types'
+import { Settings } from './types'
 
-/**
- * PUBLIC FUNCTIONS
- * --------------------------------------------------
- */
-
-export default function loadTokens (tokens: Tokens, filePath: string) {
-  for (const [scope, rules] of loadScopes(filePath)) {
-    processBold(tokens, scope, rules.bold)
-    processForeground(tokens, scope, rules.foreground)
-    processItalic(tokens, scope, rules.italic)
-  }
-}
-
-/**
- * PRIVATE FUNCTIONS
- * --------------------------------------------------
- */
-
-function loadScopes (filePath: string): [string, Config.Settings][] {
+function loadScopes (filePath: string): [string, Settings][] {
   return Object
     .entries(readYaml(filePath))
-    .map(([scope, settings]: [string, Config.Settings]) =>
+    .map(([scope, settings]: [string, Settings]) =>
       typeof settings === 'string'
         // non-object settings are assumed to be the foreground color
         ? [scope, { foreground: settings }]
         : [scope, settings]
     )
+}
+
+export default function loadTokens (tokens: Tokens, filePath: string): void {
+  for (const [scope, rules] of loadScopes(filePath)) {
+    processBold(tokens, scope, rules.bold)
+    processForeground(tokens, scope, rules.foreground)
+    processItalic(tokens, scope, rules.italic)
+  }
 }
