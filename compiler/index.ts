@@ -6,7 +6,8 @@ import {
   readYaml,
   listDirectory,
   INPUT_DIRECTORY
-} from './io-utils'
+} from './utils/io'
+
 import loadTokens from './load-tokens'
 
 /**
