@@ -1,4 +1,4 @@
-import { Scopes, Scope, Setting } from '../types'
+import { Scope, Scopes, Setting } from '../types'
 import hasProp from '../utils/has-prop'
 
 const createScope = (name: string, scope: string): Scope => ({

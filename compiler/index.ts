@@ -8,7 +8,8 @@ import {
   INPUT_DIRECTORY
 } from './utils/io'
 
-import loadTokens from './load-tokens'
+import loadScopes from './load-scopes'
+import { Scopes } from './types'
 
 /**
  * Moves the color config from the source YAML file to the output JSON file.
@@ -29,20 +30,20 @@ function moveColorConfig (name: string): Promise<void> {
   ])
 
   // Create objects to collect normal and italic scopes
-  const tokens = {
+  const scopes: Scopes = {
     bold: {},
     italic: {},
     normal: {}
   }
 
   // Read base theme scopes and put individual parts into the objects
-  loadTokens(tokens, 'theme.yaml')
+  loadScopes(scopes, 'theme.yaml')
 
   // Read languages and put individual parts into the objects
   const promises = (await listDirectory(join(INPUT_DIRECTORY, 'languages')))
-    .map(filename => loadTokens(tokens, join('languages', filename)))
+    .map(filename => loadScopes(scopes, join('languages', filename)))
 
   await Promise.all(promises)
 
-  console.log(tokens)
+  console.log(scopes)
 })()
