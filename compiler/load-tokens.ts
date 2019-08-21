@@ -1,6 +1,6 @@
 import { readYaml } from './utils/io'
 import { processBold, processForeground, processItalic } from './processors'
-import { Tokens, Scope, Rules } from './types'
+import { Config } from './types'
 
 /**
  * PUBLIC FUNCTIONS
@@ -20,13 +20,13 @@ export default function loadTokens (tokens: Tokens, filePath: string) {
  * --------------------------------------------------
  */
 
-function loadScopes (filePath: string): Scope[] {
+function loadScopes (filePath: string): [string, Config.Settings][] {
   return Object
     .entries(readYaml(filePath))
-    .map(([scope, rules]: [string, string | Rules]) =>
-      typeof rules === 'string'
-        // non-object rules are assumed to be the foreground color
-        ? [scope, { foreground: rules }]
-        : [scope, rules]
+    .map(([scope, settings]: [string, Config.Settings]) =>
+      typeof settings === 'string'
+        // non-object settings are assumed to be the foreground color
+        ? [scope, { foreground: settings }]
+        : [scope, settings]
     )
 }
