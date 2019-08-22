@@ -1,6 +1,16 @@
 %YAML 1.2
 ---
-support.type.builtin.ts: chalky
-support.type.builtin.tsx: chalky
-support.type.primitive.ts: chalky
-support.type.primitive.tsx: chalky
+support.type.builtin.ts:
+  foreground: ${{ colors.chalky }}
+  italic: ${{ settings.italic }}
+  bold: ${{ settings.bold }}
+support.type.builtin.tsx:
+  foreground: ${{ colors.chalky }}
+  italic: true
+support.type.primitive.ts:
+  foreground: ${{ colors.chalky }}
+  bold: true
+support.type.primitive.tsx:
+  foreground: ${{ colors.chalky }}
+  italic: true
+  bold: true
