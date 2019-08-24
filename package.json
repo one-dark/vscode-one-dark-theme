@@ -7,12 +7,12 @@
   "author": "Mark Skelton",
   "repository": {
     "type": "git",
-    "url": "https://github.com/markypython/vscode-one-dark-theme.git"
+    "url": "https://github.com/one-dark/vscode-one-dark-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/markypython/vscode-one-dark-theme/issues"
+    "url": "https://github.com/one-dark/vscode-one-dark-theme/issues"
   },
-  "homepage": "https://github.com/markypython/vscode-one-dark-theme#readme",
+  "homepage": "https://github.com/one-dark/vscode-one-dark-theme#readme",
   "license": "MIT",
   "keywords": [
     "one-dark",
@@ -32,13 +32,13 @@
   },
   "badges": [
     {
-      "href": "https://github.com/markypython/vscode-one-dark-theme/actions",
-      "url": "https://travis-ci.com/markypython/vscode-one-dark-theme.svg?branch=master",
+      "href": "https://github.com/one-dark/vscode-one-dark-theme/actions",
+      "url": "https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master",
       "description": "Build status"
     },
     {
-      "href": "https://github.com/markypython/vscode-one-dark-theme/releases/latest",
-      "url": "https://img.shields.io/github/tag/markypython/vscode-one-dark-theme.svg",
+      "href": "https://github.com/one-dark/vscode-one-dark-theme/releases/latest",
+      "url": "https://img.shields.io/github/tag/one-dark/vscode-one-dark-theme.svg",
       "description": "GitHub tag"
     },
     {
