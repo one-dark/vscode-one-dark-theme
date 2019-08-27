@@ -2,7 +2,7 @@ import { join } from 'path'
 import { promises as fs } from 'fs'
 import { load as loadYaml } from 'yamljs'
 
-export const INPUT_DIRECTORY = join(__dirname, '..', '..', 'config')
+export const INPUT_DIRECTORY = join(__dirname, '..', 'config')
 export const OUTPUT_DIRECTORY = join(__dirname, '..', '..', 'src', 'config')
 
 /**
