@@ -1,10 +1,14 @@
 export interface Scope {
-  name: string
   scope: string[]
   settings: {
     foreground?: string
     fontStyle?: 'bold' | 'italic'
   }
+}
+
+export interface ScopeSettings {
+  fontStyle?: 'bold' | 'italic'
+  foreground?: string
 }
 
 export interface ScopeMap {

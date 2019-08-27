@@ -1,15 +1,14 @@
 import { join } from 'path'
-
+import { loadScopes } from './load-scopes'
+import { Scopes } from './types'
 import {
-  writeJson,
+  INPUT_DIRECTORY,
+  listDirectory,
   OUTPUT_DIRECTORY,
   readYaml,
-  listDirectory,
-  INPUT_DIRECTORY
+  writeJson
 } from './utils/io'
-
-import loadScopes from './load-scopes'
-import { Scopes } from './types'
+import { writeScopes } from './write-scopes'
 
 /**
  * Moves the color config from the source YAML file to the output JSON file.
@@ -37,13 +36,12 @@ function moveColorConfig (name: string): Promise<void> {
   }
 
   // Read base theme scopes and put individual parts into the objects
-  loadScopes(scopes, 'theme.yaml')
+  loadScopes(scopes, 'theme.yaml');
 
   // Read languages and put individual parts into the objects
-  const promises = (await listDirectory(join(INPUT_DIRECTORY, 'languages')))
-    .map(filename => loadScopes(scopes, join('languages', filename)))
+  (await listDirectory(join(INPUT_DIRECTORY, 'languages')))
+    .forEach(filename => loadScopes(scopes, join('languages', filename)))
 
-  await Promise.all(promises)
-
-  console.log(scopes)
+  // Write the scopes to the ouput files
+  await writeScopes(scopes)
 })()

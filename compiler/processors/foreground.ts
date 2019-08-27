@@ -1,5 +1,19 @@
-import { Tokens } from '../types'
+import { Scopes } from '../types'
+import { addScope } from '../utils/scopes'
 
-export function processForeground (tokens: Tokens, scope: string, value: string) {
+const getScopeKey = (setting: string): string => `foreground:${setting}`
 
+export function processForeground (
+  scopes: Scopes,
+  scope: string,
+  setting: string
+): void {
+  if (setting === undefined) return
+
+  addScope(
+    scopes.normal,
+    getScopeKey(setting),
+    scope,
+    { foreground: setting }
+  )
 }

@@ -13,10 +13,10 @@ function loadSettings (filePath: string): [string, Settings][] {
     )
 }
 
-export default function loadScopes (scopes: Scopes, filePath: string): void {
-  for (const [scope, rules] of loadSettings(filePath)) {
-    processBold(scopes, scope, rules.bold)
-    processForeground(scopes, scope, rules.foreground)
-    processItalic(scopes, scope, rules.italic)
+export function loadScopes (scopes: Scopes, filePath: string): void {
+  for (const [scope, settings] of loadSettings(filePath)) {
+    processBold(scopes, scope, settings.bold)
+    processForeground(scopes, scope, settings.foreground)
+    processItalic(scopes, scope, settings.italic)
   }
 }

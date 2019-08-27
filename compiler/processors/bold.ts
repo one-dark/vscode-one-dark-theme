@@ -1,25 +1,16 @@
-import { Scope, Scopes, Setting } from '../types'
-import hasProp from '../utils/has-prop'
-
-const createScope = (name: string, scope: string): Scope => ({
-  name,
-  scope: [scope],
-  settings: {
-    fontStyle: 'bold'
-  }
-})
+import { Scopes, Setting } from '../types'
+import { addScope } from '../utils/scopes'
 
 export function processBold (
   scopes: Scopes,
   scope: string,
   setting: Setting
 ): void {
+  if (setting === undefined) return
+
   const scopeLocation = setting === '${{ settings.bold }}'
     ? scopes.bold
     : scopes.normal
 
-  // If other scopes already exist, add this to the existing list
-  if (hasProp(scopeLocation, '')) {
-    createScope('', scope)
-  }
+  addScope(scopeLocation, 'fontStyle:bold', scope, { fontStyle: 'bold' })
 }
