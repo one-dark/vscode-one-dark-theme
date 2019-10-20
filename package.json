@@ -20,15 +20,19 @@
     "vscode"
   ],
   "eslintConfig": {
-    "extends": "@mskelton"
+    "extends": [
+      "@mskelton",
+      "@mskelton/eslint-config/typescript"
+    ]
   },
   "prettier": "@mskelton/prettier-config",
   "scripts": {
     "compile:yaml": "ts-node ./compiler",
     "compile:ts": "tsc -p .",
+    "compile": "yarn compile:yaml && yarn compile:ts",
     "lint": "eslint .",
     "postversion": "git push && git push --tags",
-    "vscode:prepublish": "yarn compile:yaml && yarn compile:ts"
+    "vscode:prepublish": "yarn compile"
   },
   "engines": {
     "vscode": "^1.37.0"
@@ -74,10 +78,25 @@
         "uiTheme": "vs-dark",
         "path": "./themes/one-dark.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "One Dark",
+      "properties": {
+        "oneDark.italic": {
+          "type": "boolean",
+          "default": false,
+          "description": "Uses italic font for language keywords and comments."
+        },
+        "oneDark.vivid": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "Uses the [vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette."
+        }
+      }
+    }
   },
   "devDependencies": {
-    "@mskelton/eslint-config": "^4.0.0",
+    "@mskelton/eslint-config": "^5.0.3",
     "@mskelton/prettier-config": "^1.0.2",
     "@types/node": "^12.7.2",
     "@types/vscode": "^1.37.0",

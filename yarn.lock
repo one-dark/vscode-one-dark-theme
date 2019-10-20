@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@mskelton/eslint-config@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@mskelton/eslint-config/-/eslint-config-4.0.0.tgz#164652cde57269a81dfa5b07e3dfe6eb5376f699"
-  integrity sha512-vuUalSbhTYOS2syd5O2RCx6MXXDAdwo+WgjpJDubXCervO3E64TFJuZgPrEhUpQJWwzQoYJE1b4rUy6vR7xXFA==
+"@mskelton/eslint-config@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@mskelton/eslint-config/-/eslint-config-5.0.3.tgz#c88dd62d7900dc52849809429a8c57cb1f3a8b50"
+  integrity sha512-3he5Ye6J9/h1Eppa6DwN4cxEs1YzXyBEkEsKcT5hwzjZUTPURNihdljc3HHxlSAuXpmTwwCrFSZvBK0TIZOMxQ==
   dependencies:
     "@typescript-eslint/parser" "^2.4.0"
     eslint-config-prettier "^6.4.0"
