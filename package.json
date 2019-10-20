@@ -97,7 +97,7 @@
   },
   "devDependencies": {
     "@mskelton/eslint-config": "^5.0.3",
-    "@mskelton/prettier-config": "^1.0.2",
+    "@mskelton/prettier-config": "^5.0.0",
     "@types/node": "^12.7.2",
     "@types/vscode": "^1.37.0",
     "@types/yamljs": "^0.2.30",

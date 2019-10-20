@@ -27,10 +27,10 @@
     eslint-config-prettier "^6.4.0"
     eslint-config-standard "^14.1.0"
 
-"@mskelton/prettier-config@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@mskelton/prettier-config/-/prettier-config-1.0.2.tgz#d88876486e7b056189fe62289b16494c3c59e544"
-  integrity sha512-YEKnrIH7r4vI0XeRZejCxd5L/OkPt7p3PG0APmN7JwrBaH18/OfYiEztfONPbcTiMblgLKX1OocW4+fvC6m09A==
+"@mskelton/prettier-config@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@mskelton/prettier-config/-/prettier-config-5.0.0.tgz#ada49cda913ad4c84d7e98fa453357eae1edb266"
+  integrity sha512-BM7x5Qi9hLSTZ+F8ZjrC9bX1rN52Vbry7V7J64W4jquat3g1dPNwKH73LhbaOOeBY6BhByN7PL5aEBoB9kDi9Q==
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
