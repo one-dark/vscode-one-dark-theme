@@ -1,28 +1,24 @@
-import { extensions } from 'vscode'
+import { extensions, ConfigurationChangeEvent } from 'vscode'
+import { promptToReload } from './reload-prompt'
 
 function getExtensionConfiguration(): { [config: string]: any } {
   return extensions.getExtension('markskelton.vscode-one-dark-theme')
     .packageJSON.contributes.configuration.properties
 }
 
-export async function detectConfigChanges(): Promise<void> {
-  const configs = Object.keys(getExtensionConfiguration()).map(c =>
-    c
-      .split('.')
-      .slice(1)
-      .join('.')
+async function createThemeFile() {}
+
+export async function detectConfigChanges(
+  event: ConfigurationChangeEvent
+): Promise<void> {
+  const extensionSettingChanged = Object.keys(getExtensionConfiguration()).some(
+    key => event.affectsConfiguration(key)
   )
 
-  const updatedOptions = await compareConfigs(configs)
+  if (extensionSettingChanged) {
+    // update theme json file with new options
+    await createThemeFile()
 
-  // if there's nothing to update
-  if (!updatedOptions) return
-
-  // update theme json file with new options
-  // return createThemeFile(updatedOptions).then(() => {
-  //   console.log(green('New theme configuration file successfully created!'))
-  //   promptToReload()
-  // }).catch(err => {
-  //   console.error(err)
-  // })
+    promptToReload()
+  }
 }
