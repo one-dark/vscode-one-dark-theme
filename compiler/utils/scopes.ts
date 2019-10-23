@@ -3,10 +3,10 @@ import { hasProp } from './has-prop'
 
 const createScope = (scope: string, settings: ScopeSettings): Scope => ({
   scope: [scope],
-  settings
+  settings,
 })
 
-export function addScope (
+export function addScope(
   scopeMap: ScopeMap,
   scopeKey: string,
   scope: string,
