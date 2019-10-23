@@ -4,7 +4,7 @@ import { load as loadYaml } from 'yamljs'
 import { PRETTY_PRINT_JSON } from './env'
 
 export const INPUT_DIRECTORY = join(__dirname, '..', 'config')
-export const OUTPUT_DIRECTORY = join(__dirname, '..', '..', 'old', 'config')
+export const OUTPUT_DIRECTORY = join(__dirname, '..', '..', 'out', 'config')
 
 /**
  * Reads a yaml file into a JS object
