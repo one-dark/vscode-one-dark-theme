@@ -1,18 +1,11 @@
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "noUnusedLocals": true,
-    "outDir": "out"
-  },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
+  "files": [],
+  "references": [
+    {
+      "path": "./src"
+    },
+    {
+      "path": "./compiler"
+    },
   ]
 }

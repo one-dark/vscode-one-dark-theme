@@ -9,7 +9,7 @@
       "type": "extensionHost",
       "request": "launch",
       "runtimeExecutable": "${execPath}",
-      "preLaunchTask": "Compile",
+      "preLaunchTask": "npm: watch",
       "args": [
         "--disable-extensions",
         "--extensionDevelopmentPath=${workspaceFolder}"
