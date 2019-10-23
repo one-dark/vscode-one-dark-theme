@@ -18,12 +18,17 @@ async function generateThemeConfig(config: WorkspaceConfiguration) {
     filesToLoad.push('italic.json')
   }
 
-  // Read the token colors from the source theme files
+  // Read all the config files from the files to load array
   const tokenColors = (await Promise.all(filesToLoad.map(readThemeFile))).flat()
+
+  // Read editor colors from the editor config file
+  const editorColors = await readFile(
+    join(__dirname, '..', 'config', 'editor.json')
+  )
 
   // Generate the new theme
   return {
-    colors: readFile(join(__dirname, '..', 'config', 'editor.json')),
+    colors: editorColors,
     name: 'One dark',
     tokenColors,
     type: 'dark',
