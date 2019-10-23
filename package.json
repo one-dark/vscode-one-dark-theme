@@ -28,9 +28,10 @@
   "prettier": "@mskelton/prettier-config",
   "scripts": {
     "compile:yaml": "ts-node ./compiler",
-    "compile:ts": "tsc -p .",
-    "compile": "yarn compile:yaml && yarn compile:ts",
+    "compile:ts": "tsc -p src",
     "lint": "eslint .",
+    "watch": "yarn compile:ts -watch",
+    "compile": "yarn compile:yaml && yarn compile:ts",
     "postversion": "git push && git push --tags",
     "vscode:prepublish": "yarn compile"
   },
