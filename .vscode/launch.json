@@ -5,15 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Extension",
+      "name": "Run Extension",
       "type": "extensionHost",
       "request": "launch",
       "runtimeExecutable": "${execPath}",
-      "preLaunchTask": "npm: watch",
       "args": [
         "--disable-extensions",
         "--extensionDevelopmentPath=${workspaceFolder}"
-      ]
+      ],
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+      ],
+      "preLaunchTask": "npm: watch"
     }
   ]
 }
