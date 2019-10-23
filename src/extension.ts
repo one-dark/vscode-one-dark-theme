@@ -1,5 +1,5 @@
 import { workspace } from 'vscode'
-import { detectConfigChanges } from './utils/detect-changes'
+import { detectConfigChanges } from './helpers/detect-changes'
 
 /**
  * This method is called when the extension is activated.
