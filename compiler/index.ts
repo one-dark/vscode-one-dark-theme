@@ -42,4 +42,10 @@ function moveColorConfig(name: string): Promise<void> {
 
   // Write the scopes to the ouput files
   await writeScopes(scopes)
+
+  // Write the editor config
+  await writeJson(
+    join(OUTPUT_DIRECTORY, 'editor.json'),
+    readYaml('editor.yaml')
+  )
 })()
