@@ -1,4 +1,11 @@
-import { Colors } from '../../models/colors'
-import { TokenGroup } from '../../models/tokens'
+import { FontStyle, TokenGroup } from '../../models'
 
-export const getItalicTokens = (colors: Colors): TokenGroup[] => []
+export const italicTokens: TokenGroup[] = [
+  {
+    name: 'Chalky',
+    scope: ['keyword.control', 'storage.type'],
+    settings: {
+      fontStyle: FontStyle.Italics,
+    },
+  },
+]

@@ -3,26 +3,17 @@ import { TokenGroup } from '../../models/tokens'
 
 export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
-    name: 'Magnolia',
-    scope: [
-      'meta.brace',
-      'punctuation.definition.array',
-      'punctuation.definition.binding-pattern',
-      'punctuation.definition.block',
-      'punctuation.definition.dictionary',
-      'punctuation.definition.string',
-      'punctuation.definition.tag',
-      'punctuation.curlybrace',
-      'punctuation.fullstop',
-      'punctuation.section',
-      'punctuation.separator',
-      'punctuation.support',
-      'punctuation.terminator',
-      'meta.structure.dictionary.json',
-      'string.quoted.double.json',
-    ],
+    name: 'Chalky',
+    scope: ['entity.name.type'],
     settings: {
-      foreground: '#F6F0FF',
+      foreground: colors.chalky,
+    },
+  },
+  {
+    name: 'Purple',
+    scope: ['keyword.control', 'storage.type'],
+    settings: {
+      foreground: colors.purple,
     },
   },
 ]
