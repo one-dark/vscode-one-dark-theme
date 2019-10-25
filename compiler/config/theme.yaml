@@ -1,3 +1,0 @@
-%YAML 1.2
----
-support.type.builtin: ${{ colors.purple }}
