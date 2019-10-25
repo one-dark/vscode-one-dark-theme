@@ -10,6 +10,13 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     },
   },
   {
+    name: 'Coral',
+    scope: ['entity.name.tag'],
+    settings: {
+      foreground: colors.coral,
+    },
+  },
+  {
     name: 'Dark',
     scope: ['comment'],
     settings: {
@@ -25,7 +32,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Purple',
-    scope: ['keyword.control', 'storage.type'],
+    scope: ['keyword.control', 'storage.type', 'storage.modifier'],
     settings: {
       foreground: colors.purple,
     },
@@ -39,7 +46,11 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Whiskey',
-    scope: ['variable.parameter'],
+    scope: [
+      'constant.language',
+      'variable.parameter',
+      'variable.other.constant',
+    ],
     settings: {
       foreground: colors.whiskey,
     },
