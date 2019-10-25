@@ -12,7 +12,7 @@ export function generateTheme(configuration: ThemeConfiguration) {
     configuration.bold && boldTokens,
   ]
     .filter(Boolean)
-    .flat()
+    .reduce((aggregate, curr) => aggregate.concat(...curr), [])
 
   return {
     colors: editorTokens,
