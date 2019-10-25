@@ -1,11 +1,10 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./src"
-    },
-    {
-      "path": "./compiler"
-    },
-  ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "sourceMap": true,
+    "strict": false,
+    "rootDir": "src",
+    "outDir": "out"
+  },
 }
