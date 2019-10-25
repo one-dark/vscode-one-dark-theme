@@ -1,7 +1,7 @@
 {
   "name": "vscode-one-dark-theme",
-  "displayName": "One dark theme",
-  "description": "One dark theme for Visual Studio Code",
+  "displayName": "One Dark theme",
+  "description": "One Dark theme for Visual Studio Code",
   "version": "0.0.8",
   "publisher": "markskelton",
   "author": "Mark Skelton",
@@ -27,11 +27,9 @@
   },
   "prettier": "@mskelton/prettier-config",
   "scripts": {
-    "compile:yaml": "ts-node ./compiler",
-    "compile:ts": "tsc -p src",
     "lint": "eslint .",
-    "watch": "yarn compile:ts -watch",
-    "compile": "yarn compile:yaml && yarn compile:ts",
+    "watch": "yarn compile -watch",
+    "compile": "tsc",
     "postversion": "git push && git push --tags",
     "vscode:prepublish": "yarn compile"
   },
@@ -75,7 +73,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "One dark",
+        "label": "One Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/one-dark.json"
       }
@@ -106,8 +104,7 @@
     "@mskelton/prettier-config": "^5.0.0",
     "@types/node": "^12.7.2",
     "@types/vscode": "^1.37.0",
-    "@types/yamljs": "^0.2.30",
-    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
     "eslint": "^6.5.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
@@ -120,7 +117,6 @@
     "prettier": "^1.18.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3",
-    "vsce": "^1.66.0",
-    "yamljs": "^0.3.0"
+    "vsce": "^1.66.0"
   }
 }
