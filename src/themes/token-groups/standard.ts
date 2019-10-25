@@ -10,6 +10,20 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     },
   },
   {
+    name: 'Dark',
+    scope: ['comment'],
+    settings: {
+      foreground: colors.dark,
+    },
+  },
+  {
+    name: 'Malibu',
+    scope: ['entity.name.function'],
+    settings: {
+      foreground: colors.malibu,
+    },
+  },
+  {
     name: 'Purple',
     scope: ['keyword.control', 'storage.type'],
     settings: {

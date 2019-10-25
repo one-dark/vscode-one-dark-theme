@@ -2,10 +2,17 @@ import { FontStyle, TokenGroup } from '../../models'
 
 export const italicTokens: TokenGroup[] = [
   {
-    name: 'Chalky',
-    scope: ['keyword.control', 'storage.type'],
+    name: 'Italic',
+    scope: ['comment', 'keyword.control', 'storage.type'],
     settings: {
       fontStyle: FontStyle.Italics,
+    },
+  },
+  {
+    name: 'Reset',
+    scope: ['storage.type.function.arrow'],
+    settings: {
+      fontStyle: FontStyle.None,
     },
   },
 ]
