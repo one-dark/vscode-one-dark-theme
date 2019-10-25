@@ -35,7 +35,6 @@
     "lint": "eslint .",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn compile:ts -w",
-    "watch": "concurrently yarn:watch:*",
     "postversion": "git push && git push --tags",
     "vscode:prepublish": "yarn compile:ts"
   },
@@ -111,7 +110,6 @@
     "@types/node": "^12.7.2",
     "@types/vscode": "^1.37.0",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
-    "concurrently": "^5.0.0",
     "eslint": "^6.5.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
