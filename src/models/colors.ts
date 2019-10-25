@@ -4,7 +4,7 @@ export interface Colors {
   dark: string
   error: string
   fountainBlue: string
-  green: string
+  sage: string
   lightWhite: string
   malibu: string
   purple: string

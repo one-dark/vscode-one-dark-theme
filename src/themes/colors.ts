@@ -6,10 +6,10 @@ export const standardColors: Colors = {
   dark: '#5c6370',
   error: '#f44747',
   fountainBlue: '#56b6c2',
-  green: '#98c379',
   lightWhite: '#abb2bf',
   malibu: '#61afef',
   purple: '#c678dd',
+  sage: '#98c379',
   whiskey: '#d19a66',
 }
 
@@ -19,9 +19,9 @@ export const vividColors: Colors = {
   dark: '#5c6370',
   error: '#f44747',
   fountainBlue: '#2bbac5',
-  green: '#89ca78',
   lightWhite: '#bbbbbb',
   malibu: '#61afef',
   purple: '#d55fde',
+  sage: '#89ca78',
   whiskey: '#d19a66',
 }
