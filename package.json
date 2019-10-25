@@ -83,9 +83,14 @@
     "configuration": {
       "title": "One Dark",
       "properties": {
-        "oneDark.italic": {
+        "oneDark.bold": {
           "type": "boolean",
           "default": false,
+          "markdownDescription": "Uses bold font for certain language keywords."
+        },
+        "oneDark.italic": {
+          "type": "boolean",
+          "default": true,
           "description": "Uses italic font for language keywords and comments."
         },
         "oneDark.vivid": {
