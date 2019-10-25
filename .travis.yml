@@ -4,8 +4,7 @@ node_js:
 install:
   - yarn
 script:
-  - yarn compile:ts
-  - yarn compile:yaml
+  - yarn compile
   - yarn vsce package
 deploy:
   - provider: releases
