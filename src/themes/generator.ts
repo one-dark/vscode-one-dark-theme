@@ -1,9 +1,11 @@
-import { ThemeConfiguration } from '../models/configuration'
+import { ThemeConfiguration } from '../models'
 import { standardColors, vividColors } from './colors'
 import { editorTokens } from './editor'
-import { getBoldTokens } from './token-groups/bold'
-import { getStandardTokens } from './token-groups/standard'
-import { getItalicTokens } from './token-groups/italic'
+import {
+  getBoldTokens,
+  getItalicTokens,
+  getStandardTokens,
+} from './token-groups'
 
 export function generateTheme(configuration: ThemeConfiguration) {
   const colors = configuration.vivid ? vividColors : standardColors
