@@ -31,7 +31,7 @@
   "scripts": {
     "compile:theme": "ts-node ./scripts/generate-theme.ts",
     "compile:ts": "tsc -p src",
-    "compile": "yarn compile:ts",
+    "compile": "yarn compile:theme && yarn compile:ts",
     "lint": "eslint .",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn compile:ts -w",
