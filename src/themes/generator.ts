@@ -14,7 +14,9 @@ export function generateTheme(configuration: ThemeConfiguration) {
     getStandardTokens(colors),
     configuration.italic && getItalicTokens(colors),
     configuration.bold && getBoldTokens(colors),
-  ].flatMap(Boolean)
+  ]
+    .filter(Boolean)
+    .flat()
 
   return {
     colors: editorTokens,
