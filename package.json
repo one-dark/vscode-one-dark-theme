@@ -30,7 +30,7 @@
   "prettier": "@mskelton/prettier-config",
   "scripts": {
     "compile:theme": "ts-node ./scripts/generate-theme.ts",
-    "compile:ts": "tsc",
+    "compile:ts": "tsc -p src",
     "compile": "yarn compile:ts",
     "lint": "eslint .",
     "watch:theme": "yarn compile:ts -w",
