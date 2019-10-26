@@ -10,7 +10,7 @@ This theme comes with several configuration settings to allow you to customize t
 
 To access these configuration settings, open the VS Code settings page and search for "One Dark".
 
-![Theme settings](../.gitbook/assets/2019-10-26_11-41-02%20%281%29.png)
+![Theme settings](../.gitbook/assets/2019-10-26_11-41-02.png)
 
 This theme ships with the italic setting turned on by default and the other settings turned off by default, but you can adjust the settings to any combination you like.  After updating the settings, you will be prompted to reload the window to apply the configuration changes.
 
