@@ -4,6 +4,7 @@ import { editorTokens } from './editor'
 import {
   alwaysBoldTokens,
   alwaysItalicTokens,
+  boldItalicTokens,
   boldTokens,
   getStandardTokens,
   italicTokens,
@@ -18,6 +19,7 @@ export function generateTheme(configuration: ThemeConfiguration) {
     alwaysBoldTokens,
     configuration.italic && italicTokens,
     configuration.bold && boldTokens,
+    configuration.bold && configuration.italic && boldItalicTokens,
   ]
     .filter(Boolean)
     .reduce((aggregate, curr) => aggregate.concat(...curr), [])
