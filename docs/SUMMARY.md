@@ -11,4 +11,5 @@
 ## Development
 
 * [Development](development/development.md)
+* [Color Palette](development/color-palette.md)
 

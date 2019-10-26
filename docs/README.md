@@ -1,11 +1,21 @@
+---
+description: One Dark theme for VS Code.
+---
+
 # Introduction
 
-Welcome to One Dark theme for VS Code! This theme aims to provide VS Code users with the lovely colors of the [Atom One Dark theme](https://github.com/atom/atom/tree/master/packages/one-dark-syntax).
+### Major Changes From Previous Theme
 
-Contributions are always welcome! Don't feel pressured into putting a lot of time into a pull request or an elaborate issue description, just do what you can and we will work from there.
+This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 
-## Acknowledgments
+Additionally, we have moved away from the approach of generating multiple theme \(i.e. One Dark Italic Vivid, One Dark Italic Bold\) in favor of a single theme "One Dark" which can be customized using settings. Search for "One Dark" in the VS Code settings editor to view the available settings for this theme. Not only is this a better user experience, but it also allows for more customization \(i.e. vivid and bold without italics\).
 
-- Thanks to [Binaryify](https://github.com/Binaryify) who created the repository this project was based on.
-- Thanks to GitBook for hosting these docs!
-- Finally, thanks to everyone who has contributed to this project through issues, pull requests, and plugin usage. Your usage and feedback has helped to make this plugin what it is!
+Finally, this release changes the theme name from "One Dark Pro Italic" to "One Dark Theme" as the theme can now be configured to use or not use italics using the new theme settings.
+
+We hope you enjoy this new version and we appreciate your patience with any issues that come up as a result of this major overhaul. If you find any issues with this update, please open an issue on our [GitHub repo](https://github.com/one-dark/vscode-one-dark-theme). Thank you all!
+
+### Thanks
+
+* Thanks to [阿发](https://github.com/Binaryify) for his work on the theme this project was originally based on.
+* Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
+
