@@ -5,11 +5,9 @@ export const italicTokens: TokenGroup[] = [
     name: 'Italic',
     scope: [
       'comment',
-      'keyword.control',
-      'keyword.other',
-      'keyword.operator.new',
-      'storage.modifier',
+      'keyword',
       'storage.type',
+      'storage.modifier',
       'variable.language.this',
       'variable.language.super',
       'string.url',
@@ -22,6 +20,7 @@ export const italicTokens: TokenGroup[] = [
   {
     name: 'Reset',
     scope: [
+      'keyword.operator',
       'keyword.other.type',
       'storage.modifier.import',
       'storage.type.built-in',

@@ -35,7 +35,8 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'support.type.property-name',
       'variable.object.property',
       'variable.other.enummember',
-      'punctuation.definition.list',
+      'punctuation.definition.list.begin.markdown',
+      'punctuation.definition.list.end.markdown',
       'constant.other.character-class',
     ],
     settings: {
@@ -70,7 +71,6 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'support.function',
       'string.other.link',
       'variable.language.super',
-      'meta.method-call',
     ],
     settings: {
       foreground: colors.malibu,
@@ -78,11 +78,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Light white',
-    scope: [
-      'punctuation.separator',
-      'support.type.property-name.css',
-      'punctuation.definition.method-parameters',
-    ],
+    scope: ['punctuation.separator', 'support.type.property-name.css'],
     settings: {
       foreground: colors.lightWhite,
     },
@@ -90,10 +86,8 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
     name: 'Purple',
     scope: [
-      'keyword.control',
-      'keyword.operator.expression',
+      'keyword',
       'keyword.operator.new',
-      'keyword.other',
       'markup.italic',
       'storage.modifier',
       'storage.type',
@@ -108,7 +102,6 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'string',
       'markup.quote',
       'string.other.link.description',
-      'markup.fenced_code',
       'markup.inline',
       'source.ini',
     ],
