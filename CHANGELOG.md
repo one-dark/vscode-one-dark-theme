@@ -1,4 +1,4 @@
-## v1.0.6
+## v1.0.7
 
 Testing new release process.
 
