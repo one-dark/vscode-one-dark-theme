@@ -6,7 +6,7 @@
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
-## Major changes from old theme
+## Major Changes From Previous Theme
 
 This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 
@@ -16,7 +16,7 @@ Finally, this release changes the theme name from "One Dark Pro Italic" to "One 
 
 We hope you enjoy this new version and we appreciate your patience with any issues that come up as a result of this major overhaul. If you find any issues with this update, please open an issue on our [GitHub repo](https://github.com/one-dark/vscode-one-dark-theme). Thank you all!
 
-## Theme configuration
+## Theme Configuration
 
 This theme comes with several configuration settings to allow you to customize the theme to your preference. We currently support the following settings:
 
@@ -24,7 +24,7 @@ This theme comes with several configuration settings to allow you to customize t
 - **Italic** - When enabled, uses italic font for keywords. Note that some scopes (i.e. markdown block quotes) are styled with italic font even when this setting is disabled.
 - **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes (i.e. markdown headers) are styled with bold font even when this setting is disabled.
 
-## Advanced customizations
+## Advanced Customizations
 
 For more advanced theme customizations, use the setting `workbench.colorCustomizations` to customize the currently selected theme. For example, you can add this snippet in your `settings.json` file:
 
