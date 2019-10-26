@@ -1,13 +1,61 @@
-# VS Code One Dark theme
+# VS Code One Dark Theme
 
-[![Build status][build-status-badge]][build-status]
-[![VS Code extension version][extension-version-badge]][extension-page]
-[![VS Code extension downloads][extension-downloads-badge]][extension-page]
+[![TravisCI build status](https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master)](https://travis-ci.com/one-dark/vscode-one-dark-theme)
+[![Visual Studio Marketplace version](https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
+[![Visual Studio Marketplace downloads](https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
 
-[One Dark](https://github.com/atom/one-dark-syntax) theme for Visual Studio Code. Includes normal and italic variations.
+> [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
-[build-status-badge]: https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master
-[build-status]: https://travis-ci.com/one-dark/vscode-one-dark-theme 'Build status'
-[extension-version-badge]: https://img.shields.io/visual-studio-marketplace/v/markskelton.vscode-one-dark-theme
-[extension-page]: https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme 'Extension homepage'
-[extension-downloads-badge]: https://img.shields.io/visual-studio-marketplace/d/markskelton.vscode-one-dark-theme
+## Major changes in version 5
+
+This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
+
+Additionally, we have moved away from the approach of generating multiple theme (i.e. One Dark Italic Vivid, One Dark Italic Bold) in favor of a single theme "One Dark" which can be customized using settings. Search for "One Dark" in the VS Code settings editor to view the available settings for this theme. Not only is this a better user experience, but it also allows for more customization (i.e. vivid and bold without italics).
+
+Finally, this release changes the theme name from "One Dark Pro Italic" to "One Dark Theme" as the theme can now be configured to use or not use italics using the new theme settings.
+
+## Theme configuration
+
+This theme comes with several configuration settings to allow you to customize the theme to your preference. We currently support the following settings:
+
+- **Vivid** - Uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette instead of the default color palette.
+- **Italic** - When enabled, uses italic font for keywords. Note that some scopes (i.e. markdown block quotes) are styled with italic font even when this setting is disabled.
+- **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes (i.e. markdown headers) are styled with bold font even when this setting is disabled.
+
+## Advanced customizations
+
+For more advanced theme customizations, use the setting `workbench.colorCustomizations` to customize the currently selected theme. For example, you can add this snippet in your `settings.json` file:
+
+```json
+"workbench.colorCustomizations": {
+    "tab.activeBackground": "#282c34",
+    "activityBar.background": "#282c34",
+    "sideBar.background": "#282c34"
+}
+```
+
+or use the setting `editor.tokenColorCustomizations`
+
+```json
+"editor.tokenColorCustomizations": {
+    "[One Dark]": {
+      "textMateRules": [
+        {
+          "scope": ["source.python"],
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }
+      ]
+    }
+}
+```
+
+Please refer to the official [Theme Color Reference][theme-color-reference] or [Color Theme Documentation][color-theme-docs], for more information on customizing the theme.
+
+## Contributors
+
+Thanks to [阿发](https://github.com/Binaryify) and the [OneDark-Pro](https://github.com//OneDark-Pro) repository which this theme is based on!
+
+[theme-color-reference]: https://code.visualstudio.com/docs/getstarted/theme-color-reference
+[color-theme-docs]: https://code.visualstudio.com/docs/getstarted/themes

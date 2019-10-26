@@ -1,8 +1,8 @@
 {
   "name": "vscode-one-dark-theme",
-  "displayName": "One Dark theme",
+  "displayName": "One Dark Theme",
   "description": "One Dark theme for Visual Studio Code",
-  "version": "0.0.8",
+  "version": "4.0.0",
   "publisher": "markskelton",
   "author": "Mark Skelton",
   "repository": {
@@ -54,11 +54,6 @@
       "href": "https://github.com/one-dark/vscode-one-dark-theme/actions",
       "url": "https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master",
       "description": "Build status"
-    },
-    {
-      "href": "https://github.com/one-dark/vscode-one-dark-theme/releases/latest",
-      "url": "https://img.shields.io/github/tag/one-dark/vscode-one-dark-theme.svg",
-      "description": "GitHub tag"
     },
     {
       "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme",
