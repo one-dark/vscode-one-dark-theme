@@ -36,6 +36,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'variable.object.property',
       'variable.other.enummember',
       'punctuation.definition.list',
+      'constant.other.character-class',
     ],
     settings: {
       foreground: colors.coral,
@@ -50,7 +51,12 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Fountain Blue',
-    scope: ['keyword.operator', 'markup.underline.link'],
+    scope: [
+      'keyword.operator',
+      'markup.underline.link',
+      'constant.character.escape',
+      'string.regexp',
+    ],
     settings: {
       foreground: colors.fountainBlue,
     },
@@ -111,6 +117,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'variable.other.constant',
       'variable.parameter',
       'markup.bold',
+      'keyword.operator.quantifier.regexp',
     ],
     settings: {
       foreground: colors.whiskey,

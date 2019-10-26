@@ -22,6 +22,9 @@ export default {
       result: { code },
     } = await http(`/DocPt/sendSms?phone=${this.phone}&random=${Date.now()}`)
 
+    const url = result.replace(/^\s*(.*)?/, "$1"); // skip leading whitespace
+    var a = "\u1111\z\n\u11";
+
     this.$store.dispatch('saveCapchaData', {
       capchaName: this.capchaName,
       data: code,
