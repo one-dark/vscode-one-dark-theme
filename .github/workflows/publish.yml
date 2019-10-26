@@ -15,18 +15,18 @@ jobs:
           version_regex: ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+
         env:
           GITHUB_TOKEN: ${{ secrets.github_auth_token }}
-  publish-vsce:
-    name: Publish to Visual Studio Marketplace
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 10
-      - name: Install
-        run: yarn
-      - name: Publish to Visual Studio Marketplace
-        run: yarn vsce publish -p ${{secrets.vsce_token}}
+  # publish-vsce:
+  #   name: Publish to Visual Studio Marketplace
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@master
+  #     - uses: actions/setup-node@v1
+  #       with:
+  #         node-version: 10
+  #     - name: Install
+  #       run: yarn
+  #     - name: Publish to Visual Studio Marketplace
+  #       run: yarn vsce publish -p ${{secrets.vsce_token}}
   publish-github:
     name: Publish to GitHub Release
     runs-on: ubuntu-latest
@@ -38,10 +38,10 @@ jobs:
       - name: Install
         run: yarn
       - name: Package extension
-        run: yarn vsce package -o dist/one-dark-theme-${GITHUB_REF/refs\/tags\//}.vsix
+        run: yarn vsce package
       - name: Upload extension to release
         uses: Roang-zero1/github-upload-release-artifacts-action@master
         with:
-          args: dist
+          args: ${*.visx}
         env:
           GITHUB_TOKEN: ${{ secrets.github_auth_token }}
