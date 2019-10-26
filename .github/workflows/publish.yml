@@ -5,6 +5,7 @@ on:
       - v*.*.*
 jobs:
   create-release:
+    name: Create GitHub Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -15,6 +16,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.github_auth_token }}
   publish-vsce:
+    name: Publish to Visual Studio Marketplace
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -26,6 +28,7 @@ jobs:
       - name: Publish to Visual Studio Marketplace
         run: yarn vsce publish -p ${{secrets.vsce_token}}
   publish-github:
+    name: Publish to GitHub Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
