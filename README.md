@@ -30,9 +30,9 @@ For more advanced theme customizations, use the setting `workbench.colorCustomiz
 
 ```json
 "workbench.colorCustomizations": {
-    "tab.activeBackground": "#282c34",
-    "activityBar.background": "#282c34",
-    "sideBar.background": "#282c34"
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "sideBar.background": "#282c34"
 }
 ```
 
@@ -40,24 +40,25 @@ or use the setting `editor.tokenColorCustomizations`
 
 ```json
 "editor.tokenColorCustomizations": {
-    "[One Dark]": {
-      "textMateRules": [
-        {
-          "scope": ["source.python"],
-          "settings": {
-            "foreground": "#e06c75"
-          }
+  "[One Dark]": {
+    "textMateRules": [
+      {
+        "scope": ["source.python"],
+        "settings": {
+          "foreground": "#e06c75"
         }
-      ]
-    }
+      }
+    ]
+  }
 }
 ```
 
 Please refer to the official [Theme Color Reference][theme-color-reference] or [Color Theme Documentation][color-theme-docs], for more information on customizing the theme.
 
-## Contributors
+## Thanks
 
-Thanks to [阿发](https://github.com/Binaryify) and the [OneDark-Pro](https://github.com//OneDark-Pro) repository which this theme is based on!
+- Thanks to [阿发](https://github.com/Binaryify) for his work on the theme this project was originally based on.
+- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
 
 [theme-color-reference]: https://code.visualstudio.com/docs/getstarted/theme-color-reference
 [color-theme-docs]: https://code.visualstudio.com/docs/getstarted/themes
