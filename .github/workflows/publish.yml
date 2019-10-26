@@ -1,0 +1,39 @@
+name: Build & Publish
+on:
+  push:
+    tags:         
+      - v*.*.*
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create release
+        uses: Roang-zero1/github-create-release-action@master
+        with:
+          version_regex: ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+  publish-vsce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - name: Install
+        run: yarn
+      - name: Publish to Visual Studio Marketplace
+        run: yarn vsce publish
+  publish-github:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install
+        run: yarn
+      - name: Package extension
+        run: yarn vsce package
+      - name: Upload extension to release
+        uses: Roang-zero1/github-upload-release-artifacts-action@master
+        with:
+          args: '*.vsix'
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
