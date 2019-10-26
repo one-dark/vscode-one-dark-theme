@@ -1,8 +1,8 @@
 # VS Code One Dark Theme
 
 [![TravisCI build status](https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master)](https://travis-ci.com/one-dark/vscode-one-dark-theme)
-[![Visual Studio Marketplace version](https://img.shields.io/vscode-marketplace/v/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
-[![Visual Studio Marketplace downloads](https://img.shields.io/vscode-marketplace/d/markskelton.one-dark-pro-italic.svg)](https://marketplace.visualstudio.com/items?itemName=markskelton.one-dark-pro-italic)
+[![Visual Studio Marketplace version](https://img.shields.io/vscode-marketplace/v/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
+[![Visual Studio Marketplace downloads](https://img.shields.io/vscode-marketplace/d/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 

@@ -1,9 +1,9 @@
 {
-  "name": "vscode-one-dark-theme",
+  "name": "one-dark-theme",
   "displayName": "One Dark Theme",
   "description": "One Dark theme for Visual Studio Code",
   "version": "4.0.0",
-  "publisher": "markskelton",
+  "publisher": "mskelton",
   "author": "Mark Skelton",
   "repository": {
     "type": "git",
@@ -56,13 +56,13 @@
       "description": "Build status"
     },
     {
-      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme",
-      "url": "https://img.shields.io/visual-studio-marketplace/v/markskelton.vscode-one-dark-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme",
+      "url": "https://img.shields.io/visual-studio-marketplace/v/mskelton.one-dark-theme",
       "description": "VS Code extension version"
     },
     {
-      "href": "https://marketplace.visualstudio.com/items?itemName=markskelton.vscode-one-dark-theme",
-      "url": "https://img.shields.io/visual-studio-marketplace/d/markskelton.vscode-one-dark-theme",
+      "href": "https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme",
+      "url": "https://img.shields.io/visual-studio-marketplace/d/mskelton.one-dark-theme",
       "description": "VS Code extension downloads"
     }
   ],
