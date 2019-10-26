@@ -127,7 +127,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
 
 export const alwaysItalicTokens: TokenGroup[] = [
   {
-    name: 'Italic',
+    name: 'Always italic',
     scope: ['markup.quote', 'markup.italic'],
     settings: {
       fontStyle: FontStyle.Italics,
@@ -137,7 +137,7 @@ export const alwaysItalicTokens: TokenGroup[] = [
 
 export const alwaysBoldTokens: TokenGroup[] = [
   {
-    name: 'Italic',
+    name: 'Always bold',
     scope: ['heading', 'markup.bold'],
     settings: {
       fontStyle: FontStyle.Bold,
