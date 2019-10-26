@@ -1,4 +1,4 @@
-name: Build & Publish
+name: Publish
 on:
   push:
     tags:
@@ -38,10 +38,10 @@ jobs:
       - name: Install
         run: yarn
       - name: Package extension
-        run: yarn vsce package
+        run: yarn vsce package -o one-dark-theme-${{github.ref}}.vsix
       - name: Upload extension to release
         uses: Roang-zero1/github-upload-release-artifacts-action@master
         with:
-          args: '*.vsix'
+          args: one-dark-theme-${{github.ref}}.vsix
         env:
           GITHUB_TOKEN: ${{ secrets.github_auth_token }}
