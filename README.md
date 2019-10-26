@@ -1,6 +1,5 @@
 # VS Code One Dark Theme
 
-[![Build status](https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master)](https://travis-ci.com/one-dark/vscode-one-dark-theme)
 [![Extension version](https://img.shields.io/vscode-marketplace/v/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 [![Extension installs](https://img.shields.io/vscode-marketplace/i/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 

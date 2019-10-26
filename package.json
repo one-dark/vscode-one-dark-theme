@@ -51,11 +51,6 @@
   },
   "badges": [
     {
-      "href": "https://github.com/one-dark/vscode-one-dark-theme/actions",
-      "url": "https://travis-ci.com/one-dark/vscode-one-dark-theme.svg?branch=master",
-      "description": "Build status"
-    },
-    {
       "href": "https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme",
       "url": "https://img.shields.io/visual-studio-marketplace/v/mskelton.one-dark-theme",
       "description": "Extension version"
