@@ -1,5 +1,6 @@
 import { Colors } from '../../models/colors'
 import { TokenGroup } from '../../models/tokens'
+import { FontStyle } from '../../models'
 
 export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
@@ -29,10 +30,12 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     scope: [
       'entity.name.tag',
       'meta.object-literal.key',
+      'heading',
       'punctuation.definition.template-expression',
       'support.type.property-name',
       'variable.object.property',
       'variable.other.enummember',
+      'punctuation.definition.list',
     ],
     settings: {
       foreground: colors.coral,
@@ -47,7 +50,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Fountain Blue',
-    scope: ['keyword.operator'],
+    scope: ['keyword.operator', 'markup.underline.link'],
     settings: {
       foreground: colors.fountainBlue,
     },
@@ -58,6 +61,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'entity.name.function',
       'entity.other.attribute-name.id.css',
       'support.function',
+      'string.other.link',
       'variable.language.super',
     ],
     settings: {
@@ -78,6 +82,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'keyword.operator.expression',
       'keyword.operator.new',
       'keyword.other',
+      'markup.italic',
       'storage.modifier',
       'storage.type',
     ],
@@ -87,7 +92,13 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Sage',
-    scope: ['string'],
+    scope: [
+      'string',
+      'markup.quote',
+      'string.other.link.description',
+      'markup.fenced_code',
+      'markup.inline',
+    ],
     settings: {
       foreground: colors.sage,
     },
@@ -99,9 +110,30 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'entity.other.attribute-name',
       'variable.other.constant',
       'variable.parameter',
+      'markup.bold',
     ],
     settings: {
       foreground: colors.whiskey,
+    },
+  },
+]
+
+export const alwaysItalicTokens: TokenGroup[] = [
+  {
+    name: 'Italic',
+    scope: ['markup.quote', 'markup.italic'],
+    settings: {
+      fontStyle: FontStyle.Italics,
+    },
+  },
+]
+
+export const alwaysBoldTokens: TokenGroup[] = [
+  {
+    name: 'Italic',
+    scope: ['heading', 'markup.bold'],
+    settings: {
+      fontStyle: FontStyle.Bold,
     },
   },
 ]
