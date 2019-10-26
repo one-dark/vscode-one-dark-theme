@@ -12,6 +12,8 @@ export const italicTokens: TokenGroup[] = [
       'storage.type',
       'variable.language.this',
       'variable.language.super',
+      'string.url',
+      'markup.underline.link',
     ],
     settings: {
       fontStyle: FontStyle.Italics,

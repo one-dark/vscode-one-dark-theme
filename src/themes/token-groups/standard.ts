@@ -56,6 +56,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'markup.underline.link',
       'constant.character.escape',
       'string.regexp',
+      'string.url',
     ],
     settings: {
       foreground: colors.fountainBlue,
@@ -69,6 +70,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'support.function',
       'string.other.link',
       'variable.language.super',
+      'meta.method-call',
     ],
     settings: {
       foreground: colors.malibu,
@@ -76,7 +78,11 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: 'Light white',
-    scope: ['punctuation.separator', 'support.type.property-name.css'],
+    scope: [
+      'punctuation.separator',
+      'support.type.property-name.css',
+      'punctuation.definition.method-parameters',
+    ],
     settings: {
       foreground: colors.lightWhite,
     },
@@ -104,6 +110,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'string.other.link.description',
       'markup.fenced_code',
       'markup.inline',
+      'source.ini',
     ],
     settings: {
       foreground: colors.sage,
