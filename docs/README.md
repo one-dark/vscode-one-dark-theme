@@ -4,9 +4,9 @@ description: One Dark theme for VS Code.
 
 # Introduction
 
-## [🚨](https://emojipedia.org/police-cars-revolving-light/)Major Changes From Previous Theme [🚨](https://emojipedia.org/police-cars-revolving-light/)
+## [🚨](https://emojipedia.org/police-cars-revolving-light/)Major Changes from One Dark Pro Italic [🚨](https://emojipedia.org/police-cars-revolving-light/)
 
-This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
+This theme is the next generation of the One Dark Pro Italic theme. The old theme had become bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 
 Additionally, we have moved away from the approach of generating multiple theme \(i.e. One Dark Italic Vivid, One Dark Italic Bold\) in favor of a single theme "One Dark" which can be customized using settings. Search for "One Dark" in the VS Code settings editor to view the available settings for this theme. Not only is this a better user experience, but it also allows for more customization \(i.e. vivid and bold without italics\).
 
