@@ -58,6 +58,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'entity.name.function',
       'entity.other.attribute-name.id.css',
       'support.function',
+      'variable.language.super',
     ],
     settings: {
       foreground: colors.malibu,
@@ -95,8 +96,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     name: 'Whiskey',
     scope: [
       'constant',
-      'entity.other.attribute-name.class.css',
-      'entity.other.attribute-name.pseudo-class.css',
+      'entity.other.attribute-name',
       'variable.other.constant',
       'variable.parameter',
     ],

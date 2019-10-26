@@ -11,6 +11,7 @@ export const italicTokens: TokenGroup[] = [
       'storage.modifier',
       'storage.type',
       'variable.language.this',
+      'variable.language.super',
     ],
     settings: {
       fontStyle: FontStyle.Italics,
