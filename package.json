@@ -36,7 +36,7 @@
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "yarn compile:ts -w",
     "postversion": "git push && git push --tags",
-    "vscode:prepublish": "yarn compile:ts"
+    "vscode:prepublish": "yarn compile"
   },
   "engines": {
     "vscode": "^1.37.0"
