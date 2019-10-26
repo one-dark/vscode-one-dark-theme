@@ -18,7 +18,7 @@ export const italicTokens: TokenGroup[] = [
     },
   },
   {
-    name: 'Reset',
+    name: 'Italic reset',
     scope: [
       'keyword.operator',
       'keyword.other.type',

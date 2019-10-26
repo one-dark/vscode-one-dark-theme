@@ -3,25 +3,25 @@ import { Colors } from '../models/colors'
 export const standardColors: Colors = {
   chalky: '#e5c07b',
   coral: '#e06c75',
-  dark: '#5c6370',
+  cyan: '#56b6c2',
   error: '#f44747',
-  fountainBlue: '#56b6c2',
-  lightWhite: '#abb2bf',
+  ivory: '#abb2bf',
   malibu: '#61afef',
-  purple: '#c678dd',
   sage: '#98c379',
+  stone: '#5c6370',
+  violet: '#c678dd',
   whiskey: '#d19a66',
 }
 
 export const vividColors: Colors = {
   chalky: '#e5c07b',
   coral: '#ef596f',
-  dark: '#5c6370',
+  cyan: '#2bbac5',
   error: '#f44747',
-  fountainBlue: '#2bbac5',
-  lightWhite: '#bbbbbb',
+  ivory: '#bbbbbb',
   malibu: '#61afef',
-  purple: '#d55fde',
   sage: '#89ca78',
+  stone: '#5c6370',
+  violet: '#d55fde',
   whiskey: '#d19a66',
 }

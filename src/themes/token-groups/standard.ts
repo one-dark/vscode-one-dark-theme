@@ -44,14 +44,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     },
   },
   {
-    name: 'Dark',
-    scope: ['comment'],
-    settings: {
-      foreground: colors.dark,
-    },
-  },
-  {
-    name: 'Fountain Blue',
+    name: 'Cyan',
     scope: [
       'keyword.operator',
       'markup.underline.link',
@@ -60,7 +53,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'string.url',
     ],
     settings: {
-      foreground: colors.fountainBlue,
+      foreground: colors.cyan,
     },
   },
   {
@@ -77,23 +70,10 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     },
   },
   {
-    name: 'Light white',
+    name: 'Ivory',
     scope: ['punctuation.separator', 'support.type.property-name.css'],
     settings: {
-      foreground: colors.lightWhite,
-    },
-  },
-  {
-    name: 'Purple',
-    scope: [
-      'keyword',
-      'keyword.operator.new',
-      'markup.italic',
-      'storage.modifier',
-      'storage.type',
-    ],
-    settings: {
-      foreground: colors.purple,
+      foreground: colors.ivory,
     },
   },
   {
@@ -107,6 +87,26 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     ],
     settings: {
       foreground: colors.sage,
+    },
+  },
+  {
+    name: 'Stone',
+    scope: ['comment'],
+    settings: {
+      foreground: colors.stone,
+    },
+  },
+  {
+    name: 'Violet',
+    scope: [
+      'keyword',
+      'keyword.operator.new',
+      'markup.italic',
+      'storage.modifier',
+      'storage.type',
+    ],
+    settings: {
+      foreground: colors.violet,
     },
   },
   {
