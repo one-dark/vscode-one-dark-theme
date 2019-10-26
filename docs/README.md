@@ -4,7 +4,7 @@ description: One Dark theme for VS Code.
 
 # Introduction
 
-### Major Changes From Previous Theme
+### [🚨](https://emojipedia.org/police-cars-revolving-light/)Major Changes From Previous Theme [🚨](https://emojipedia.org/police-cars-revolving-light/)
 
 This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 

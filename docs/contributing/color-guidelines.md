@@ -1,11 +1,4 @@
----
-description: >-
-  This theme aims to create a color scheme that is as consistent as possible
-  across languages. As such, this theme uses colors from the following color
-  palette for as many scopes as applicable.
----
-
-# Color Palette
+# Color Guidelines
 
 To increase theme consistency, the following colors should be used for all syntax highlighting colors.  Editor colors should use this color palette when possible, but the editor colors are not required to strictly follow this color palette.
 

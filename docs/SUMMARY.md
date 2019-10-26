@@ -8,8 +8,8 @@
 * [Configuration](the-basics/configuration.md)
 * [Screenshots](the-basics/screenshots.md)
 
-## Development
+## Contributing
 
-* [Development](development/development.md)
-* [Color Palette](development/color-palette.md)
+* [Development](contributing/development.md)
+* [Color Guidelines](contributing/color-guidelines.md)
 
