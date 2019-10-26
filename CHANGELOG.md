@@ -1,10 +1,11 @@
-## v1.0.9
+## v1.0.10
 
-Testing new release process.
+- Use GitHub Actions for publishing instead of Travis.
+- Remove build badge from the readme.
 
 ## v1.0.0
 
-## Initial release! 🎉 🎉 🎉
+### Initial release! 🎉 🎉 🎉
 
 This theme had gotten bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 

@@ -2,7 +2,6 @@
 */**
 **/.DS_Store
 !out
-!src
 !static
 !themes
 !package.json
