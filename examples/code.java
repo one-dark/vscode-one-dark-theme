@@ -32,6 +32,7 @@ public class SomeClass<T extends Runnable> { // some comment
   public SomeClass(AnInterface param1, int[] reassignedParam,
                   int param2
                   int param3) {
+    List<Date> dates = new ArrayList<>();
     int reassignedValue = this.staticField + param2 + param3;
     long localVar1, localVar2, localVar3, localVar4;
     int localVar = "IntelliJ"; // Error, incompatible types
