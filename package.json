@@ -58,12 +58,12 @@
     {
       "href": "https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme",
       "url": "https://img.shields.io/visual-studio-marketplace/v/mskelton.one-dark-theme",
-      "description": "VS Code extension version"
+      "description": "Extension version"
     },
     {
       "href": "https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme",
-      "url": "https://img.shields.io/visual-studio-marketplace/d/mskelton.one-dark-theme",
-      "description": "VS Code extension downloads"
+      "url": "https://img.shields.io/visual-studio-marketplace/i/mskelton.one-dark-theme",
+      "description": "Extension installs"
     }
   ],
   "activationEvents": [
