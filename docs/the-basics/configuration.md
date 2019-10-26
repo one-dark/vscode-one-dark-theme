@@ -1,6 +1,6 @@
 # Configuration
 
-### Basic Configuration
+## Basic Configuration
 
 This theme comes with several configuration settings to allow you to customize the theme to your preference. We currently support the following settings:
 
@@ -16,7 +16,7 @@ This theme ships with the italic setting turned on by default and the other sett
 
 ![Theme settings reload prompt](../.gitbook/assets/2019-10-26_12-19-19.png)
 
-### Advanced Customizations
+## Advanced Customizations
 
 VS Code allows users to fully customize themes to their liking.  If you wish to adjust the editor colors, use the `workbench.colorCustomizations` setting in your `settings.json` file.  An example of this is shown below.
 

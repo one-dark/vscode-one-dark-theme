@@ -1,6 +1,6 @@
 # Installation
 
-### Visual Studio Marketplace **\(recommended\)**
+## Visual Studio Marketplace **\(recommended\)**
 
 1. Open this theme in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme).
 2. Click the **Install** button.
@@ -8,7 +8,7 @@
 4. When prompted to select a color theme, select **One Dark**.
 5. Enjoy the beauty of One Dark!
 
-### Manual
+## Manual
 
 To install the plugin manually, use the following steps.
 
