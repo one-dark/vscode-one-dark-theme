@@ -1,0 +1,26 @@
+@import 'mixins'; // external mixins
+
+@the-border: 1px;
+@base-color: #111;
+
+#header {
+  color: @base-color * 3;
+  &:after {
+    border-right: @the-border * 2;
+  }
+}
+
+.colored(@c) when (iscolor(@c)) {
+  color: (@base-color + #111) * 1.5;
+}
+@var: `"hello".toUpperCase() + '!'`;
+
+@font-face {
+  font-family: DroidSans;
+  src: url(DroidSans.ttf);
+  unicode-range: U+000-5FF, U+1e00-1fff, U+2000-2300;
+}
+
+div.class > p, p ~ ul, input [type="radio"] {
+  color: green !important;
+}
