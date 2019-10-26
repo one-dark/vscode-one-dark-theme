@@ -1,3 +1,7 @@
+## v1.1.0
+
+- Move documentation to GitBook.
+
 ## v1.0.10
 
 - Use GitHub Actions for publishing instead of Travis.
