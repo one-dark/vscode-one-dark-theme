@@ -23,6 +23,7 @@ export const italicTokens: TokenGroup[] = [
       'keyword.operator',
       'keyword.other.type',
       'storage.modifier.import',
+      'storage.modifier.package',
       'storage.type.built-in',
       'storage.type.function.arrow',
       'storage.type.generic',
