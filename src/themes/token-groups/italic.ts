@@ -6,12 +6,12 @@ export const italicTokens: TokenGroup[] = [
     scope: [
       'comment',
       'keyword',
-      'storage.type',
-      'storage.modifier',
-      'variable.language.this',
-      'variable.language.super',
-      'string.url',
       'markup.underline.link',
+      'storage.modifier',
+      'storage.type',
+      'string.url',
+      'variable.language.super',
+      'variable.language.this',
     ],
     settings: {
       fontStyle: FontStyle.Italics,

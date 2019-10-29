@@ -28,16 +28,16 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
     name: 'Coral',
     scope: [
+      'constant.other.character-class',
       'entity.name.tag',
-      'meta.object-literal.key',
       'heading',
+      'meta.object-literal.key',
+      'punctuation.definition.list.begin.markdown',
+      'punctuation.definition.list.end.markdown',
       'punctuation.definition.template-expression',
       'support.type.property-name',
       'variable.object.property',
       'variable.other.enummember',
-      'punctuation.definition.list.begin.markdown',
-      'punctuation.definition.list.end.markdown',
-      'constant.other.character-class',
     ],
     settings: {
       foreground: colors.coral,
@@ -46,9 +46,9 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
     name: 'Cyan',
     scope: [
+      'constant.character.escape',
       'keyword.operator',
       'markup.underline.link',
-      'constant.character.escape',
       'string.regexp',
       'string.url',
     ],
@@ -61,8 +61,8 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     scope: [
       'entity.name.function',
       'entity.other.attribute-name.id.css',
-      'support.function',
       'string.other.link',
+      'support.function',
       'variable.language.super',
     ],
     settings: {
@@ -79,11 +79,11 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
     name: 'Sage',
     scope: [
-      'string',
-      'markup.quote',
-      'string.other.link.description',
       'markup.inline',
+      'markup.quote',
       'source.ini',
+      'string.other.link.description',
+      'string',
     ],
     settings: {
       foreground: colors.sage,
@@ -99,8 +99,8 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
     name: 'Violet',
     scope: [
-      'keyword',
       'keyword.operator.new',
+      'keyword',
       'markup.italic',
       'storage.modifier',
       'storage.type',
@@ -114,10 +114,10 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     scope: [
       'constant',
       'entity.other.attribute-name',
+      'keyword.operator.quantifier.regexp',
+      'markup.bold',
       'variable.other.constant',
       'variable.parameter',
-      'markup.bold',
-      'keyword.operator.quantifier.regexp',
     ],
     settings: {
       foreground: colors.whiskey,
