@@ -1,3 +1,4 @@
+package com.mskelton.vscode;
 
 /* Block comment */
 import java.util.Date;
