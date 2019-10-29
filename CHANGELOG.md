@@ -1,3 +1,8 @@
+## v1.1.2
+
+- Fix highlighting of JS consts (i.e. JSON).
+- Use chalky color for Java package names and no-italics.
+
 ## v1.1.1
 
 - Move documentation to GitBook.
