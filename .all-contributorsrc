@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "hhquerybuilder",
+      "name": "hhquerybuilder",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/40240395?v=4",
+      "profile": "https://github.com/hhquerybuilder",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vscode-one-dark-theme",
+  "projectOwner": "one-dark",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
