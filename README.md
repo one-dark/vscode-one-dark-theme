@@ -1,8 +1,8 @@
 # VS Code One Dark Theme
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![Extension version](https://img.shields.io/vscode-marketplace/v/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 [![Extension installs](https://img.shields.io/vscode-marketplace/i/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
