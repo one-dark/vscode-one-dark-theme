@@ -43,7 +43,7 @@ export const editorTokens = {
   'editorSuggestWidget.selectedBackground': '#2c313a',
   'editorWhitespace.foreground': '#3b4048',
   'editorWidget.background': '#21252b',
-  focusBorder: '#464646',
+  focusBorder: '#568af2',
   'input.background': '#1d1f23',
   'list.activeSelectionBackground': '#2c313a',
   'list.activeSelectionForeground': '#d7dae0',
