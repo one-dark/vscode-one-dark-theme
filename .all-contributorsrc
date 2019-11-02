@@ -18,11 +18,21 @@
         "ideas",
         "design"
       ]
+    },
+    {
+      "login": "hhquerybuilder",
+      "name": "hhquerybuilder",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/40240395?v=4",
+      "profile": "https://github.com/hhquerybuilder",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "vscode-one-dark-theme",
   "projectOwner": "one-dark",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "none"
 }
