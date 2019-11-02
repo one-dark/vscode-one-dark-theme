@@ -71,6 +71,7 @@ export const editorTokens = {
   'statusBarItem.remoteBackground': '#4d78cc',
   'statusBarItem.remoteForeground': '#f8fafd',
   'tab.activeBackground': '#282c34',
+  'tab.activeBorder': '#568af2',
   'tab.activeForeground': '#dcdcdc',
   'tab.border': '#181a1f',
   'tab.hoverBackground': '#323842',
