@@ -2,7 +2,7 @@
 
 [![Extension version](https://img.shields.io/vscode-marketplace/v/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 [![Extension installs](https://img.shields.io/vscode-marketplace/i/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
@@ -37,6 +37,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/mskelton"><img src="https://avatars3.githubusercontent.com/u/25914066?v=4" width="100px;" alt="Mark Skelton"/><br /><sub><b>Mark Skelton</b></sub></a><br /><a href="https://github.com/one-dark/vscode-one-dark-theme/commits?author=mskelton" title="Code">💻</a> <a href="#question-mskelton" title="Answering Questions">💬</a> <a href="https://github.com/one-dark/vscode-one-dark-theme/commits?author=mskelton" title="Documentation">📖</a> <a href="#ideas-mskelton" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-mskelton" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/hhquerybuilder"><img src="https://avatars3.githubusercontent.com/u/40240395?v=4" width="100px;" alt="hhquerybuilder"/><br /><sub><b>hhquerybuilder</b></sub></a><br /><a href="#design-hhquerybuilder" title="Design">🎨</a></td>
   </tr>
 </table>
 
