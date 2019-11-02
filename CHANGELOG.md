@@ -1,3 +1,8 @@
+## Unreleased
+
+- Update focus border to blue color.
+- Add blue underline to the active tab.
+
 ## v1.1.2
 
 - Fix highlighting of JS consts (i.e. JSON).
