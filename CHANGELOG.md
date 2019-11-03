@@ -2,6 +2,9 @@
 
 - Update focus border to blue color.
 - Add blue underline to the active tab.
+- Update focus color for the tree view (files tab) to blue.
+- Active selection can now be differentiated from the search results color.
+- Added a black border to the title, tree view, and panel to match Atom's style.
 
 ## v1.1.2
 
