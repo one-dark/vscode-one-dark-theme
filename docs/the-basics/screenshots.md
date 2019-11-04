@@ -1,4 +1,0 @@
-# Screenshots
-
-Coming soon!
-
