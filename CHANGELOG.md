@@ -1,5 +1,6 @@
-## Unreleased
+## v1.2.0
 
+- Add more information to the readme.
 - Update focus border to blue color.
 - Add blue underline to the active tab.
 - Update focus color for the tree view (files tab) to blue.
