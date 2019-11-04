@@ -6,6 +6,8 @@
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
+![Code example](static/screenshots/code.png)
+
 ## Major Changes from One Dark Pro Italic 🚨
 
 This theme is the next generation of the One Dark Pro Italic theme. The old theme had become bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
