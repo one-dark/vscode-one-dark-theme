@@ -1,4 +1,4 @@
-# Development
+# Contributing
 
 ## Installation
 
@@ -42,4 +42,16 @@ writeFile(
   })
 )
 ```
+
+## Color Guidelines
+
+To increase theme consistency, the following colors should be used for all syntax highlighting colors.  Editor colors should use this color palette when possible, but the editor colors are not required to strictly follow this color palette.
+
+| Name | Value | Preview | Name | Value | Preview |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **chalky** | \#e5c07b | ![](.gitbook/assets/chalky.jpg) | **malibu** | \#61afef | ![](.gitbook/assets/malibu.jpg) |
+| **coral** | \#e06c75 | ![](.gitbook/assets/coral.jpg) | **sage** | \#98c379 | ![](.gitbook/assets/sage.jpg) |
+| **cyan** | \#56b6c2 | ![](.gitbook/assets/cyan.jpg) | **stone** | \#5c6370 | ![](.gitbook/assets/stone.jpg) |
+| **error** | \#f44747 | ![](.gitbook/assets/error.jpg) | **violet** | \#c678dd | ![](.gitbook/assets/violet.jpg) |
+| **ivory** | \#abb2bf | ![](.gitbook/assets/ivory.jpg) | **whiskey** | \#d19a66 | ![](.gitbook/assets/whiskey.jpg) |
 

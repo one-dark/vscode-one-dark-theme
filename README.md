@@ -6,13 +6,7 @@
 
 > [One Dark](https://github.com/atom/one-dark-syntax) theme for VS Code.
 
-Check out the [docs][docs] for more information and instructions or use one of the quick links below.
-
-- [Installation][installation]
-- [Configuration][configuration]
-- [Contributing][contributing]
-
-## 🚨Major Changes from One Dark Pro Italic 🚨
+## Major Changes from One Dark Pro Italic 🚨
 
 This theme is the next generation of the One Dark Pro Italic theme. The old theme had become bloated with years of changes making the scope lists a tangled web of conflicting styles. With this release we have re-created the theme from scratch using low level scopes to apply to as many languages as possible. Because of this, the theme has changed significantly, may vary greatly from previous versions, and may not work in certain languages.
 
@@ -22,11 +16,65 @@ Finally, this release changes the theme name from "One Dark Pro Italic" to "One 
 
 We hope you enjoy this new version and we appreciate your patience with any issues that come up as a result of this major overhaul. If you find any issues with this update, please open an issue on our [GitHub repo][issues]. Thank you all!
 
-[docs]: https://one-dark.gitbook.io/vscode
-[installation]: https://one-dark.gitbook.io/vscode/the-basics/installation
-[configuration]: https://one-dark.gitbook.io/vscode/the-basics/configuration
-[contributing]: https://one-dark.gitbook.io/vscode/contributing/development
-[issues]: https://github.com/one-dark/vscode-one-dark-theme/issues
+## Basic Configuration 🔧
+
+This theme comes with several configuration settings to allow you to customize the theme to your preference. We currently support the following settings:
+
+- **Vivid** - Uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette instead of the default color palette.
+- **Italic** - When enabled, uses italic font for keywords. Note that some scopes \(i.e. markdown block quotes\) are styled with italic font even when this setting is disabled.
+- **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes \(i.e. markdown headers\) are styled with bold font even when this setting is disabled.
+
+To access these configuration settings, open the VS Code settings page and search for "One Dark".
+
+![Theme settings](static/screenshots/settings.png)
+
+This theme ships with the italic setting turned on by default and the other settings turned off by default, but you can adjust the settings to any combination you like. After updating the settings, you will be prompted to reload the window to apply the configuration changes.
+
+![Theme settings reload prompt](static/screenshots/reload-prompt.png)
+
+## Advanced Configuration 🧰
+
+VS Code allows users to fully customize themes to their liking. If you wish to adjust the editor colors, use the `workbench.colorCustomizations` setting in your `settings.json` file. An example of this is shown below.
+
+```json
+"workbench.colorCustomizations": {
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "sideBar.background": "#282c34"
+}
+```
+
+To customize the syntax highlighting, use the `editor.tokenColorCustomizations` setting. An example of this is shown below.
+
+```json
+"editor.tokenColorCustomizations": {
+  "[One Dark]": {
+    "textMateRules": [
+      {
+        "scope": ["source.python"],
+        "settings": {
+          "foreground": "#e06c75"
+        }
+      }
+    ]
+  }
+}
+```
+
+For more information, see the official [theme color reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) or [color theme documentation](https://code.visualstudio.com/docs/getstarted/themes).
+
+## Further Documentation 📖
+
+Check out the [docs][docs] for manual installation instructions, additional screenshots, and contributing guidelines.
+
+- [Installation][installation]
+- [Screenshots][screenshots]
+- [Contributing][contributing]
+
+## Thanks 🙏
+
+- Thanks to [阿发](https://github.com/Binaryify) for his work on the theme this project was originally based on.
+- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
 
 ## Contributors ✨
 
@@ -44,6 +92,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+[docs]: https://one-dark.gitbook.io/vscode
+[installation]: https://one-dark.gitbook.io/vscode/installation
+[screenshots]: https://one-dark.gitbook.io/vscode/screenshots
+[contributing]: https://one-dark.gitbook.io/vscode/contributing
+[issues]: https://github.com/one-dark/vscode-one-dark-theme/issues
