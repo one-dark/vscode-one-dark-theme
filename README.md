@@ -75,7 +75,7 @@ Check out the [docs][docs] for manual installation instructions, additional scre
 
 ## Thanks 🙏
 
-- Thanks to @binarify for his work on the theme this project was originally based on.
+- Thanks to @binaryify for his work on the theme this project was originally based on.
 - Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
 
 ## Contributors ✨
