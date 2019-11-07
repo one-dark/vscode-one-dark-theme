@@ -1,4 +1,4 @@
-## Unreleased
+## v1.3.0
 
 - Update activity bar border color to blue.
 
