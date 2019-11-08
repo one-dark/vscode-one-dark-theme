@@ -16,7 +16,7 @@ Additionally, we have moved away from the approach of generating multiple theme 
 
 Finally, this release changes the theme name from "One Dark Pro Italic" to "One Dark Theme" as the theme can now be configured to use or not use italics using the new theme settings.
 
-We hope you enjoy this new version and we appreciate your patience with any issues that come up as a result of this major overhaul. If you find any issues with this update, please open an issue on our [GitHub repo][issues]. Thank you all!
+We hope you enjoy this new version and we appreciate your patience with any issues that come up as a result of this major overhaul. If you find any issues with this update, please open an issue on our [GitHub repo](https://github.com/one-dark/vscode-one-dark-theme/issues). Thank you all!
 
 ## Basic Configuration 🔧
 
@@ -67,16 +67,17 @@ For more information, see the official [theme color reference](https://code.visu
 
 ## Further Documentation 📖
 
-Check out the [docs][docs] for manual installation instructions, additional screenshots, and contributing guidelines.
+Check out the [docs](https://one-dark.gitbook.io/vscode) for manual installation instructions, additional screenshots, and contributing guidelines.
 
-- [Installation][installation]
-- [Screenshots][screenshots]
-- [Contributing][contributing]
+- [Installation](https://one-dark.gitbook.io/vscode/installation)
+- [Screenshots](https://one-dark.gitbook.io/vscode/screenshots)
+- [Contributing](https://one-dark.gitbook.io/vscode/contributing)
 
 ## Thanks 🙏
 
 - Thanks to [Binaryify](https://github.com/Binaryify) for his work on the theme this project was originally based on.
 - Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
+- Thanks to GitBook for hosting the docs!
 
 ## Contributors ✨
 
@@ -98,9 +99,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-[docs]: https://one-dark.gitbook.io/vscode
-[installation]: https://one-dark.gitbook.io/vscode/installation
-[screenshots]: https://one-dark.gitbook.io/vscode/screenshots
-[contributing]: https://one-dark.gitbook.io/vscode/contributing
-[issues]: https://github.com/one-dark/vscode-one-dark-theme/issues
