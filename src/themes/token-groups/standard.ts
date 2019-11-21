@@ -15,7 +15,10 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'storage.type.annotation',
       'storage.type.built-in',
       'storage.type.generic',
+      // storage.type.java and storage.type.groovy are necessary because
+      // storage.type uses violet for JS/TS const, let, and var
       'storage.type.java',
+      'storage.type.groovy',
       'storage.type.primitive',
       'support.class',
       'support.other.namespace',
@@ -36,6 +39,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       'punctuation.definition.list.begin.markdown',
       'punctuation.definition.list.end.markdown',
       'punctuation.definition.template-expression',
+      'punctuation.section.embedded',
       'support.type.property-name',
       'variable.object.property',
       'variable.other.enummember',

@@ -1,3 +1,8 @@
+## v1.3.1
+
+- Update Ruby interpolation bracket color to coral
+- Update Groovy types to chalky
+
 ## v1.3.0
 
 - Update activity bar border color to blue.
