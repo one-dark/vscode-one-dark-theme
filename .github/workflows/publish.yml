@@ -36,12 +36,10 @@ jobs:
       - name: Install
         run: yarn
       - name: Package extension
-        run: |
-          mkdir dist
-          yarn vsce package -o dist/one-dark-theme-${GITHUB_REF/refs\/tags\//}.vsix
+        run: yarn vsce package
       - name: Upload extension to release
         uses: Roang-zero1/github-upload-release-artifacts-action@master
         with:
-          args: dist
+          args: '*.vsix'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
