@@ -1,4 +1,4 @@
-@import 'manual.css';
+@import "manual.css";
 
 @font-face {
   font-family: DroidSans;
@@ -15,7 +15,7 @@ h1.mystyle:lang(en) {
 
 div > p,
 p ~ ul,
-input [type='radio'] {
+input [type="radio"] {
   color: green;
   width: 80%;
 }

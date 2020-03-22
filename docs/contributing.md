@@ -29,18 +29,18 @@ This method does not respect the theme configuration settings in the VS Code set
 Live reload is accomplished by watching for source file changes and regenerating the `one_dark.json` file when changes are made. As mentioned in the warning above, this does not respect the VS Code settings and thus you must manually configure the settings if you want to test different settings combinations while using live reload, change the options in the `scripts/generate-theme.ts` file where the `generateTheme` method is called. Below is an example showing how to generate the theme with the bold and vivid settings turned on and the italic setting turned off.
 
 ```typescript
-import { join } from 'path'
-import { generateTheme } from '../src/themes'
-import { writeFile } from '../src/utils/file'
+import { join } from "path";
+import { generateTheme } from "../src/themes";
+import { writeFile } from "../src/utils/file";
 
 writeFile(
-  join(__dirname, '..', 'themes', 'one-dark.json'),
+  join(__dirname, "..", "themes", "one-dark.json"),
   generateTheme({
     bold: true,
     italic: false,
     vivid: true,
   })
-)
+);
 ```
 
 ## Color Guidelines

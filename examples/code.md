@@ -1,20 +1,16 @@
-Test Markdown document
-======================
+# Test Markdown document
 
-Text
-----
+## Text
 
 Here is a paragraph with bold text. **This is some bold text.** Here is a
-paragraph with bold text. __This is also some bold text.__
+paragraph with bold text. **This is also some bold text.**
 
-Here is another one with italic text. *This is some italic text.* Here is
+Here is another one with italic text. _This is some italic text._ Here is
 another one with italic text. _This is some italic text._
 
 Here is another one with struckout text. ~~This is some struckout text.~~
 
-
-Links
------
+## Links
 
 Autolink: <http://example.com>
 
@@ -22,29 +18,31 @@ Link: [Example](http://example.com)
 
 Reference style [link][1].
 
-[1]: http://example.com  "Example"
+[1]: http://example.com "Example"
 
-
-Images
-------
+## Images
 
 Image: ![My image](http://www.foo.bar/image.png)
 
-Headers
--------
+## Headers
 
 # First level title
+
 ## Second level title
+
 ### Third level title
+
 #### Fourth level title
+
 ##### Fifth level title
+
 ###### Sixth level title
 
 ### Title with [link](http://localhost)
+
 ### Title with ![image](http://localhost)
 
-Code
-----
+## Code
 
 ```
 This
@@ -72,8 +70,7 @@ This is a code block:
         DualPivotQuicksort.sort(a);
     }
 
-Quotes
-------
+## Quotes
 
 > This is the first level of quoting.
 >
@@ -81,23 +78,19 @@ Quotes
 >
 > Back to the first level.
 
-
 > A list within a blockquote:
 >
-> *	asterisk 1
-> *	asterisk 2
-> *	asterisk 3
-
+> - asterisk 1
+> - asterisk 2
+> - asterisk 3
 
 > Formatting within a blockquote:
 >
 > ### header
+>
 > Link: [Example](http://example.com)
 
-
-
-Html
--------
+## Html
 
 This is inline <span>html</html>.
 And this is an html block.
@@ -117,43 +110,36 @@ And this is an html block.
   </tr>
 </table>
 
-Horizontal rules
-----------------
+## Horizontal rules
 
 ---
 
-___
+---
 
+---
 
-***
-
-
-Lists
------
+## Lists
 
 Unordered list:
 
-*	asterisk 1
-*	asterisk 2
-*	asterisk 3
-
+- asterisk 1
+- asterisk 2
+- asterisk 3
 
 Ordered list:
 
-1.	First
-2.	Second
-3.	Third
-
+1. First
+2. Second
+3. Third
 
 Mixed:
 
 1. First
 2. Second:
-	* Fee
-	* Fie
-	* Foe
+   - Fee
+   - Fie
+   - Foe
 3. Third
-
 
 Tables:
 

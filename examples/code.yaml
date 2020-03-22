@@ -2,7 +2,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 static_sidebar:
   id: "foo"
-  name: 'side_bar'
+  name: "side_bar"
   staged_position: 1
   blog_id: 1
   config: |+
@@ -14,6 +14,6 @@ static_sidebar:
     Sidebar configuration example
   extensions:
     - &params
-        auto_run: true
-        reload: true
+      auto_run: true
+      reload: true
     - *params

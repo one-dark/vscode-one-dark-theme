@@ -1,4 +1,3 @@
 # Screenshots
 
 Coming soon!
-

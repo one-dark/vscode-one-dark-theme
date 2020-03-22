@@ -129,11 +129,6 @@
     babel-eslint "^10.0.3"
     eslint-config-prettier "^6.4.0"
 
-"@mskelton/prettier-config@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@mskelton/prettier-config/-/prettier-config-5.1.1.tgz#5d60e2748fca011e2d6c9cc9f66e0258256d8e83"
-  integrity sha512-wyYzFlz8jxC5c/prV0oT+tA99waRXRLRLxzMeaPMkhGi7/tgorFJTEHVJXIh1+KguMN2f2la/1XFss2OntvXAg==
-
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"

@@ -1,10 +1,10 @@
-import { ConfigurationChangeEvent } from 'vscode'
+import { ConfigurationChangeEvent } from "vscode";
 
 export function detectConfigChanges(
   event: ConfigurationChangeEvent,
   onConfigChange: () => void
 ): void {
-  if (event.affectsConfiguration('oneDark')) {
-    onConfigChange()
+  if (event.affectsConfiguration("oneDark")) {
+    onConfigChange();
   }
 }

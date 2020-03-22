@@ -1,37 +1,37 @@
-import { FontStyle, TokenGroup } from '../../models'
+import { FontStyle, TokenGroup } from "../../models";
 
 export const italicTokens: TokenGroup[] = [
   {
-    name: 'Italic',
+    name: "Italic",
     scope: [
-      'comment',
-      'keyword',
-      'markup.underline.link',
-      'storage.modifier',
-      'storage.type',
-      'string.url',
-      'variable.language.super',
-      'variable.language.this',
+      "comment",
+      "keyword",
+      "markup.underline.link",
+      "storage.modifier",
+      "storage.type",
+      "string.url",
+      "variable.language.super",
+      "variable.language.this",
     ],
     settings: {
       fontStyle: FontStyle.Italics,
     },
   },
   {
-    name: 'Italic reset',
+    name: "Italic reset",
     scope: [
-      'keyword.operator',
-      'keyword.other.type',
-      'storage.modifier.import',
-      'storage.modifier.package',
-      'storage.type.built-in',
-      'storage.type.function.arrow',
-      'storage.type.generic',
-      'storage.type.java',
-      'storage.type.primitive',
+      "keyword.operator",
+      "keyword.other.type",
+      "storage.modifier.import",
+      "storage.modifier.package",
+      "storage.type.built-in",
+      "storage.type.function.arrow",
+      "storage.type.generic",
+      "storage.type.java",
+      "storage.type.primitive",
     ],
     settings: {
       fontStyle: FontStyle.None,
     },
   },
-]
+];

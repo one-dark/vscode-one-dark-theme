@@ -1,20 +1,20 @@
-import { join } from 'path'
-import { workspace } from 'vscode'
-import { generateTheme } from './themes'
-import { detectConfigChanges, promptToReload, writeFile } from './utils'
+import { join } from "path";
+import { workspace } from "vscode";
+import { generateTheme } from "./themes";
+import { detectConfigChanges, promptToReload, writeFile } from "./utils";
 
-const THEME_PATH = join(__dirname, '..', 'themes', 'one-dark.json')
+const THEME_PATH = join(__dirname, "..", "themes", "one-dark.json");
 
 export async function regenerateTheme() {
-  const configuration = workspace.getConfiguration('oneDark')
+  const configuration = workspace.getConfiguration("oneDark");
 
   const theme = generateTheme({
-    bold: configuration.get<boolean>('bold'),
-    italic: configuration.get<boolean>('italic'),
-    vivid: configuration.get<boolean>('vivid'),
-  })
+    bold: configuration.get<boolean>("bold"),
+    italic: configuration.get<boolean>("italic"),
+    vivid: configuration.get<boolean>("vivid"),
+  });
 
-  return writeFile(THEME_PATH, theme)
+  return writeFile(THEME_PATH, theme);
 }
 
 /**
@@ -23,10 +23,10 @@ export async function regenerateTheme() {
  */
 export function activate(): void {
   // Observe changes in the config
-  workspace.onDidChangeConfiguration(event => {
+  workspace.onDidChangeConfiguration((event) => {
     detectConfigChanges(event, () => {
       // update theme json file with new options
-      regenerateTheme().then(promptToReload)
-    })
-  })
+      regenerateTheme().then(promptToReload);
+    });
+  });
 }

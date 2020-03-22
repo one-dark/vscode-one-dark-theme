@@ -1,6 +1,6 @@
-import { ThemeConfiguration } from '../models'
-import { standardColors, vividColors } from './colors'
-import { editorTokens } from './editor'
+import { ThemeConfiguration } from "../models";
+import { standardColors, vividColors } from "./colors";
+import { editorTokens } from "./editor";
 import {
   alwaysBoldTokens,
   alwaysItalicTokens,
@@ -8,10 +8,10 @@ import {
   boldTokens,
   getStandardTokens,
   italicTokens,
-} from './token-groups'
+} from "./token-groups";
 
 export function generateTheme(configuration: ThemeConfiguration) {
-  const colors = configuration.vivid ? vividColors : standardColors
+  const colors = configuration.vivid ? vividColors : standardColors;
 
   const tokenColors = [
     getStandardTokens(colors),
@@ -22,12 +22,12 @@ export function generateTheme(configuration: ThemeConfiguration) {
     configuration.bold && configuration.italic && boldItalicTokens,
   ]
     .filter(Boolean)
-    .reduce((aggregate, curr) => aggregate.concat(...curr), [])
+    .reduce((aggregate, curr) => aggregate.concat(...curr), []);
 
   return {
     colors: editorTokens,
-    name: 'One Dark',
+    name: "One Dark",
     tokenColors,
-    type: 'dark',
-  }
+    type: "dark",
+  };
 }

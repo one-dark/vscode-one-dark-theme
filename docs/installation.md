@@ -21,4 +21,3 @@ To install the plugin manually, use the following steps.
 7. Enjoy the beauty of One Dark!
 
 ![](.gitbook/assets/2019-10-26_16-03-34.png)
-

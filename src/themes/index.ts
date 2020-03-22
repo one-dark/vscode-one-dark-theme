@@ -1,1 +1,1 @@
-export { generateTheme } from './generator'
+export { generateTheme } from "./generator";

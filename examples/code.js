@@ -1,35 +1,35 @@
-import http from '../api/http.js'
+import http from "../api/http.js";
 
 export default {
   data: {
-    time: 60,
+    time: 60
   },
   methods: {
     core() {
-      this.time--
+      this.time--;
 
       const intervalBundle = setInterval(() => {
         if (--this.time === 0) {
-          clearInterval(intervalBundle)
-          this.time = 60
+          clearInterval(intervalBundle);
+          this.time = 60;
         }
-      }, 1000)
-    },
+      }, 1000);
+    }
   },
-  props: ['capchaName', 'phone'],
+  props: ["capchaName", "phone"],
   async sub() {
     const {
-      result: { code },
-    } = await http(`/DocPt/sendSms?phone=${this.phone}&random=${Date.now()}`)
+      result: { code }
+    } = await http(`/DocPt/sendSms?phone=${this.phone}&random=${Date.now()}`);
 
     const url = result.replace(/^\s*(.*)?/, "$1"); // skip leading whitespace
-    var a = "\u1111\z\n\u11";
+    var a = "\u1111z\n\u11";
 
-    this.$store.dispatch('saveCapchaData', {
+    this.$store.dispatch("saveCapchaData", {
       capchaName: this.capchaName,
-      data: code,
-    })
+      data: code
+    });
 
-    this.core()
-  },
-}
+    this.core();
+  }
+};
