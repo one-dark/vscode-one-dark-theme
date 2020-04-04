@@ -28,6 +28,13 @@ export function generateTheme(configuration: ThemeConfiguration) {
     colors: editorTokens,
     name: "One Dark",
     tokenColors,
+    // Experimenting with semantic highlighting
+    // tokenStyles: {
+    //   enumMember: colors.chalky,
+    //   property: {
+    //     foreground: colors.coral,
+    //   },
+    // },
     type: "dark",
   };
 }
