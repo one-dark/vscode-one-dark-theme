@@ -30,12 +30,12 @@
   "scripts": {
     "compile:theme": "ts-node ./scripts/generate-theme.ts",
     "compile:ts": "tsc -p src",
-    "compile": "yarn compile:theme && yarn compile:ts",
+    "compile": "npm run compile:theme && npm run compile:ts",
     "lint": "eslint .",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
-    "watch:ts": "yarn compile:ts -w",
+    "watch:ts": "npm run compile:ts -- -w",
     "postversion": "git push && git push --tags",
-    "vscode:prepublish": "yarn compile"
+    "vscode:prepublish": "npm run compile"
   },
   "engines": {
     "vscode": "^1.37.0"
