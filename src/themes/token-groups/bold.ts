@@ -9,10 +9,10 @@ export const boldTokens: TokenGroup[] = [
       "entity.name.type.class",
       "entity.name.type.module",
       "entity.name.type.namespace",
-      "keyword.other.important",
+      "keyword.other.important"
     ],
     settings: {
       fontStyle: FontStyle.Bold,
     },
   },
-];
+]
