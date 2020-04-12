@@ -35,7 +35,7 @@ module ModuleValidator {
         return 42;
     }
     declare var declareUrl;
-    var varUrl = declareUrl.replace(/^\s*(.*)/, "$1").concat("\u1111\z\n\u22");
+    var varUrl = declareUrl.replace(/^\s*(.*)/, "$1").concat("\u1111\z\n");
     var hello = () => console.log("hello");
     HasValidator.createInstance(varUrl).validateValue();
     function acceptsUnion(s: string | number) {
