@@ -1,6 +1,6 @@
+import { FontStyle } from "../../models";
 import { Colors } from "../../models/colors";
 import { TokenGroup } from "../../models/tokens";
-import { FontStyle } from "../../models";
 
 export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
