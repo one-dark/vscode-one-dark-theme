@@ -24,18 +24,14 @@
   "eslintConfig": {
     "extends": [
       "@mskelton",
-      "@mskelton/eslint-config/typescript",
-      "plugin:sort/recommended"
-    ],
-    "plugins": [
-      "sort"
+      "@mskelton/eslint-config/typescript"
     ]
   },
   "scripts": {
     "compile:theme": "ts-node ./scripts/generate-theme.ts",
     "compile:ts": "tsc -p src",
     "compile": "npm run compile:theme && npm run compile:ts",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .ts",
     "watch:theme": "nodemon ./scripts/generate-theme.ts",
     "watch:ts": "npm run compile:ts -- -w",
     "postversion": "git push && git push --tags",
@@ -98,7 +94,7 @@
     }
   },
   "devDependencies": {
-    "@mskelton/eslint-config": "^5.6.1",
+    "@mskelton/eslint-config": "^5.8.0",
     "@types/node": "^13.9.5",
     "@types/vscode": "^1.43.0",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
@@ -110,8 +106,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-sort": "^1.4.0",
-    "eslint-plugin-sort-destructure-keys": "^1.3.3",
-    "eslint-plugin-sort-keys-fix": "^1.1.0",
     "eslint-plugin-standard": "^4.0.1",
     "nodemon": "^2.0.2",
     "prettier": "^2.0.2",
