@@ -28,6 +28,7 @@ export function generateTheme(configuration: ThemeConfiguration) {
   return {
     colors: editorTokens,
     name: "One Dark",
+    semanticHighlighting: true,
     semanticTokenColors: getSemanticTokenColors(colors),
     tokenColors,
     type: "dark",
