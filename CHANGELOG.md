@@ -1,3 +1,7 @@
+## v1.4.0
+
+- Add semantic token colors to enable semantic highlighting
+
 ## v1.3.1
 
 - Update Ruby interpolation bracket color to coral

@@ -1,6 +1,7 @@
 import { ThemeConfiguration } from "../models";
 import { standardColors, vividColors } from "./colors";
 import { editorTokens } from "./editor";
+import { getSemanticTokenColors } from "./semantic-colors";
 import {
   alwaysBoldTokens,
   alwaysItalicTokens,
@@ -27,14 +28,9 @@ export function generateTheme(configuration: ThemeConfiguration) {
   return {
     colors: editorTokens,
     name: "One Dark",
+    semanticHighlighting: true,
+    semanticTokenColors: getSemanticTokenColors(colors),
     tokenColors,
-    // Experimenting with semantic highlighting
-    // tokenStyles: {
-    //   enumMember: colors.chalky,
-    //   property: {
-    //     foreground: colors.coral,
-    //   },
-    // },
     type: "dark",
   };
 }
