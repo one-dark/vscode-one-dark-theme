@@ -1,0 +1,14 @@
+{
+  "verifyConditions": ["semantic-release-vsce", "@semantic-release/github"],
+  "prepare": {
+    "path": "semantic-release-vsce",
+    "packageVsix": "mskelton.one-dark-theme.vsix"
+  },
+  "publish": [
+    "semantic-release-vsce",
+    {
+      "path": "@semantic-release/github",
+      "assets": "mskelton.one-dark-theme.vsix"
+    }
+  ]
+}
