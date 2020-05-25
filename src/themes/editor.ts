@@ -77,6 +77,7 @@ export const editorTokens = {
   "tab.activeBackground": "#282c34",
   "tab.activeBorder": "#568af2",
   "tab.activeForeground": "#dcdcdc",
+  "tab.activeModifiedBorder": "#568af2",
   "tab.border": "#181a1f",
   "tab.hoverBackground": "#323842",
   "tab.inactiveBackground": "#21252b",
