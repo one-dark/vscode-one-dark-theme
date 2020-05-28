@@ -8,6 +8,7 @@ import {
   boldItalicTokens,
   boldTokens,
   getStandardTokens,
+  italicAttributesTokens,
   italicTokens,
 } from "./token-groups";
 
@@ -21,6 +22,7 @@ export function generateTheme(configuration: ThemeConfiguration) {
     configuration.italic && italicTokens,
     configuration.bold && boldTokens,
     configuration.bold && configuration.italic && boldItalicTokens,
+    configuration.italicAttributes && italicAttributesTokens,
   ]
     .filter(Boolean)
     .reduce((aggregate, curr) => aggregate.concat(...curr), []);
