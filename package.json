@@ -84,7 +84,7 @@
           "default": true,
           "description": "Uses italic font for language keywords and comments."
         },
-        "oneDark.italic-attributes": {
+        "oneDark.italicAttributes": {
           "type": "boolean",
           "default": true,
           "description": "Uses italic font for HTML/JSX attributes."

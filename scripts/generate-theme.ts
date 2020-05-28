@@ -4,5 +4,8 @@ import { writeFile } from "../src/utils/file";
 
 writeFile(
   join(__dirname, "..", "themes", "one-dark.json"),
-  generateTheme({ italic: true })
+  generateTheme({
+    italic: true,
+    italicAttributes: true,
+  })
 );
