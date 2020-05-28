@@ -86,7 +86,7 @@
         },
         "oneDark.italic-attributes": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Uses italic font for HTML/JSX attributes."
         },
         "oneDark.vivid": {

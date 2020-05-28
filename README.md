@@ -16,6 +16,7 @@ This theme comes with several configuration settings to allow you to customize t
 
 - **Vivid** - Uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette instead of the default color palette.
 - **Italic** - When enabled, uses italic font for keywords. Note that some scopes \(i.e. markdown block quotes\) are styled with italic font even when this setting is disabled.
+- **Italic attributes** - When enabled, uses italic font for HTML/JSX attributes. This does not depend on the italic setting being on or off.
 - **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes \(i.e. markdown headers\) are styled with bold font even when this setting is disabled.
 
 To access these configuration settings, open the VS Code settings page and search for "One Dark".

@@ -38,6 +38,7 @@ writeFile(
   generateTheme({
     bold: true,
     italic: false,
+    italicAttributes: false,
     vivid: true,
   })
 );

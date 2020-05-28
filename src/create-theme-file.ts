@@ -11,6 +11,7 @@ export async function createThemeFile() {
   const theme = generateTheme({
     bold: configuration.get<boolean>("bold"),
     italic: configuration.get<boolean>("italic"),
+    italicAttributes: configuration.get<boolean>("italic-attributes"),
     vivid: configuration.get<boolean>("vivid"),
   });
 
