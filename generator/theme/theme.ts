@@ -1,4 +1,4 @@
-import { Colors, TokenGroup } from "../models";
+import { Colors, TokenGroup } from "../models"
 
 export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   {
@@ -127,7 +127,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       foreground: colors.whiskey,
     },
   },
-];
+]
 
 export const alwaysItalicTokens: TokenGroup[] = [
   {
@@ -137,7 +137,7 @@ export const alwaysItalicTokens: TokenGroup[] = [
       fontStyle: "italic",
     },
   },
-];
+]
 
 export const alwaysBoldTokens: TokenGroup[] = [
   {
@@ -147,4 +147,4 @@ export const alwaysBoldTokens: TokenGroup[] = [
       fontStyle: "bold",
     },
   },
-];
+]

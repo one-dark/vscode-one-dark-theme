@@ -1,4 +1,4 @@
-import { TokenGroup } from "../models";
+import { TokenGroup } from "../models"
 
 export const boldTokens: TokenGroup[] = [
   {
@@ -14,4 +14,4 @@ export const boldTokens: TokenGroup[] = [
       fontStyle: "bold",
     },
   },
-];
+]

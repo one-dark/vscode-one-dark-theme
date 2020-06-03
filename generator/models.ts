@@ -1,14 +1,14 @@
 export interface Colors {
-  chalky: string;
-  coral: string;
-  cyan: string;
-  error: string;
-  ivory: string;
-  malibu: string;
-  sage: string;
-  stone: string;
-  violet: string;
-  whiskey: string;
+  chalky: string
+  coral: string
+  cyan: string
+  error: string
+  ivory: string
+  malibu: string
+  sage: string
+  stone: string
+  violet: string
+  whiskey: string
 }
 
 export type FontStyle =
@@ -19,15 +19,15 @@ export type FontStyle =
   | "bold underline"
   | "bold italic"
   | "italic underline"
-  | "";
+  | ""
 
 export interface TokenSettings {
-  foreground?: string;
-  fontStyle?: FontStyle;
+  foreground?: string
+  fontStyle?: FontStyle
 }
 
 export interface TokenGroup {
-  name?: string;
-  scope?: string[];
-  settings?: TokenSettings;
+  name?: string
+  scope?: string[]
+  settings?: TokenSettings
 }

@@ -1,6 +1,6 @@
 export interface ThemeConfiguration {
-  bold?: boolean;
-  italic?: boolean;
+  bold?: boolean
+  italic?: boolean
 }
 
 export type FontStyle =
@@ -11,15 +11,15 @@ export type FontStyle =
   | "bold underline"
   | "bold italic"
   | "italic underline"
-  | "";
+  | ""
 
 export interface TokenSettings {
-  foreground?: string;
-  fontStyle?: FontStyle;
+  foreground?: string
+  fontStyle?: FontStyle
 }
 
 export interface TokenGroup {
-  name?: string;
-  scope?: string[];
-  settings?: TokenSettings;
+  name?: string
+  scope?: string[]
+  settings?: TokenSettings
 }

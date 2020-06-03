@@ -1,4 +1,4 @@
-import { TokenGroup } from "../models";
+import { TokenGroup } from "../models"
 
 export const italicTokens: TokenGroup[] = [
   {
@@ -35,4 +35,4 @@ export const italicTokens: TokenGroup[] = [
       fontStyle: "",
     },
   },
-];
+]
