@@ -3,13 +3,23 @@ export interface ThemeConfiguration {
   italic?: boolean;
 }
 
-export enum FontStyle {
-  Italics = "italic",
-  Bold = "bold",
-  Normal = "normal",
-  Underline = "underline",
-  BoldUnderline = "bold underline",
-  BoldItalics = "bold italic",
-  ItalicsUnderline = "italic underline",
-  None = "",
+export type FontStyle =
+  | "normal"
+  | "italic"
+  | "bold"
+  | "underline"
+  | "bold underline"
+  | "bold italic"
+  | "italic underline"
+  | "";
+
+export interface TokenSettings {
+  foreground?: string;
+  fontStyle?: FontStyle;
+}
+
+export interface TokenGroup {
+  name?: string;
+  scope?: string[];
+  settings?: TokenSettings;
 }
