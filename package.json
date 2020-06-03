@@ -29,12 +29,12 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "generate": "ts-node ./generator/index.ts",
-    "generate:watch": "nodemon ./generator/index.ts",
-    "ts": "tsc -b",
+    "theme": "ts-node ./generator/index.ts",
+    "theme:watch": "nodemon ./generator/index.ts",
+    "ts": "tsc",
     "ts:watch": "npm run ts -- -w",
     "test": "node out/test/run-test.js",
-    "vscode:prepublish": "npm run compile"
+    "vscode:prepublish": "npm run theme && npm run ts"
   },
   "engines": {
     "vscode": "^1.42.0"
