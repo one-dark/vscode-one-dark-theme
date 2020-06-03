@@ -27,50 +27,10 @@ This theme ships with the italic setting turned on by default and the other sett
 
 ![Theme settings reload prompt](static/screenshots/reload-prompt.png)
 
-## Advanced Configuration 🧰
-
-VS Code allows users to fully customize themes to their liking. If you wish to adjust the editor colors, use the `workbench.colorCustomizations` setting in your `settings.json` file. An example of this is shown below.
-
-```json
-"workbench.colorCustomizations": {
-  "tab.activeBackground": "#282c34",
-  "activityBar.background": "#282c34",
-  "sideBar.background": "#282c34"
-}
-```
-
-To customize the syntax highlighting, use the `editor.tokenColorCustomizations` setting. An example of this is shown below.
-
-```json
-"editor.tokenColorCustomizations": {
-  "[One Dark]": {
-    "textMateRules": [
-      {
-        "scope": ["source.python"],
-        "settings": {
-          "foreground": "#e06c75"
-        }
-      }
-    ]
-  }
-}
-```
-
-For more information, see the official [theme color reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) or [color theme documentation](https://code.visualstudio.com/docs/getstarted/themes).
-
-## Further Documentation 📖
-
-Check out the [docs](https://one-dark.gitbook.io/vscode) for manual installation instructions, additional screenshots, and contributing guidelines.
-
-- [Installation](https://one-dark.gitbook.io/vscode/installation)
-- [Screenshots](https://one-dark.gitbook.io/vscode/screenshots)
-- [Contributing](https://one-dark.gitbook.io/vscode/contributing)
-
-## Thanks 🙏
+## Thanks
 
 - Thanks to [Binaryify](https://github.com/Binaryify) for his work on the theme this project was originally based on.
-- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
-- Thanks to GitBook for hosting the docs!
+- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for the inspiration for creating a configurable color theme.
 
 ## Contributors ✨
 
