@@ -105,4 +105,4 @@ export const editorTokens = {
   "titleBar.border": "#181a1f",
   "titleBar.inactiveBackground": "#21252b",
   "titleBar.inactiveForeground": "#6b717d",
-};
+}
