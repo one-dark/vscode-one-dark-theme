@@ -32,7 +32,7 @@
     "compile:ts": "tsc -p src",
     "compile": "npm run compile:theme && npm run compile:ts",
     "lint": "eslint . --ext .ts",
-    "watch:theme": "nodemon ./scripts/generate-theme.ts",
+    "watch:theme": "nodemon ./generator/index.ts",
     "watch:ts": "npm run compile:ts -- -w",
     "vscode:prepublish": "npm run compile"
   },

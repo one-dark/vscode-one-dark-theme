@@ -1,3 +1,8 @@
+export interface ThemeConfiguration {
+  bold?: boolean;
+  italic?: boolean;
+}
+
 export enum FontStyle {
   Italics = "italic",
   Bold = "bold",
