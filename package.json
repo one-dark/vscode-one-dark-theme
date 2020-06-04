@@ -50,7 +50,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./out/extension/extension.js",
+  "main": "./out/extension.js",
   "contributes": {
     "themes": [
       {
