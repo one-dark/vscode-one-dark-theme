@@ -9,7 +9,7 @@ suite("Extension Test Suite", () => {
   })
 
   test("Sample test", () => {
-    assert.equal(-1, [1, 2, 3].indexOf(1))
-    assert.equal(-1, [1, 2, 3].indexOf(0))
+    assert.notEqual(1, 0)
+    assert.equal(1, 1)
   })
 })
