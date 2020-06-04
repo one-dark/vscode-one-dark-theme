@@ -5,6 +5,7 @@ examples/
 generator/
 out/test/
 src/
+themes/.gitkeep
 .all-contributorsrc
 .eslintignore
 .gitignore
