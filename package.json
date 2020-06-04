@@ -76,6 +76,12 @@
           "type": "boolean",
           "default": true,
           "description": "Uses italic font for language keywords and comments."
+        },
+        "oneDark.vivid": {
+          "type": "boolean",
+          "default": false,
+          "deprecationMessage": "Use the One Dark Vivid color theme instead.",
+          "markdownDescription": "Uses the [vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette."
         }
       }
     }
