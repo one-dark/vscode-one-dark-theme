@@ -2,7 +2,11 @@ import { ConfigurationTarget, workspace } from "vscode"
 import { ThemeConfiguration, TokenGroup } from "./models"
 import { boldItalicTokens, boldTokens, italicTokens } from "./token-groups"
 
-export async function updateSettings({ bold, italic }: ThemeConfiguration) {
+export async function updateSettings({
+  bold,
+  italic,
+  vivid,
+}: ThemeConfiguration) {
   const config = workspace.getConfiguration("editor")
   const oldConfig = config.get<Record<string, unknown>>(
     "tokenColorCustomizations"
@@ -26,4 +30,13 @@ export async function updateSettings({ bold, italic }: ThemeConfiguration) {
     Object.keys(value).length ? value : undefined,
     ConfigurationTarget.Global
   )
+
+  // Until the vivid setting is removed, sync the color theme with the setting
+  await workspace
+    .getConfiguration("workbench")
+    .update(
+      "colorTheme",
+      vivid ? "One Dark Vivid" : "One Dark",
+      ConfigurationTarget.Global
+    )
 }

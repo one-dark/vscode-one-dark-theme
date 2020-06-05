@@ -9,6 +9,7 @@ export async function regenerateTheme() {
   await updateSettings({
     bold: configuration.get<boolean>("bold"),
     italic: configuration.get<boolean>("italic"),
+    vivid: configuration.get<boolean>("vivid"),
   })
 }
 
