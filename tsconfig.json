@@ -1,11 +1,8 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./src"
-    },
-    {
-      "path": "./scripts"
-    }
-  ]
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "out"
+  },
+  "include": ["src"]
 }
