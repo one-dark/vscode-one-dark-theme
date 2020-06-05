@@ -28,13 +28,12 @@
     ]
   },
   "scripts": {
-    "compile:theme": "ts-node ./generator/index.ts",
-    "compile:ts": "tsc -p src",
-    "compile": "npm run compile:theme && npm run compile:ts",
     "lint": "eslint .",
-    "watch:theme": "nodemon ./generator/index.ts",
-    "watch:ts": "npm run compile:ts -- -w",
-    "vscode:prepublish": "npm run compile"
+    "theme": "ts-node ./generator/index.ts",
+    "theme:watch": "nodemon ./generator/index.ts",
+    "ts": "tsc",
+    "ts:watch": "npm run ts -- -w",
+    "vscode:prepublish": "npm run theme && npm run ts"
   },
   "engines": {
     "vscode": "^1.42.0"
