@@ -5,6 +5,7 @@ export const italicTokens: TokenGroup[] = [
     name: "One Dark italic",
     scope: [
       "comment",
+      "entity.other.attribute-name",
       "keyword",
       "markup.underline.link",
       "storage.modifier",
