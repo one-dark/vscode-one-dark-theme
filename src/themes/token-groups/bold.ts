@@ -1,8 +1,9 @@
-import { TokenGroup } from "../models"
+import { FontStyle } from "../../models";
+import { TokenGroup } from "../../models/tokens";
 
 export const boldTokens: TokenGroup[] = [
   {
-    name: "One Dark bold",
+    name: "Bold",
     scope: [
       "entity.name.function",
       "entity.name.type.class",
@@ -11,7 +12,7 @@ export const boldTokens: TokenGroup[] = [
       "keyword.other.important",
     ],
     settings: {
-      fontStyle: "bold",
+      fontStyle: FontStyle.Bold,
     },
   },
-]
+];

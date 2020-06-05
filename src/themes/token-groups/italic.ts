@@ -1,11 +1,10 @@
-import { TokenGroup } from "../models"
+import { FontStyle, TokenGroup } from "../../models";
 
 export const italicTokens: TokenGroup[] = [
   {
-    name: "One Dark italic",
+    name: "Italic",
     scope: [
       "comment",
-      "entity.other.attribute-name",
       "keyword",
       "markup.underline.link",
       "storage.modifier",
@@ -15,11 +14,11 @@ export const italicTokens: TokenGroup[] = [
       "variable.language.this",
     ],
     settings: {
-      fontStyle: "italic",
+      fontStyle: FontStyle.Italics,
     },
   },
   {
-    name: "One Dark italic reset",
+    name: "Italic reset",
     scope: [
       "keyword.operator",
       "keyword.other.type",
@@ -32,7 +31,7 @@ export const italicTokens: TokenGroup[] = [
       "storage.type.primitive",
     ],
     settings: {
-      fontStyle: "",
+      fontStyle: FontStyle.None,
     },
   },
-]
+];
