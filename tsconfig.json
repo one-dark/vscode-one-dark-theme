@@ -1,4 +1,7 @@
 {
-  "files": [],
-  "references": [{ "path": "./src" }, { "path": "./generator" }]
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "out"
+  }
 }
