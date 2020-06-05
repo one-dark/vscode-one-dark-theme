@@ -1,4 +1,4 @@
-import { Colors } from "../models/colors";
+import { Colors } from "../models"
 
 export const standardColors: Colors = {
   chalky: "#e5c07b",
@@ -11,7 +11,7 @@ export const standardColors: Colors = {
   stone: "#5c6370",
   violet: "#c678dd",
   whiskey: "#d19a66",
-};
+}
 
 export const vividColors: Colors = {
   chalky: "#e5c07b",
@@ -24,4 +24,4 @@ export const vividColors: Colors = {
   stone: "#5c6370",
   violet: "#d55fde",
   whiskey: "#d19a66",
-};
+}
