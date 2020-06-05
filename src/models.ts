@@ -1,6 +1,7 @@
 export interface ThemeConfiguration {
   bold?: boolean
   italic?: boolean
+  vivid?: boolean
 }
 
 export type FontStyle =
