@@ -10,29 +10,66 @@
 
 ![Code example](static/screenshots/code.png)
 
-## Configuration
+## Basic Configuration 🔧
 
 This theme comes with several configuration settings to allow you to customize the theme to your preference. We currently support the following settings:
 
-- **Italic** - When enabled, uses italic font for keywords. Note that some scopes \(e.g. markdown block quotes\) are styled with italic font even when this setting is disabled.
-- **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes \(e.g. markdown headers\) are styled with bold font even when this setting is disabled.
+- **Vivid** - Uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax) color palette instead of the default color palette.
+- **Italic** - When enabled, uses italic font for keywords. Note that some scopes \(i.e. markdown block quotes\) are styled with italic font even when this setting is disabled.
+- **Bold** - When enabled, uses bold font for namespace, class, and function names. Note that some scopes \(i.e. markdown headers\) are styled with bold font even when this setting is disabled.
 
 To access these configuration settings, open the VS Code settings page and search for "One Dark".
 
 ![Theme settings](static/screenshots/settings.png)
 
-This theme ships with the italic setting turned on by default and the other settings turned off by default, but you can adjust the settings to any combination you like.
+This theme ships with the italic setting turned on by default and the other settings turned off by default, but you can adjust the settings to any combination you like. After updating the settings, you will be prompted to reload the window to apply the configuration changes.
 
-## Vivid Variant
+![Theme settings reload prompt](static/screenshots/reload-prompt.png)
 
-In addition to the default color pallette, this theme ships with a vivid variant which uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax) pallette. This can be enabled by selecting "One Dark Vivid" from the Color Theme dropdown in your VS Code settings.
+## Advanced Configuration 🧰
 
-![Vivid setting](static/screenshots/vivid-setting.png)
+VS Code allows users to fully customize themes to their liking. If you wish to adjust the editor colors, use the `workbench.colorCustomizations` setting in your `settings.json` file. An example of this is shown below.
 
-## Thanks
+```json
+"workbench.colorCustomizations": {
+  "tab.activeBackground": "#282c34",
+  "activityBar.background": "#282c34",
+  "sideBar.background": "#282c34"
+}
+```
+
+To customize the syntax highlighting, use the `editor.tokenColorCustomizations` setting. An example of this is shown below.
+
+```json
+"editor.tokenColorCustomizations": {
+  "[One Dark]": {
+    "textMateRules": [
+      {
+        "scope": ["source.python"],
+        "settings": {
+          "foreground": "#e06c75"
+        }
+      }
+    ]
+  }
+}
+```
+
+For more information, see the official [theme color reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) or [color theme documentation](https://code.visualstudio.com/docs/getstarted/themes).
+
+## Further Documentation 📖
+
+Check out the [docs](https://one-dark.gitbook.io/vscode) for manual installation instructions, additional screenshots, and contributing guidelines.
+
+- [Installation](https://one-dark.gitbook.io/vscode/installation)
+- [Screenshots](https://one-dark.gitbook.io/vscode/screenshots)
+- [Contributing](https://one-dark.gitbook.io/vscode/contributing)
+
+## Thanks 🙏
 
 - Thanks to [Binaryify](https://github.com/Binaryify) for his work on the theme this project was originally based on.
-- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for the inspiration for creating a configurable color theme.
+- Thanks to [VS Code Nebula Theme](https://github.com/eating-coleslaw/vscode-nebula-theme) for being a great example of how to build a VS Code theme using configuration settings.
+- Thanks to GitBook for hosting the docs!
 
 ## Contributors ✨
 
