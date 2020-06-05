@@ -28,13 +28,13 @@
     ]
   },
   "scripts": {
+    "compile:theme": "ts-node ./generator/index.ts",
+    "compile:ts": "tsc -p src",
+    "compile": "npm run compile:theme && npm run compile:ts",
     "lint": "eslint .",
-    "theme": "ts-node ./generator/index.ts",
-    "theme:watch": "nodemon ./generator/index.ts",
-    "ts": "tsc",
-    "ts:watch": "npm run ts -- -w",
-    "test": "node out/test/run-test.js",
-    "vscode:prepublish": "npm run theme && npm run ts"
+    "watch:theme": "nodemon ./generator/index.ts",
+    "watch:ts": "npm run compile:ts -- -w",
+    "vscode:prepublish": "npm run compile"
   },
   "engines": {
     "vscode": "^1.42.0"
@@ -82,22 +82,17 @@
   },
   "devDependencies": {
     "@mskelton/eslint-config": "^5.10.1",
-    "@types/glob": "^7.1.1",
-    "@types/mocha": "^7.0.2",
     "@types/node": "^14.0.9",
     "@types/vscode": "^1.42.0",
     "@typescript-eslint/eslint-plugin": "^3.1.0",
     "eslint": "^7.1.0",
     "eslint-plugin-sort": "^1.4.0",
-    "glob": "^7.1.6",
-    "mocha": "^7.2.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "semantic-release": "^17.0.8",
     "semantic-release-vsce": "^3.0.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.3",
-    "vsce": "^1.74.0",
-    "vscode-test": "^1.4.0"
+    "vsce": "^1.74.0"
   }
 }

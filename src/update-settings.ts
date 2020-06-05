@@ -1,6 +1,6 @@
 import { ConfigurationTarget, workspace } from "vscode"
 import { ThemeConfiguration, TokenGroup } from "./models"
-import { boldItalicTokens, boldTokens, italicTokens } from "./token-groups"
+import { boldItalicTokens, boldTokens, italicTokens } from "./themes"
 
 export async function updateSettings({ bold, italic }: ThemeConfiguration) {
   const config = workspace.getConfiguration("editor")
