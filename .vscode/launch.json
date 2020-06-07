@@ -14,7 +14,7 @@
         "--extensionDevelopmentPath=${workspaceFolder}"
       ],
       "outFiles": ["${workspaceFolder}/out/**/*.js"],
-      "preLaunchTask": "npm: ts:watch"
+      "preLaunchTask": "npm: ts"
     }
   ]
 }
