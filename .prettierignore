@@ -1,3 +1,7 @@
 examples/
 out/
 themes/
+
+# Yarn auto-generated files
+.yarn/
+.yarnrc.yml

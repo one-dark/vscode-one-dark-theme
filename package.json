@@ -5,15 +5,12 @@
   "version": "0.0.0-semantically-released",
   "publisher": "mskelton",
   "author": "Mark Skelton",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/one-dark/vscode-one-dark-theme.git"
-  },
+  "repository": "github:one-dark/vscode-one-dark-theme",
   "bugs": {
     "url": "https://github.com/one-dark/vscode-one-dark-theme/issues"
   },
   "homepage": "https://github.com/one-dark/vscode-one-dark-theme#readme",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "one-dark",
     "one-dark-vivid",
