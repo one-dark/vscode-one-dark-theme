@@ -29,8 +29,8 @@
     "theme": "ts-node ./generator/index.ts",
     "theme:watch": "nodemon ./generator/index.ts",
     "ts": "tsc",
-    "ts:watch": "npm run ts -- -w",
-    "vscode:prepublish": "npm run theme && npm run ts"
+    "ts:watch": "yarn ts -w",
+    "vscode:prepublish": "yarn theme && yarn ts"
   },
   "engines": {
     "vscode": "^1.42.0"

@@ -7,7 +7,7 @@ Run the following commands to clone the repository for this theme and install al
 ```bash
 git clone git@github.com:one-dark/vscode-one-dark-theme.git
 cd vscode-one-dark-theme
-npm install
+yarn
 ```
 
 ## Testing the theme
@@ -19,7 +19,7 @@ To run the theme, open the project in VS Code and run the `Debug: Start Debuggin
 This project is configured to allow live theme reloading using `nodemon`. This will update the theme colors in the test instance to allow you to immediately see how your changes will look without having to restart the test instance. To utilize this feature, run the following command before you start debugging.
 
 ```bash
-npm run theme:watch
+yarn theme:watch
 ```
 
 ## Color Guidelines
