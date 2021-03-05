@@ -77,6 +77,7 @@ export const editorTokens = {
   "peekViewEditor.background": "#1b1d23",
   "peekViewEditor.matchHighlightBackground": "#29244b",
   "peekViewResult.background": "#22262b",
+  "quickInput.list.focusBackground": "#383e4a",
   "scrollbarSlider.activeBackground": "#747d9180",
   "scrollbarSlider.background": "#4e566660",
   "scrollbarSlider.hoverBackground": "#5a637580",
