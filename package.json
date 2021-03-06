@@ -5,7 +5,10 @@
   "version": "0.0.0-semantically-released",
   "publisher": "mskelton",
   "author": "Mark Skelton",
-  "repository": "github:one-dark/vscode-one-dark-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/one-dark/vscode-one-dark-theme.git"
+  },
   "bugs": {
     "url": "https://github.com/one-dark/vscode-one-dark-theme/issues"
   },
