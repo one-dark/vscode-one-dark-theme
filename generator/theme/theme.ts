@@ -74,7 +74,13 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
   },
   {
     name: "Ivory",
-    scope: ["punctuation.separator", "support.type.property-name.css"],
+    scope: [
+      "meta.brace",
+      "punctuation.accessor",
+      "punctuation.definition.block",
+      "punctuation.separator",
+      "support.type.property-name.css",
+    ],
     settings: {
       foreground: colors.ivory,
     },
