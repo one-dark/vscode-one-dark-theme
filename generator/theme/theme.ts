@@ -111,6 +111,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
       "keyword.operator.new",
       "keyword",
       "markup.italic",
+      "punctuation.definition.block.tag",
       "storage.modifier",
       "storage.type",
     ],
