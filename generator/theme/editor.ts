@@ -55,6 +55,7 @@ export const editorTokens = {
   "editorHoverWidget.border": colors.border,
   "editorIndentGuide.activeBackground": "#c8c8c859",
   "editorIndentGuide.background": "#3b4048",
+  "editorInlayHint.foreground": "#A0A0A0F0",
   "editorLineNumber.foreground": "#495162",
   "editorMarkerNavigation.background": colors.darkBackground,
   "editorRuler.foreground": "#abb2bf26",
