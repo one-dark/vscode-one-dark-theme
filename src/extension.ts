@@ -1,6 +1,4 @@
-import { readFileSync } from "fs"
-import { join } from "path"
-import { ExtensionContext, workspace } from "vscode"
+import { ExtensionContext, extensions, workspace } from "vscode"
 import { updateSettings } from "./update-settings"
 
 export async function regenerateTheme() {
@@ -13,12 +11,8 @@ export async function regenerateTheme() {
   })
 }
 
-function getCurrentVersion(context: ExtensionContext) {
-  const extensionPath = join(context.extensionPath, "package.json")
-  const packageFile = JSON.parse(readFileSync(extensionPath, "utf8"))
-
-  return packageFile ? packageFile.version : "0.0.0"
-}
+const getCurrentVersion = () =>
+  extensions.getExtension("mskelton.one-dark-theme").packageJSON.version
 
 const VERSION_KEY = "one-dark-theme:version"
 
@@ -30,7 +24,7 @@ export function activate(context: ExtensionContext): void {
   })
 
   const oldVersion = context.globalState.get(VERSION_KEY)
-  const currentVersion = getCurrentVersion(context)
+  const currentVersion = getCurrentVersion()
 
   if (oldVersion !== currentVersion) {
     regenerateTheme().then(() => {
