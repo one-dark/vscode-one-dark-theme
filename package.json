@@ -49,6 +49,7 @@
     "workspace"
   ],
   "main": "./out/main.js",
+  "browser": "./out/main.js",
   "contributes": {
     "themes": [
       {
