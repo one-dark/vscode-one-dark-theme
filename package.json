@@ -21,12 +21,6 @@
     "vscode-theme",
     "vscode"
   ],
-  "eslintConfig": {
-    "extends": [
-      "@mskelton",
-      "@mskelton/eslint-config/typescript"
-    ]
-  },
   "scripts": {
     "lint": "eslint .",
     "theme": "ts-node ./generator/index.ts",
