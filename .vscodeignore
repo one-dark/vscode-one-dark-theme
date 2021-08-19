@@ -4,6 +4,7 @@
 docs/
 examples/
 generator/
+node_modules/
 out/**/*.map
 src/
 themes/.gitkeep
