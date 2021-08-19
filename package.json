@@ -22,7 +22,7 @@
     "vscode"
   ],
   "scripts": {
-    "build": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "build": "esbuild ./src/extension.ts --bundle --outfile=dist/main.js --external:vscode --format=cjs --platform=node",
     "lint": "eslint .",
     "theme": "ts-node ./generator/index.ts",
     "theme:watch": "nodemon ./generator/index.ts",
@@ -48,8 +48,7 @@
     "ui",
     "workspace"
   ],
-  "main": "./out/main.js",
-  "browser": "./out/main.js",
+  "main": "./dist/main.js",
   "contributes": {
     "themes": [
       {

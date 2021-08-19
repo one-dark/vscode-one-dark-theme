@@ -5,7 +5,7 @@ docs/
 examples/
 generator/
 node_modules/
-out/**/*.map
+dist/**/*.map
 src/
 themes/.gitkeep
 .yarnrc.yml

@@ -1,5 +1,5 @@
 examples/
-out/
+dist/
 themes/
 
 # Yarn auto-generated files
