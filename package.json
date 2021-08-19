@@ -46,7 +46,8 @@
   ],
   "extensionKind": [
     "ui",
-    "workspace"
+    "workspace",
+    "web"
   ],
   "main": "./dist/main.js",
   "contributes": {
