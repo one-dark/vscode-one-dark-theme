@@ -87,7 +87,8 @@
   "capabilities": {
     "untrustedWorkspaces": {
       "supported": true
-    }
+    },
+    "virtualWorkspaces": true
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
