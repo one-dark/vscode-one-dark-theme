@@ -1,11 +1,13 @@
 .github/
 .vscode/
+.yarn/
 docs/
 examples/
 generator/
 out/**/*.map
 src/
 themes/.gitkeep
+.yarnrc.yml
 .all-contributorsrc
 .eslintignore
 .gitignore
