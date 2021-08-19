@@ -1,7 +1,3 @@
 examples/
 dist/
 themes/
-
-# Yarn auto-generated files
-.yarn/
-.yarnrc.yml
