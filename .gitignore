@@ -2,11 +2,3 @@ node_modules/
 dist/
 themes/*
 !themes/.gitkeep
-
-# Yarn releases, plugins, and dependency cache
-.yarn/*
-!.yarn/releases
-!.yarn/patches
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions

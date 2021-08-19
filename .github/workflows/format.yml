@@ -11,11 +11,9 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
-      - name: Format
-        run: |
-          yarn --immutable
-          yarn prettier --write .
+          node-version: 14.x
+      - run: npm ci
+      - run: npx prettier --write .
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4.1.2
         with:

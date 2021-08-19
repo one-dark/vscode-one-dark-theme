@@ -1,6 +1,5 @@
 .github/
 .vscode/
-.yarn/
 docs/
 examples/
 generator/
@@ -8,7 +7,6 @@ node_modules/
 dist/**/*.map
 src/
 themes/.gitkeep
-.yarnrc.yml
 .all-contributorsrc
 .eslintignore
 .gitignore
