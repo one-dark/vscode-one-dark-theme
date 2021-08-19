@@ -22,12 +22,13 @@
     "vscode"
   ],
   "scripts": {
+    "build": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
     "lint": "eslint .",
     "theme": "ts-node ./generator/index.ts",
     "theme:watch": "nodemon ./generator/index.ts",
     "ts": "tsc",
-    "ts:watch": "yarn ts -w",
-    "vscode:prepublish": "yarn theme && yarn ts"
+    "watch": "yarn build --sourcemap --watch",
+    "vscode:prepublish": "yarn theme && yarn build --minify"
   },
   "engines": {
     "vscode": "^1.42.0"
@@ -96,6 +97,7 @@
     "@types/vscode": "^1.42.0",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
+    "esbuild": "^0.12.21",
     "eslint": "^7.21.0",
     "eslint-plugin-sort": "^1.5.0",
     "nodemon": "^2.0.7",

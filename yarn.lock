@@ -2511,6 +2511,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esbuild@npm:^0.12.21":
+  version: 0.12.21
+  resolution: "esbuild@npm:0.12.21"
+  bin:
+    esbuild: bin/esbuild
+  checksum: b7f4839ba9dfb2e2c2fefd96bda6d6d82cc21e494120a72e9571bf74bc13796b884b04bc216dc8aaaba7cece5ef6ea6bba4a99e00abd3c6d713d4b2ea6a5e39c
+  languageName: node
+  linkType: hard
+
 "escalade@npm:^3.1.1":
   version: 3.1.1
   resolution: "escalade@npm:3.1.1"
@@ -5639,6 +5648,7 @@ fsevents@~2.1.2:
     "@types/vscode": ^1.42.0
     "@typescript-eslint/eslint-plugin": ^4.16.1
     "@typescript-eslint/parser": ^4.16.1
+    esbuild: ^0.12.21
     eslint: ^7.21.0
     eslint-plugin-sort: ^1.5.0
     nodemon: ^2.0.7
