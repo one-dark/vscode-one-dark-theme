@@ -2,3 +2,4 @@ node_modules/
 dist/
 themes/*
 !themes/.gitkeep
+*.vsix
