@@ -1,6 +1,6 @@
 # VS Code One Dark Theme
 
-![Build status](https://img.shields.io/github/workflow/status/one-dark/vscode-one-dark-theme/Release/master.svg?logo=github)
+![Build status](https://img.shields.io/github/workflow/status/one-dark/vscode-one-dark-theme/Release/main.svg?logo=github)
 [![Extension version](https://img.shields.io/vscode-marketplace/v/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 [![Extension installs](https://img.shields.io/vscode-marketplace/i/mskelton.one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mskelton.one-dark-theme)
 [![All Contributors](https://img.shields.io/github/all-contributors/mskelton/vscode-one-dark-theme?color=orange)](#contributors-)
