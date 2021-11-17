@@ -110,7 +110,7 @@ export const editorTokens = {
   "terminal.ansiBrightBlue": "#528bff",
   "terminal.ansiBrightCyan": theme.cyan,
   "terminal.ansiBrightGreen": theme.sage,
-  "terminal.ansiBrightMagenta": "#7e0097",
+  "terminal.ansiBrightMagenta": theme.violet,
   "terminal.ansiBrightRed": theme.error,
   "terminal.ansiBrightWhite": "#d7dae0",
   "terminal.ansiBrightYellow": theme.chalky,
