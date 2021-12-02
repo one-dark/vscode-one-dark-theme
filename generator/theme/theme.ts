@@ -64,6 +64,7 @@ export const getStandardTokens = (colors: Colors): TokenGroup[] => [
     scope: [
       "entity.name.function",
       "entity.other.attribute-name.id.css",
+      "meta.function-call.generic",
       "string.other.link",
       "support.function",
       "variable.language.super",
