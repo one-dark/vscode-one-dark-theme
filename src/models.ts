@@ -15,8 +15,8 @@ export type FontStyle =
   | ""
 
 export interface TokenSettings {
-  foreground?: string
   fontStyle?: FontStyle
+  foreground?: string
 }
 
 export interface TokenGroup {
