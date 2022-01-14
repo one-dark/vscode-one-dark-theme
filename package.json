@@ -32,7 +32,7 @@
     "vscode:prepublish": "npm run theme && npm run build -- --minify"
   },
   "engines": {
-    "vscode": "^1.42.0"
+    "vscode": "^1.63.1"
   },
   "categories": [
     "Themes"
