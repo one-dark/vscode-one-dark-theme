@@ -1,4 +1,5 @@
 {
+  "brances": ["main"],
   "verifyConditions": ["semantic-release-vsce", "@semantic-release/github"],
   "prepare": {
     "path": "semantic-release-vsce",
