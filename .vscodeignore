@@ -1,13 +1,11 @@
 .github/
 .vscode/
-docs/
 examples/
 generator/
 node_modules/
 dist/**/*.map
 src/
 themes/.gitkeep
-.all-contributorsrc
 .eslintignore
 .gitignore
 .prettierignore
