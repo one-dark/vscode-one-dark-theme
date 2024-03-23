@@ -32,9 +32,9 @@ combination you like.
 
 ## Vivid Variant
 
-In addition to the default color pallette, this theme ships with a vivid variant
+In addition to the default color palette, this theme ships with a vivid variant
 which uses the [One Dark Vivid](https://atom.io/themes/one-dark-vivid-syntax)
-pallette. This can be enabled by selecting "One Dark Vivid" from the Color Theme
+palette. This can be enabled by selecting "One Dark Vivid" from the Color Theme
 dropdown in your VS Code settings.
 
 ![Vivid setting](https://user-images.githubusercontent.com/25914066/149454712-ecd04bab-5bf9-47b9-a4f3-6c04fbfcd6c8.png)
